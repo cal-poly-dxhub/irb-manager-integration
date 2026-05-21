@@ -1,0 +1,60 @@
+Study Title: "Scrolling Through College": A Qualitative Exploration of Social Media Use and Body Image Among Female College Athletes
+
+PI: Dr. Ashley Bradshaw, Department of Kinesiology, TCU
+Student Investigator: Samantha Lee (Senior Honors Thesis)
+
+Overview:
+This qualitative study investigates how female college athletes at TCU experience the intersection of social media use and body image perceptions. While quantitative research has established correlations between social media use and body dissatisfaction, little is known about the lived experiences of female athletes who navigate performance-based body ideals alongside appearance-based social media content. This study seeks to fill that gap through in-depth semi-structured interviews.
+
+Research Questions:
+1. How do female college athletes describe their social media use patterns?
+2. In what ways do athletes perceive social media content as influencing their body image?
+3. How do athletes negotiate between athletic performance ideals and aesthetic ideals encountered on social media?
+
+Participants:
+We will recruit 15-20 female varsity athletes at TCU across multiple sports (e.g., track & field, swimming, volleyball, soccer). Participants must be at least 18 years old and currently on an active varsity roster. We will use purposive sampling to ensure representation across aesthetic sports (gymnastics, swimming) and non-aesthetic sports (soccer, basketball).
+
+Recruitment:
+The student investigator will coordinate with athletic department staff to distribute recruitment emails to eligible athletes. A follow-up informational session will be offered (optional) where athletes can learn about the study and ask questions. Coaches will NOT be involved in recruitment to avoid any perceived pressure.
+
+Procedures:
+Each participant will complete one individual interview lasting 45-75 minutes. Interviews will be conducted in a private room in the University Recreation Center or via Zoom, depending on participant preference. Interviews will be audio-recorded with participant consent and transcribed verbatim by a professional transcription service (Rev.com).
+
+The semi-structured interview guide includes questions such as:
+- "Walk me through a typical day of social media use for you."
+- "How would you describe your relationship with your body?"
+- "Can you tell me about a time when something you saw on social media affected how you felt about your body?"
+- "How do your teammates talk about body image and social media?"
+
+Participants will also complete a brief demographic form (age, sport, year in school, estimated daily social media use).
+
+Data Analysis:
+Interview transcripts will be analyzed using reflexive thematic analysis following Braun and Clarke's six-phase approach. The student investigator will code all transcripts, and the PI will independently code a subset (25%) to ensure trustworthiness. NVivo software will be used for data management.
+
+Risks:
+This study presents minimal risk. However, discussing body image may cause emotional discomfort for some participants. To mitigate this:
+- Participants will be reminded they can skip any question or stop the interview at any time
+- A list of campus mental health resources (TCU Counseling Center, National Eating Disorders Association hotline) will be provided at the start and end of each interview
+- The student investigator has completed training in responsible conduct of qualitative research and sensitive interviewing techniques
+
+There is also a minor confidentiality risk given the small number of female athletes at TCU. We will use pseudonyms in all publications and presentations and will avoid reporting sport-specific information alongside direct quotes when it could enable identification.
+
+Benefits:
+There are no direct benefits to participants. The study may contribute to a better understanding of athlete well-being and could inform future programming by TCU's athletics department and counseling services.
+
+Compensation:
+Each participant will receive a $25 Visa gift card after completing the interview.
+
+Informed Consent:
+Written informed consent will be obtained before each interview. The consent form will clearly explain the purpose, procedures, risks, voluntary nature, and confidentiality provisions. Participants will be given a copy of the signed consent form.
+
+Data Storage:
+Audio recordings will be uploaded to a TCU-managed encrypted OneDrive folder and deleted from the recording device within 24 hours. Transcripts will be de-identified (names replaced with pseudonyms) before analysis. All data will be stored on TCU's secure server infrastructure. Audio recordings will be destroyed after transcription verification. De-identified transcripts will be retained for 7 years.
+
+Funding:
+This study is not externally funded. The $25 gift cards and transcription costs (~$600) will be covered by departmental funds from the Kinesiology department.
+
+Timeline:
+Recruitment: February-March 2026
+Interviews: March-April 2026
+Analysis and thesis writing: April-May 2026

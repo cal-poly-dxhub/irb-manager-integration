@@ -1,0 +1,124 @@
+Research Protocol: Effects of Omega-3 Fatty Acid Supplementation on Inflammatory Markers and Cognitive Function in Sedentary Adults Aged 40-65
+
+Principal Investigator: Dr. Robert Nakamura, PhD
+Department of Nutritional Sciences, Texas Christian University
+Email: r.nakamura@tcu.edu
+
+Co-Investigators:
+- Dr. Lisa Park, Department of Psychology, TCU
+- Dr. James Rivera, Harris Methodist Hospital, Fort Worth
+
+1. BACKGROUND AND SIGNIFICANCE
+
+Chronic low-grade inflammation is increasingly recognized as a contributing factor to age-related cognitive decline. Omega-3 polyunsaturated fatty acids (n-3 PUFAs), particularly eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), have demonstrated anti-inflammatory properties in numerous clinical trials. However, evidence for their cognitive benefits in middle-aged adults remains mixed, partly due to variability in dosing, duration, and outcome measures. This study will use a standardized high-dose fish oil supplement and comprehensive neurocognitive testing to examine whether 16 weeks of omega-3 supplementation reduces inflammatory markers and improves cognitive performance in sedentary, otherwise healthy adults.
+
+2. STUDY DESIGN
+
+Randomized, double-blind, placebo-controlled trial with two parallel arms:
+- Treatment arm: 2g EPA + 1g DHA daily (fish oil capsules)
+- Placebo arm: matching olive oil capsules
+
+3. PARTICIPANTS
+
+Target enrollment: 120 participants (60 per arm)
+
+Inclusion criteria:
+- Age 40-65 years
+- Sedentary (less than 150 min/week moderate physical activity, assessed by IPAQ-SF)
+- BMI 25-35 kg/m2
+- Able to provide informed consent
+
+Exclusion criteria:
+- Current fish oil or omega-3 supplement use (must washout for 4 weeks before enrollment)
+- Known fish or shellfish allergy
+- Diagnosed autoimmune or chronic inflammatory condition
+- Current use of anti-inflammatory medications (NSAIDs >3x/week, corticosteroids, biologics)
+- Diagnosed cognitive impairment or dementia
+- Pregnancy or planning to become pregnant
+- Current smoking
+- Heavy alcohol use (>14 drinks/week for men, >7 for women)
+
+4. RECRUITMENT
+
+Participants will be recruited from the Fort Worth community through:
+- Flyers at TCU campus, local community centers, and physicians' offices
+- Advertisement in the Fort Worth Star-Telegram and TCU social media
+- Referrals from Harris Methodist primary care physicians (Dr. Rivera will coordinate)
+- TCU faculty and staff listserv announcements
+
+5. STUDY PROCEDURES
+
+Visit 1 - Screening and Baseline (approximately 2 hours, TCU Nutritional Sciences Lab):
+- Informed consent
+- Medical history review and brief physical exam (conducted by study nurse)
+- Fasting blood draw (30 mL) for: hs-CRP, IL-6, TNF-alpha, omega-3 index, complete metabolic panel, lipid panel
+- Anthropometric measurements (height, weight, waist circumference, body composition via DXA scan)
+- Cognitive testing battery: Montreal Cognitive Assessment (MoCA), Trail Making Test A & B, Stroop Color-Word Test, Rey Auditory Verbal Learning Test (RAVLT), Digit Span
+- Questionnaires: IPAQ-SF (physical activity), FFQ (dietary habits), PHQ-9 (depression screening), SF-36 (quality of life)
+- Randomization (computer-generated, stratified by age and sex)
+- Dispensing of study supplement (8-week supply)
+
+Weeks 1-16 - Supplementation Period:
+- Participants take 4 capsules daily with a meal
+- Weekly automated text reminders for adherence
+- Participants log daily capsule intake via REDCap
+- Phone check-in at Week 4 and Week 12 (10 minutes) for adverse events and adherence
+
+Visit 2 - Mid-Point (Week 8, approximately 1 hour):
+- Fasting blood draw (20 mL) for inflammatory markers and omega-3 index
+- Adverse event review
+- Collect remaining capsules, count for adherence, dispense new 8-week supply
+- Brief cognitive screen (MoCA only)
+
+Visit 3 - End of Study (Week 16, approximately 2 hours):
+- Fasting blood draw (30 mL), same panel as baseline
+- Full cognitive testing battery (same as baseline)
+- Repeat questionnaires
+- DXA scan
+- Collect remaining capsules
+- Participant debriefing and unblinding
+
+6. BLOOD SAMPLE HANDLING
+
+Blood samples will be collected by a certified phlebotomist. Samples will be processed within 2 hours at the TCU Nutritional Sciences Lab, aliquoted, and stored at -80C until batch analysis. Inflammatory markers will be analyzed by ELISA at TCU. Omega-3 index will be analyzed by OmegaQuant Analytics (Sioux Falls, SD). Remaining samples will be destroyed at the end of the study.
+
+7. RISKS
+
+Moderate risk.
+
+Blood draw: pain, bruising, minor infection risk at venipuncture site, vasovagal syncope (fainting). A certified phlebotomist will perform all draws. Participants will be seated and monitored.
+
+DXA scan: minimal radiation exposure (approximately 1-5 microSieverts per scan, equivalent to a few hours of natural background radiation). Participants will receive 2 scans total.
+
+Fish oil supplementation: commonly reported side effects include fishy aftertaste, mild gastrointestinal discomfort (bloating, diarrhea, nausea). Less common: increased bruising or bleeding time. Fish oil at the study dose is generally recognized as safe (GRAS) by the FDA. Participants on anticoagulant therapy are excluded.
+
+Placebo (olive oil): unlikely to cause adverse effects at the study dose. Participants with olive allergy would be excluded.
+
+Psychological: minor discomfort from depression screening (PHQ-9). Scores indicating moderate-severe depression will trigger a referral protocol to their primary care physician.
+
+Confidentiality breach: moderate risk given the use of protected health information (blood results, medical history). Mitigated by de-identification procedures and encrypted storage.
+
+8. BENEFITS
+
+Participants will receive free comprehensive blood work results (lipid panel, metabolic panel, inflammatory markers) and body composition analysis (DXA) at no cost, which would normally cost several hundred dollars. They will also receive a personalized summary of their cognitive test results. The study may contribute to evidence-based recommendations for omega-3 supplementation.
+
+9. COMPENSATION
+
+$50 gift card after Visit 1 (baseline)
+$25 gift card after Visit 2 (mid-point)
+$75 gift card after Visit 3 (completion)
+Total: up to $150
+
+Participants who withdraw early will receive compensation for completed visits.
+
+10. DATA MANAGEMENT AND CONFIDENTIALITY
+
+All data will be collected and managed using REDCap hosted at TCU. Participant data will be identified by study ID only. The master linking file will be stored in an encrypted file on a separate TCU server accessible only to the PI. Blood samples will be labeled with study ID only. Published results will present only aggregate data. Individual results will be shared with participants upon request. Data will be retained for 7 years per federal requirements.
+
+11. FUNDING
+
+This study is funded by NIH National Center for Complementary and Integrative Health (NCCIH), Grant R21 AT012345, awarded to Dr. Nakamura ($275,000 over 2 years).
+
+12. COLLABORATING SITE
+
+Harris Methodist Hospital (Fort Worth) - Dr. Rivera will assist with participant referrals and serve as medical monitor for adverse events. No study procedures will be conducted at Harris Methodist. A reliance agreement will be established with the Harris Methodist IRB deferring to the TCU IRB.

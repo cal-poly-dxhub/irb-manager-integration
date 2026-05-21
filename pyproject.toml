@@ -1,0 +1,30 @@
+[project]
+name = "research-compliance"
+version = "0.1.0"
+description = "Research-compliance root: scripts, BAML, and shared tooling"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "baml-py>=0.218.1",
+    "boto3>=1.42.38",
+    "pdfplumber>=0.11.9",
+    "requests>=2.31.0",
+    "rich>=14.3.1",
+    "form-parser",
+]
+
+[tool.uv.sources]
+form-parser = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "packages/shared-py/*",
+    "services/hello-world",
+    "services/form-parser-api",
+    "services/compliance-assistant-api",
+    "apps/test_python_app",
+    "scripts",
+]
+
+[dependency-groups]
+dev = ["baml-cli>=0.1.0"]

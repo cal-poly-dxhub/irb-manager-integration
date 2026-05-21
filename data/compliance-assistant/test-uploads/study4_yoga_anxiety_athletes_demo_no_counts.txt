@@ -1,0 +1,75 @@
+Study Title: Effects of an 8-Week Yoga Intervention on Anxiety, Sleep Quality, and Athletic Performance in Division I College Athletes
+
+PI: Dr. Rachel Dominguez, Department of Kinesiology, TCU
+Co-PI: Dr. Mark Jensen, Department of Psychology, TCU
+Student Investigator: Tyler Brooks (Master's Thesis)
+
+Overview:
+This study is a randomized controlled trial examining the effects of an 8-week yoga intervention on anxiety symptoms, sleep quality, and athletic performance indicators in Division I college athletes at Texas Christian University. Mental health concerns among college athletes have been increasingly documented, including elevated rates of anxiety, depression, and sleep disturbance. While physical activity is generally associated with improved mental health, the competitive and physical demands placed on Division I athletes may counteract these benefits. Yoga-based interventions have shown promise as complementary strategies for reducing anxiety and improving sleep in general populations, but limited research has examined their feasibility and effectiveness specifically within collegiate athletic populations. This study aims to address this gap.
+
+Research Questions:
+1. Does participation in an 8-week yoga program significantly reduce anxiety symptoms (measured by GAD-7) compared to a control group?
+2. Does the yoga intervention improve subjective sleep quality (measured by PSQI) in Division I athletes?
+3. Does the yoga intervention affect perceived athletic performance and recovery satisfaction?
+
+Participants:
+We will recruit Division I varsity athletes at TCU across multiple sports (e.g., track and field, swimming, soccer, volleyball, basketball). Participants must be at least 18 years of age, currently on an active varsity roster, and cleared for physical activity by TCU's athletic training staff. Exclusion criteria include: current regular yoga practice (more than once per week), pregnancy, or any musculoskeletal injury that would prevent participation in yoga sessions.
+
+Recruitment:
+The student investigator will work with TCU's athletic training staff and sport performance coordinators to distribute recruitment flyers and emails to eligible athletes. An informational session will be offered during a regularly scheduled team meeting time. Coaches will not be involved in recruitment or data collection to minimize perceived pressure. Athletes will be informed that participation is entirely voluntary and will not affect their standing on the team.
+
+Randomization:
+Participants will be randomly assigned to one of two groups using a computer-generated randomization sequence (1:1 allocation):
+- Yoga Intervention Group: 8-week instructor-led yoga program
+- Wait-list Control Group: Continue usual routine; offered the yoga program after the study concludes
+
+Procedures:
+The yoga intervention will consist of two 60-minute sessions per week for 8 weeks (16 sessions total), held in the University Recreation Center yoga studio. Sessions will be led by a certified yoga instructor (RYT-200) experienced in working with athletes. The yoga program will incorporate Hatha and Vinyasa styles with an emphasis on breath work, flexibility, balance, and mindful relaxation. Each session will include a 10-minute warm-up, 40 minutes of yoga postures, and a 10-minute cool-down with guided relaxation.
+
+Assessments will be conducted at three time points: baseline (week 0), mid-intervention (week 4), and post-intervention (week 8). At each assessment, participants will complete:
+- Generalized Anxiety Disorder 7-item scale (GAD-7)
+- Pittsburgh Sleep Quality Index (PSQI)
+- Perceived Stress Scale (PSS-10)
+- Recovery-Stress Questionnaire for Athletes (RESTQ-Sport)
+- Brief demographic and athletic history form (baseline only)
+
+Additionally, attendance at yoga sessions will be tracked. Participants who attend fewer than 75% of sessions will be noted for sensitivity analyses.
+
+All surveys will be administered electronically via Qualtrics. Participants will receive a unique survey link via email at each assessment time point.
+
+Risks:
+This study presents minimal risk. Yoga is a low-impact activity, but there is a minor risk of muscle strain or soreness. To mitigate this:
+- The yoga instructor will provide modifications for all postures
+- Participants will be reminded they can rest at any time during sessions
+- Participants with known injuries will be cleared by athletic training staff before enrollment
+- No participant will be asked to perform any posture beyond their comfort level
+
+There is a minor confidentiality risk given the relatively small number of athletes in some sports at TCU. All data will be de-identified using participant ID numbers. Sport-specific information will not be reported alongside individual responses in any publication.
+
+Discussing anxiety and stress may cause some emotional discomfort. The informed consent form will include contact information for TCU's Counseling and Mental Health Center.
+
+Benefits:
+There is no guaranteed direct benefit to participants. However, participants in the yoga group may experience reduced anxiety, improved sleep, and enhanced recovery. The study may contribute to the broader understanding of complementary wellness strategies for college athletes and could inform future programming by TCU's athletics department.
+
+Compensation:
+Participants in both groups will receive a $15 Amazon gift card at each of the three assessment points ($45 total) for completing the surveys. Compensation is not contingent on remaining in the yoga program.
+
+Informed Consent:
+Written informed consent will be obtained from all participants prior to enrollment. The consent document will describe the study purpose, procedures, risks, benefits, compensation, voluntary nature, and confidentiality protections. Participants will receive a copy of the signed consent form.
+
+Data Storage and Confidentiality:
+All survey data will be collected through Qualtrics and stored on TCU's secure server infrastructure. Data will be downloaded to a password-protected computer in the PI's locked office for analysis. Participant names will not appear on any surveys. A master list linking names to participant IDs will be stored in a separate encrypted file accessible only to the PI and student investigator. Audio or video recordings will not be collected. De-identified data will be retained for a minimum of five years after study completion. The master linking file will be destroyed upon completion of the study and all publications.
+
+Data Analysis:
+A 2 (group: yoga vs. control) x 3 (time: baseline, week 4, week 8) mixed-model ANOVA will be used to assess changes in GAD-7, PSQI, PSS-10, and RESTQ-Sport scores. Effect sizes (partial eta-squared) will be calculated. Post-hoc pairwise comparisons with Bonferroni correction will be conducted where significant interactions are found. Intent-to-treat analyses will be used. Missing data will be handled using multiple imputation. All analyses will be conducted in SPSS (version 29).
+
+Funding:
+This study is funded by a Faculty Research Grant from the TCU College of Education. The grant covers participant compensation, yoga instructor fees, and Qualtrics licensing. The supplement company (Lululemon) has donated yoga mats for use during the study but has no role in study design, data collection, analysis, or publication.
+
+Timeline:
+IRB Submission: March 2026
+Recruitment: April 2026
+Baseline Assessments and Randomization: Late April 2026
+Intervention: May-June 2026
+Post-Intervention Assessments: Late June 2026
+Data Analysis and Thesis Writing: July-August 2026

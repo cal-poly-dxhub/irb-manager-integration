@@ -1,0 +1,524 @@
+[
+  {
+    "dataId": 3862549,
+    "protocol": "2022-368",
+    "text": "The purpose of this study is to examine the effect of Division I college football on the mental health of players. Specifically, the study will examine the relationship between playing Division I college football and symptoms of depression, anxiety, and sleep disturbance.",
+    "index": 0
+  },
+  {
+    "dataId": 3862550,
+    "protocol": "2022-368",
+    "text": "The aim of this study is to examine the mental health of Division I college football players. The specific objectives are to:\n1. Examine the prevalence of depression, anxiety, and sleep disturbance among Division I college football players.\n2. Examine the relationship between playing Division I college football and symptoms of depression, anxiety, and sleep disturbance.\n3. Examine the relationship between sport-related concussion history and symptoms of depression, anxiety, and sleep disturbance among Division I college football players.",
+    "index": 1
+  },
+  {
+    "dataId": 3862551,
+    "protocol": "2022-368",
+    "text": "Mental health concerns among college athletes have become an increasingly important topic in recent years. Research has shown that college athletes may be at an increased risk for mental health issues, including depression, anxiety, and sleep disturbance (Wolanin et al., 2016). Football players, in particular, may be at an elevated risk due to the physical demands of the sport, including the risk of concussion and other injuries (Kerr et al., 2014). Despite the growing awareness of mental health concerns among college athletes, there is limited research examining the mental health of Division I college football players specifically. This study will address this gap in the literature by examining the prevalence of depression, anxiety, and sleep disturbance among Division I college football players and the relationship between playing Division I college football and these mental health outcomes. Additionally, this study will examine the relationship between sport-related concussion history and mental health outcomes among Division I college football players.",
+    "index": 2
+  },
+  {
+    "dataId": 3862553,
+    "protocol": "2022-368",
+    "text": "Participants will be current Division I college football players at Texas Christian University (TCU). Approximately 100 football players will be recruited to participate in this study. Participants must be at least 18 years of age, a current member of the TCU football team, and able to read and understand English. Participants will be recruited through the TCU football program. The research team will work with the football coaching staff and athletic training staff to identify potential participants and distribute recruitment materials.",
+    "index": 3
+  },
+  {
+    "dataId": 3862561,
+    "protocol": "2022-368",
+    "text": "Participants will complete an online survey through Qualtrics. The survey will include demographic questions, the Patient Health Questionnaire-9 (PHQ-9) to assess depression symptoms, the Generalized Anxiety Disorder-7 (GAD-7) to assess anxiety symptoms, the Pittsburgh Sleep Quality Index (PSQI) to assess sleep disturbance, and questions about sport-related concussion history. The survey will take approximately 15-20 minutes to complete. Participants will complete the survey at one time point during the competitive football season.",
+    "index": 4
+  },
+  {
+    "dataId": 3862579,
+    "protocol": "2022-368",
+    "text": "There are no costs to participants for participating in this study. Participants will not be compensated for their participation.",
+    "index": 5
+  },
+  {
+    "dataId": 3862580,
+    "protocol": "2022-368",
+    "text": "All survey responses will be collected through Qualtrics, a secure online survey platform. Data will be stored on a password-protected computer in the PI's locked office. Only the research team will have access to the data. Participant names will not be collected on the survey. Instead, each participant will be assigned a unique identification number. The link between participant names and identification numbers will be stored in a separate, password-protected file. All data will be stored for a minimum of three years after the completion of the study, after which it will be permanently deleted.",
+    "index": 6
+  },
+  {
+    "dataId": 3862581,
+    "protocol": "2022-368",
+    "text": "Descriptive statistics will be used to examine the prevalence of depression, anxiety, and sleep disturbance among participants. Pearson correlations will be used to examine the relationship between concussion history and symptoms of depression, anxiety, and sleep disturbance. Multiple regression analyses will be used to examine the relationship between playing Division I college football and symptoms of depression, anxiety, and sleep disturbance, controlling for relevant covariates.",
+    "index": 7
+  },
+  {
+    "dataId": 3862535,
+    "protocol": "2022-368",
+    "text": "The Sammy Baugh Indoor Practice Facility and the John Justin Athletic Center on the TCU campus.",
+    "index": 8
+  },
+  {
+    "dataId": 3862587,
+    "protocol": "2022-368",
+    "text": "This study will use a cross-sectional survey design to examine the mental health of Division I college football players at TCU. Data will be collected at one time point during the competitive football season.",
+    "index": 9
+  },
+  {
+    "dataId": 3862588,
+    "protocol": "2022-368",
+    "text": "The primary outcomes of this study are symptoms of depression (as measured by the PHQ-9), symptoms of anxiety (as measured by the GAD-7), and sleep disturbance (as measured by the PSQI). Secondary outcomes include sport-related concussion history and demographic characteristics.",
+    "index": 10
+  },
+  {
+    "dataId": 3862589,
+    "protocol": "2022-368",
+    "text": "Mental health concerns among college athletes have become an increasingly important topic in recent years. Research has shown that college athletes may be at an increased risk for mental health issues, including depression, anxiety, and sleep disturbance (Wolanin et al., 2016). Football players, in particular, may be at an elevated risk due to the physical demands of the sport, including the risk of concussion and other injuries (Kerr et al., 2014). Despite the growing awareness of mental health concerns among college athletes, there is limited research examining the mental health of Division I college football players specifically. This study will address this gap in the literature by examining the prevalence of depression, anxiety, and sleep disturbance among Division I college football players and the relationship between playing Division I college football and these mental health outcomes. Additionally, this study will examine the relationship between sport-related concussion history and mental health outcomes among Division I college football players.",
+    "index": 11
+  },
+  {
+    "dataId": 3862593,
+    "protocol": "2022-368",
+    "text": "The Sammy Baugh Indoor Practice Facility and the John Justin Athletic Center on the TCU campus.",
+    "index": 12
+  },
+  {
+    "dataId": 3862642,
+    "protocol": "2022-368",
+    "text": "100",
+    "index": 13
+  },
+  {
+    "dataId": 3862644,
+    "protocol": "2022-368",
+    "text": "Participants must be at least 18 years of age, a current member of the TCU football team, and able to read and understand English.",
+    "index": 14
+  },
+  {
+    "dataId": 3862645,
+    "protocol": "2022-368",
+    "text": "Individuals who are not current members of the TCU football team, individuals under 18 years of age, and individuals who are unable to read and understand English will be excluded from this study.",
+    "index": 15
+  },
+  {
+    "dataId": 3862663,
+    "protocol": "2022-368",
+    "text": "The research team will work with the TCU football coaching staff and athletic training staff to recruit participants. The research team will attend a team meeting to describe the study and distribute recruitment flyers. Interested participants will be provided with a link to the online survey through Qualtrics. Recruitment will take place during the competitive football season.",
+    "index": 16
+  },
+  {
+    "dataId": 3862666,
+    "protocol": "2022-368",
+    "text": "Joshua Carr will serve as the point of contact who will distribute recruitment material through the TCU football coaching staff and athletic training staff.",
+    "index": 17
+  },
+  {
+    "dataId": 3862688,
+    "protocol": "2022-368",
+    "text": "Participants will be provided with a Research Information Sheet prior to completing the survey. The Research Information Sheet will describe the purpose of the study, study procedures, risks and benefits, and contact information for the research team and the TCU IRB. Participants will be informed that their participation is voluntary and that they may withdraw from the study at any time without penalty. By clicking the link to begin the survey, participants will acknowledge that they have read the Research Information Sheet and agree to participate in the study.",
+    "index": 18
+  },
+  {
+    "dataId": 3862692,
+    "protocol": "2022-368",
+    "text": "Participants may withdraw from the study at any time without penalty. If a participant chooses to withdraw, their data will be removed from the study and permanently deleted. Participants may withdraw by closing the survey browser window at any time during the survey or by contacting the PI at the email address provided on the Research Information Sheet.",
+    "index": 19
+  },
+  {
+    "dataId": 3862869,
+    "protocol": "2022-368",
+    "text": "Participants will complete an online survey through Qualtrics. The survey will include the following measures:\n\n1. Demographic Questionnaire: Participants will provide demographic information including age, race/ethnicity, year in school, position on the football team, and number of years playing football.\n\n2. Patient Health Questionnaire-9 (PHQ-9): The PHQ-9 is a 9-item self-report measure that assesses the severity of depressive symptoms over the past two weeks. Items are rated on a 4-point Likert scale from 0 (not at all) to 3 (nearly every day). Total scores range from 0 to 27, with higher scores indicating more severe depressive symptoms.\n\n3. Generalized Anxiety Disorder-7 (GAD-7): The GAD-7 is a 7-item self-report measure that assesses the severity of anxiety symptoms over the past two weeks. Items are rated on a 4-point Likert scale from 0 (not at all) to 3 (nearly every day). Total scores range from 0 to 21, with higher scores indicating more severe anxiety symptoms.\n\n4. Pittsburgh Sleep Quality Index (PSQI): The PSQI is a 19-item self-report measure that assesses sleep quality and disturbance over the past month. The measure yields seven component scores and one global score. Global scores range from 0 to 21, with higher scores indicating poorer sleep quality.\n\n5. Concussion History Questionnaire: Participants will be asked about their history of sport-related concussions, including the number of concussions sustained, the time since their most recent concussion, and any symptoms experienced following their most recent concussion.\n\nThe survey will take approximately 15-20 minutes to complete. Participants will complete the survey at one time point during the competitive football season.",
+    "index": 20
+  },
+  {
+    "dataId": 3863061,
+    "protocol": "2022-368",
+    "text": "There are no costs to participants for participating in this study.",
+    "index": 21
+  },
+  {
+    "dataId": 3863065,
+    "protocol": "2022-368",
+    "text": "Participants will not be compensated for their participation in this study.",
+    "index": 22
+  },
+  {
+    "dataId": 3863068,
+    "protocol": "2022-368",
+    "text": "The risks associated with this study are minimal. There is a potential risk of emotional discomfort when completing the survey items related to depression, anxiety, and sleep disturbance. To minimize this risk, participants will be informed that they may skip any questions that make them feel uncomfortable and that they may withdraw from the study at any time without penalty. Additionally, participants will be provided with contact information for the TCU Counseling Center should they experience any distress as a result of participating in the study. There is also a potential risk of loss of confidentiality. To minimize this risk, participant names will not be collected on the survey, and all data will be stored on a password-protected computer in the PI's locked office.",
+    "index": 23
+  },
+  {
+    "dataId": 3863069,
+    "protocol": "2022-368",
+    "text": "There are no direct benefits to participants for participating in this study. However, the results of this study may help inform future interventions and programming aimed at improving the mental health of Division I college football players. Additionally, this study may contribute to the growing body of literature on the mental health of college athletes.",
+    "index": 24
+  },
+  {
+    "dataId": 3863071,
+    "protocol": "2022-368",
+    "text": "All survey responses will be collected through Qualtrics, a secure online survey platform. Participant names will not be collected on the survey. Instead, each participant will be assigned a unique identification number. The link between participant names and identification numbers will be stored in a separate, password-protected file accessible only to the PI. All data will be stored on a password-protected computer in the PI's locked office. Only members of the research team will have access to the data. Data will be reported in aggregate form only, and no individual participant will be identifiable in any publications or presentations resulting from this study. All data will be stored for a minimum of three years after the completion of the study, after which it will be permanently deleted.",
+    "index": 25
+  },
+  {
+    "dataId": 3863075,
+    "protocol": "2022-368",
+    "text": "Descriptive statistics will be used to examine the prevalence of depression, anxiety, and sleep disturbance among participants. Means, standard deviations, and frequencies will be calculated for all study variables. Pearson correlations will be used to examine the relationships between concussion history and symptoms of depression, anxiety, and sleep disturbance. Multiple regression analyses will be used to examine the relationship between playing Division I college football and symptoms of depression, anxiety, and sleep disturbance, controlling for relevant covariates including age, race/ethnicity, year in school, and position on the football team. All analyses will be conducted using SPSS statistical software. The significance level will be set at p < .05.",
+    "index": 26
+  },
+  {
+    "dataId": 3862620,
+    "protocol": "2022-368",
+    "text": "18-25",
+    "index": 27
+  },
+  {
+    "dataId": 3862371,
+    "protocol": "2023-345",
+    "text": "Dean's Opportunity Grant",
+    "index": 28
+  },
+  {
+    "dataId": 3862374,
+    "protocol": "2023-345",
+    "text": "This project is being externally funded by a supplement company: Pendulum. External funding will be used only in the form of supplement supplies (synbiotic/placebo capsules). There is no monetary compensation from Pendulum.",
+    "index": 29
+  },
+  {
+    "dataId": 3862587,
+    "protocol": "2023-345",
+    "text": "This is a triple-blind, randomized, placebo-controlled trial to assess the effects of a 12-week supplementation with a next generation synbiotic on body composition, metabolic, dietary, and psychological outcomes in adults (18-45 years old) with overweight or obesity (BMI 25.0-44.9 kg/m2).",
+    "index": 30
+  },
+  {
+    "dataId": 3862588,
+    "protocol": "2023-345",
+    "text": "Primary outcome: change in body weight (kg) from baseline to 12-week follow-up.\nSecondary outcomes: changes in body composition (fat mass, lean mass, body fat percentage via DXA), metabolic markers (fasting glucose, insulin, HOMA-IR, lipid panel, HbA1c), dietary intake (via ASA24 24-hour dietary recall), and psychological variables (anxiety via GAD-7, depression via PHQ-9, cravings via Food Cravings Questionnaire).",
+    "index": 31
+  },
+  {
+    "dataId": 3862589,
+    "protocol": "2023-345",
+    "text": "The gut microbiome has emerged as a potential contributor to the development of overweight and obesity. Disruptions in the gut microbiome (dysbiosis) have been associated with increased inflammation, insulin resistance, and altered energy metabolism. The gut-brain axis, a bidirectional communication system between the gastrointestinal tract and the central nervous system, has also been implicated in eating behavior, cravings, mood, and anxiety.\n\nSynbiotics, which combine probiotics and prebiotics, have shown promise in modulating the gut microbiome and improving metabolic outcomes. Next generation synbiotics containing novel bacterial strains such as Akkermansia muciniphila, Clostridium butyricum, Anaerobutyricum hallii, and Bifidobacterium infantis may offer enhanced benefits compared to traditional probiotics. Pendulum's next generation synbiotic has been shown to improve HbA1c and postprandial glucose in individuals with type 2 diabetes in preliminary studies.\n\nHowever, the effects of next generation synbiotic supplementation on body composition, metabolic markers, dietary intake, and psychological outcomes in individuals with overweight or obesity have not been well studied. This trial aims to address this gap by evaluating these outcomes in a rigorous triple-blind, randomized, placebo-controlled design.\n\nReferences are cited in the text and the bibliography is uploaded as a separate document.",
+    "index": 32
+  },
+  {
+    "dataId": 3862593,
+    "protocol": "2023-345",
+    "text": "Bass Building, Room 1203 and Dr. Marroquin's office (1201G), TCU campus",
+    "index": 33
+  },
+  {
+    "dataId": 3862595,
+    "protocol": "2023-345",
+    "text": "Rickel Building room 259 (Dr. Ryan Porter's lab)",
+    "index": 34
+  },
+  {
+    "dataId": 3862620,
+    "protocol": "2023-345",
+    "text": "18-45 years old",
+    "index": 35
+  },
+  {
+    "dataId": 3862642,
+    "protocol": "2023-345",
+    "text": "60",
+    "index": 36
+  },
+  {
+    "dataId": 3862644,
+    "protocol": "2023-345",
+    "text": "1. Adults aged 18-45 years\n2. BMI between 25.0 and 44.9 kg/m2\n3. Able to provide written informed consent\n4. Willing to comply with study procedures for the duration of the 12-week study\n5. Able to read and understand English",
+    "index": 37
+  },
+  {
+    "dataId": 3862645,
+    "protocol": "2023-345",
+    "text": "1. Currently pregnant or lactating\n2. Current use of probiotics, prebiotics, or synbiotic supplements within the past 4 weeks\n3. Use of antibiotics within the past 3 months\n4. Diagnosed gastrointestinal disorders (e.g., inflammatory bowel disease, celiac disease)\n5. History of bariatric surgery\n6. Diagnosed type 1 or type 2 diabetes\n7. Current use of weight loss medications\n8. Known allergy or intolerance to any component of the synbiotic or placebo supplement\n9. Participation in another clinical trial within the past 30 days",
+    "index": 38
+  },
+  {
+    "dataId": 3862663,
+    "protocol": "2023-345",
+    "text": "Participants will be recruited from the TCU campus and surrounding Fort Worth community through multiple recruitment strategies:\n\n1. Flyers posted on TCU campus bulletin boards and community locations (e.g., local community centers, gyms, churches)\n2. Social media advertisements (Instagram)\n3. TCU campus email announcements\n4. Word-of-mouth referrals\n5. Recruitment tables at campus events\n\nInterested individuals will be directed to contact the research team via phone or email. A member of the research team will provide information about the study and schedule a screening visit if the individual expresses interest.",
+    "index": 39
+  },
+  {
+    "dataId": 3862673,
+    "protocol": "2023-345",
+    "text": "1. Potential participants will first complete a brief online pre-screening survey (via REDCap) to assess basic eligibility criteria including age, BMI range, and major exclusion criteria. Those who appear eligible based on the pre-screening will be invited for an in-person screening visit.\n2. The in-person screening visit will be conducted by the PI or a trained research assistant at Bass Building, TCU campus. During this visit, height and weight will be measured to confirm BMI eligibility, and a brief medical history will be reviewed.\n3. Both identifiable information (name, contact information) and non-identifiable health information will be collected during screening.\n4. The pre-screening survey will take approximately 5-10 minutes and the in-person screening visit will take approximately 20-30 minutes.",
+    "index": 40
+  },
+  {
+    "dataId": 3862674,
+    "protocol": "2023-345",
+    "text": "1. Data collected from individuals who are not eligible or who decide not to participate will be destroyed. Their pre-screening survey responses will be permanently deleted from REDCap and any paper records will be shredded.\n2. Screening data for enrolled participants will be retained separate from the main study data and stored securely.",
+    "index": 41
+  },
+  {
+    "dataId": 3862689,
+    "protocol": "2023-345",
+    "text": "Informed consent will be performed inside Dr. Marroquin's office (1201G) or a small departmental conference room (all of them are private rooms located in Bass 1201). Only the person conducting the informed consent and perhaps a second person (an IRB-approved trainee) will be present during the informed consent. Anxiety, depression, and craving questionnaires will be directly answered by the participant in printed copies to facilitate their comfort while answering these personal questions.",
+    "index": 42
+  },
+  {
+    "dataId": 3862692,
+    "protocol": "2023-345",
+    "text": "Participants may withdraw from the study at any time without penalty or loss of benefits to which they are otherwise entitled. If a participant withdraws, data collected up to that point will remain available for research purposes with the intention to use intent to treat analysis. Participants will be informed of this during the consent process.",
+    "index": 43
+  },
+  {
+    "dataId": 3862869,
+    "protocol": "2023-345",
+    "text": "Participants will complete two main in-person study visits (baseline and week 12) and brief check-ins at weeks 4 and 8.\n\nBaseline Visit (Visit 1, approximately 2-3 hours):\n1. Review and sign informed consent\n2. Collect demographic information, medical history, and medication/supplement use\n3. Anthropometric measurements: height, weight, BMI, waist circumference\n4. Body composition assessment via DXA scan\n5. Fasting blood draw (approximately 20 mL) for metabolic markers (fasting glucose, insulin, HbA1c, lipid panel) and inflammatory markers\n6. Provide stool collection kit with instructions\n7. Administer psychological questionnaires: GAD-7 (anxiety), PHQ-9 (depression), Food Cravings Questionnaire\n8. Complete ASA24 24-hour dietary recall\n9. Randomization to synbiotic or placebo group\n10. Distribute 4-week supply of synbiotic or placebo capsules with instructions (2 capsules daily with a meal)\n\nWeek 4 and Week 8 Check-ins:\n1. Assess supplement adherence (capsule count)\n2. Monitor for adverse events\n3. Distribute next 4-week supply of supplements\n4. Complete ASA24 dietary recall\n\nWeek 12 Visit (Visit 2, approximately 2-3 hours):\n1. Anthropometric measurements\n2. DXA scan\n3. Fasting blood draw (approximately 20 mL)\n4. Collect stool sample\n5. Administer psychological questionnaires\n6. Complete ASA24 dietary recall\n7. Collect unused capsules for adherence assessment\n8. Participant debriefing",
+    "index": 44
+  },
+  {
+    "dataId": 3862806,
+    "protocol": "2023-345",
+    "text": "1. A DXA (Dual-energy X-ray Absorptiometry) scan will be performed to assess body composition including fat mass, lean mass, bone mineral content, and body fat percentage. The whole body will be scanned.\n2. Two DXA scans will be performed per participant (one at baseline and one at week 12). The DXA scan involves a very low dose of radiation (approximately 0.001 mSv per scan, which is less than one day of natural background radiation). The data collected includes total body fat mass, lean mass, bone mineral content, body fat percentage, and regional body composition.",
+    "index": 45
+  },
+  {
+    "dataId": 3862811,
+    "protocol": "2023-345",
+    "text": "Blood samples will be collected via venipuncture by trained research personnel. Approximately 20 mL of fasting blood will be drawn at each time point (baseline and week 12) into appropriate collection tubes. Samples will be processed and stored according to standard laboratory procedures. Blood and stool samples will be stored in Dr. Ryan Porter's lab located within the Rickel building room 259. For the first stage of the project, blood samples will be analyzed at Dr. Ryan Porter's lab room 259. Once the Nutritional Sciences Department laboratory has been finalized, samples will be transferred to the Nutritional Sciences Department and further storage and analyses could take place here (BASS, room 1203). If enough funds become available to perform the second stage of the study, blood and stool samples (which will be identified by fabricated ID) will be sent to Baylor College of Medicine and to Metabolon for posterior 16S rRNA/WGS and mass spectrometry analyses, respectively.",
+    "index": 46
+  },
+  {
+    "dataId": 3862812,
+    "protocol": "2023-345",
+    "text": "IBC-2023-21",
+    "index": 47
+  },
+  {
+    "dataId": 3862820,
+    "protocol": "2023-345",
+    "text": "1. Blood samples will be collected via venipuncture by trained research personnel. Approximately 20 mL of fasting blood will be drawn at each collection time point (baseline and week 12). Stool samples will be self-collected by participants at home using provided stool collection kits.\n\n2. Blood and stool samples will be stored in Dr. Ryan Porter's lab located within the Rickel building room 259 initially. Once the Nutritional Sciences Department laboratory has been finalized, samples will be transferred to BASS room 1203. Blood samples will be stored at -80 degrees Celsius.\n\n3. Blood and stool samples will be stored for up to 10 years from the date of collection, at which point they will be discarded as biohazard waste.\n\n4. Blood and stool samples will be used for the duration of the study analyses. If enough funds become available for the second stage, samples will be sent for additional analyses.\n\n5. For the first stage, blood samples will be analyzed at Dr. Ryan Porter's lab (Rickel 259). If the second stage is funded, blood and stool samples (identified by fabricated ID) will be sent to Baylor College of Medicine and to Metabolon for 16S rRNA/WGS and mass spectrometry analyses, respectively.",
+    "index": 48
+  },
+  {
+    "dataId": 3862824,
+    "protocol": "2023-345",
+    "text": "Randomization will be performed using a computer-generated randomization sequence. Participants will be randomly assigned in a 1:1 ratio to either the synbiotic supplementation group or the placebo group. Block randomization will be used to ensure balance between groups.",
+    "index": 49
+  },
+  {
+    "dataId": 3862826,
+    "protocol": "2023-345",
+    "text": "This is a triple-blind study. The participants, the research team members who interact with participants and collect data, and the data analysts will all be blinded to group assignment. The synbiotic and placebo capsules are identical in appearance. The randomization code will be maintained by a designated unblinded team member who is not involved in data collection or analysis. Unblinding will occur only after the database is locked and primary analyses are planned, or in the event of a serious adverse event requiring knowledge of group assignment.",
+    "index": 50
+  },
+  {
+    "dataId": 3862828,
+    "protocol": "2023-345",
+    "text": "Participants in the placebo group will receive capsules identical in appearance to the synbiotic capsules but containing an inert filler. The use of a placebo control is necessary to determine whether any observed effects are attributable to the synbiotic supplementation itself versus placebo effect, time, or other confounders. This design is ethically justified because there is no established standard of care involving synbiotic supplementation for overweight/obesity, and participants in both groups will continue their usual medical care.",
+    "index": 51
+  },
+  {
+    "dataId": 3862942,
+    "protocol": "2023-345",
+    "text": "The next generation synbiotic supplement used in this study is manufactured by Pendulum and contains the following probiotic strains: Akkermansia muciniphila, Clostridium butyricum, Anaerobutyricum hallii (formerly Eubacterium hallii), and Bifidobacterium infantis, combined with a prebiotic fiber. The supplement is provided in capsule form. Participants will be instructed to take 2 capsules daily with a meal for 12 weeks.\n\nThe placebo capsules are identical in appearance, size, shape, and color to the synbiotic capsules and contain an inert filler. Both products are manufactured by the same company (Pendulum) under Good Manufacturing Practice (GMP) conditions.\n\nThe synbiotic supplement is commercially available as a dietary supplement. It does not require an Investigational New Drug (IND) application.",
+    "index": 52
+  },
+  {
+    "dataId": 3862883,
+    "protocol": "2023-345",
+    "text": "At the end of the study (week 12 visit), participants will be debriefed and informed of their group assignment (synbiotic vs. placebo). They will be told about the purpose of the blinding and the overall study goals. Participants will have the opportunity to ask questions about the study and their results.",
+    "index": 53
+  },
+  {
+    "dataId": 3863061,
+    "protocol": "2023-345",
+    "text": "There are no costs to participants associated with this study. All study procedures, including DXA scans, blood draws, stool collection kits, and supplement capsules will be provided at no cost to participants.",
+    "index": 54
+  },
+  {
+    "dataId": 3863065,
+    "protocol": "2023-345",
+    "text": "Participants will be compensated for their time and effort. Participants will receive a $25 gift card upon completion of each study visit (baseline visit and week 12 visit), for a total possible compensation of $50 for completing the full study. Participants who withdraw before completing the study will receive compensation for any completed visits.",
+    "index": 55
+  },
+  {
+    "dataId": 3863068,
+    "protocol": "2023-345",
+    "text": "Potential risks associated with participation in this study include:\n\n1. Blood draw risks: Discomfort, bruising, minor bleeding, or rare infection at the venipuncture site. These risks will be minimized by having blood draws performed by trained personnel using standard aseptic technique.\n\n2. DXA scan: Very low radiation exposure (approximately 0.001 mSv per scan, less than one day of natural background radiation). This represents negligible risk. Pregnant women are excluded from the study.\n\n3. Gastrointestinal discomfort: Synbiotic supplementation may cause mild gastrointestinal symptoms such as bloating, gas, or changes in bowel habits. These are typically mild and transient. Participants will be monitored for adverse effects at each study contact.\n\n4. Psychological discomfort: Some participants may experience mild discomfort when completing questionnaires about anxiety and depression levels. If you feel that answering the questionnaires caused psychological distress you have the following resources available:\n- If you are a TCU student you can access to psychological health through several ways: psychiatric evaluations, 24/7 telephone counseling helpline, peer support communities, personalized interventions for student athletes, etc. (https://counseling.tcu.edu/student-services/#StudentAthletes)\n- If you are not a TCU student, you can find free government support through Texas Health and Human Services by accessing the following link and filling out the form (https://resources.hhs.texas.gov/pages/find-services). This form will be used to provide you with the best phone number to contact based on your needs and based on your location. If you prefer to use a phone number you can call 855-937-2372 and they will help you to get in touch with a health professional.\n- If you live in Tarrant County you can directly call MHMR of Tarrant County (My Health My Resources) at 800-866-2465.\n\n5. Loss of confidentiality: There is always a potential risk of data breach, however, only personnel that has been certified and approved by the IRB will have access to the participants and their related data. Samples, questionnaires, and other forms pertaining to the participants will be labeled with an ID that do not include any personal health information of the participant. The document containing the link between the names of the participants and their IDs will be saved in a password protected computer. Informed consents will be saved in the office of the PI which is locked at all times the PI is not present and which is located in a card locked department.",
+    "index": 56
+  },
+  {
+    "dataId": 3863069,
+    "protocol": "2023-345",
+    "text": "Participants may or may not directly benefit from their participation in this project. If in the synbiotic group, participants may have the potential to see beneficial changes in body composition, insulin sensitivity, anxiety, depression, and cravings, however, these are potential benefits and cannot be guaranteed as group designation is random and as research in this synbiotic is still underway. The research outcomes may reveal this synbiotic to be a new therapeutic option for others with overweight or obesity to induce weight loss, insulin sensitivity, and/or diminish anxiety, depression, and/or cravings. Society may benefit from this research because the outcomes from this study will further scientific understanding of the microbiome's effect on overweight and obesity treatment. Furthermore, this clinical trial will provide the scientific foundation and the preliminary data to apply for NIH funding to examine this next generation synbiotic's effect on the gut microbiota through whole metagenome sequencing in stools and on the gut-derived metabolome in blood.",
+    "index": 57
+  },
+  {
+    "dataId": 3863071,
+    "protocol": "2023-345",
+    "text": "Informed consent will be performed inside Dr. Marroquin's office (1201G) or a small departmental conference room (all of them are private rooms located in Bass 1201). Only the person conducting the informed consent and perhaps a second person (an IRB-approved trainee) will be present during the informed consent. Anxiety, depression, and craving questionnaires will be directly answered by the participant in printed copies to facilitate their comfort while answering these personal questions.\n\nOnly personnel that have been certified and approved by the IRB will have access to the participants and their related data. Samples, questionnaires, and other forms pertaining to the participants will be labeled with an ID that does not include any personal health information of the participant. The document containing the link between the names of the participants and their IDs will be saved on password-protected computers. Printed informed consent will be saved in the office of the PI which is locked at all times when the PI is not present and which is located in a card-locked department.",
+    "index": 58
+  },
+  {
+    "dataId": 3863075,
+    "protocol": "2023-345",
+    "text": "If participants withdraw from their study the data collected up to that point will remain available for research purposes with the intention to use intent to treat analysis. Blood and stool samples will be stored in Dr. Ryan Porter's lab located within the Rickel building room 259. For the first stage of the project, blood samples will be analyzed at Dr. Ryan Porter's lab room 259. Once the Nutritional Sciences Department laboratory has been finalized, samples will be transferred to the Nutritional Sciences Department and further storage and analyses could take place here (BASS, room 1203). If enough funds become available to perform the second stage of the study, blood and stool samples (which will be identified by fabricated ID) will be sent to Baylor College of Medicine and to Metabolon for posterior 16S rRNA/WGS and mass spectrometry analyses, respectively. For statistical analysis of the first stage, two sample T-tests will be used to compare within (pre- versus post- values on each group) and between-group (placebo versus probiotic) differences in body composition, adherence, metabolic, dietary, and psychological variables. SPSS will be used for statistical analysis. A p value <0.05 will be considered as statistically significant. Dietetic variables collected via the NCI Automated Self-Administered 24-hour Dietary Assessment Tool including protein, carbohydrate, fat, and fiber will be controlled statistically in the case that significant intra-individual or between-group differences are observed.",
+    "index": 59
+  },
+  {
+    "dataId": 3863076,
+    "protocol": "2023-345",
+    "text": "Dr. Marroquin will perform monthly evaluations of the integrity of the data throughout the duration of the study.\nDr. Marroquin and Dr. Porter will report to the IRB if there is an action that merits temporary or permanent suspension of the study.",
+    "index": 60
+  },
+  {
+    "dataId": 3863079,
+    "protocol": "2023-345",
+    "text": "All blood collection vials and plasma/serum containers will be labeled using participant numbers (deidentified) for participant privacy. The leftover blood samples will be stored in the laboratory for 10 years from date of collection at which point they will be discarded as biohazard waste. Participants agree to allow their deidentified samples to be used for future research by signing the informed consent. These procedures have been approved by the TCU Institutional Biosafety Committee (IBC Protocol). Dr. Marroquin and Dr. Porter will have access to the data and specimens.",
+    "index": 61
+  },
+  {
+    "dataId": 3862587,
+    "protocol": "2023-377",
+    "text": "This is a randomized controlled trial. Participants with Type 2 Diabetes will be randomly assigned to either a resistance training group or a control group (no exercise intervention). The resistance training group will complete a supervised 12-week progressive resistance training program 3 days per week. The control group will be asked to maintain their current level of physical activity and will be offered the resistance training program upon completion of the study. Assessments will be conducted at baseline (week 0) and post-intervention (week 12).",
+    "index": 62
+  },
+  {
+    "dataId": 3862588,
+    "protocol": "2023-377",
+    "text": "Primary outcomes include glycemic control as measured by HbA1c and fasting blood glucose. Secondary outcomes include cardiovascular risk factors (resting blood pressure, lipid profile including total cholesterol, LDL, HDL, and triglycerides), body composition (body mass, BMI, waist circumference, body fat percentage via DEXA), and muscular strength (1-RM for leg press and chest press).",
+    "index": 63
+  },
+  {
+    "dataId": 3862589,
+    "protocol": "2023-377",
+    "text": "Type 2 Diabetes Mellitus (T2DM) affects approximately 37.3 million Americans and is a leading cause of morbidity and mortality. Chronic hyperglycemia in T2DM is associated with increased risk for cardiovascular disease, neuropathy, nephropathy, and retinopathy. While aerobic exercise has been widely studied as a therapeutic intervention for T2DM, resistance training has received comparatively less attention despite emerging evidence that it may independently improve glycemic control and cardiovascular risk factors. Resistance training has been shown to improve insulin sensitivity by increasing skeletal muscle glucose uptake and GLUT-4 transporter activity. Furthermore, resistance training increases lean body mass, which may contribute to improved basal metabolic rate and long-term glycemic management. Several meta-analyses have demonstrated that resistance training can reduce HbA1c by 0.3-0.6%, which is clinically meaningful. However, many of these studies have methodological limitations including small sample sizes, short intervention durations, and inadequate control of confounding variables such as dietary intake and medication changes. Additional research using rigorous randomized controlled trial designs is needed to further elucidate the effects of resistance training on glycemic control and cardiovascular risk factors in individuals with T2DM. This study aims to address these gaps by implementing a well-controlled 12-week progressive resistance training intervention and assessing comprehensive metabolic and cardiovascular outcomes.",
+    "index": 64
+  },
+  {
+    "dataId": 3862593,
+    "protocol": "2023-377",
+    "text": "The Human Performance Laboratory (HPL) in the Department of Kinesiology, Bailey Building, TCU campus.",
+    "index": 65
+  },
+  {
+    "dataId": 3862642,
+    "protocol": "2023-377",
+    "text": "40",
+    "index": 66
+  },
+  {
+    "dataId": 3862620,
+    "protocol": "2023-377",
+    "text": "30-65 years",
+    "index": 67
+  },
+  {
+    "dataId": 3862644,
+    "protocol": "2023-377",
+    "text": "Participants must meet the following inclusion criteria: (1) physician-diagnosed Type 2 Diabetes Mellitus for at least 6 months; (2) age 30-65 years; (3) HbA1c between 6.5% and 10.0%; (4) BMI between 25 and 40 kg/m2; (5) not currently participating in a structured resistance training program (defined as less than 2 sessions per week for the past 3 months); (6) able to provide written informed consent; (7) physician clearance to participate in a resistance training program.",
+    "index": 68
+  },
+  {
+    "dataId": 3862645,
+    "protocol": "2023-377",
+    "text": "Participants will be excluded if they meet any of the following criteria: (1) Type 1 Diabetes or gestational diabetes; (2) insulin pump use; (3) uncontrolled hypertension (resting blood pressure >160/100 mmHg); (4) history of cardiovascular event (myocardial infarction, stroke) within the past 12 months; (5) musculoskeletal condition or injury that would preclude safe participation in resistance training; (6) current pregnancy or planning to become pregnant during the study period; (7) changes in diabetes medication type or dosage within the past 3 months; (8) diagnosed peripheral neuropathy that limits exercise capacity; (9) proliferative retinopathy; (10) severe autonomic neuropathy.",
+    "index": 69
+  },
+  {
+    "dataId": 3862663,
+    "protocol": "2023-377",
+    "text": "Participants will be recruited from the greater Fort Worth community through multiple methods: (1) flyers posted at local endocrinology and primary care clinics (with clinic approval via letters of support); (2) flyers posted on the TCU campus; (3) social media advertisements through the TCU Kinesiology Department social media accounts; (4) word of mouth referrals from physicians and current participants. Recruitment materials will include basic study information, eligibility criteria, and contact information for the research team. Interested individuals will be directed to contact the research team by phone or email for initial eligibility screening.",
+    "index": 70
+  },
+  {
+    "dataId": 3862673,
+    "protocol": "2023-377",
+    "text": "1. Potential participants who contact the research team will first undergo a brief telephone screening to determine preliminary eligibility based on self-reported information (age, diabetes type and duration, current exercise habits, and general health history). Those who appear eligible will be invited to an in-person screening visit at the Human Performance Laboratory. 2. At the screening visit, the research team will verify eligibility by reviewing the participant's physician clearance form, confirming diabetes diagnosis via medical documentation, and measuring resting blood pressure, height, weight, and HbA1c via point-of-care testing. 3. Both identifiable (name, phone number, email) and non-identifiable (age, exercise history) information will be collected during the screening process. 4. The telephone screening will take approximately 10-15 minutes. The in-person screening visit will take approximately 45-60 minutes.",
+    "index": 71
+  },
+  {
+    "dataId": 3862674,
+    "protocol": "2023-377",
+    "text": "1. Data collected during screening for individuals who are not eligible or who choose not to participate will be destroyed. Specifically, their contact information and screening forms will be shredded (paper documents) or permanently deleted (electronic files) within 30 days of the determination of ineligibility or the decision not to participate. 2. Screening data for individuals who enroll in the study will be retained as part of the study records and stored with other study data in the PI's locked office and on the password-protected TCU OneDrive.",
+    "index": 72
+  },
+  {
+    "dataId": 3862689,
+    "protocol": "2023-377",
+    "text": "Informed consent will be obtained by the PI or a trained member of the research team during the in-person screening visit, prior to any study procedures. The consent process will take place in a private room within the Human Performance Laboratory. The research team member obtaining consent will explain the study purpose, procedures, risks, benefits, alternatives, and the participant's right to withdraw at any time without penalty. Participants will be given a copy of the consent form to read at their own pace and will have the opportunity to ask questions. If the participant agrees to participate, they will sign and date two copies of the consent form; one copy will be retained by the research team and one copy will be given to the participant for their records. Participants will be informed that their participation is voluntary and that they may withdraw at any time without any impact on their medical care.",
+    "index": 73
+  },
+  {
+    "dataId": 3862692,
+    "protocol": "2023-377",
+    "text": "Participants may withdraw from the study at any time without penalty or loss of benefits to which they are otherwise entitled. If a participant wishes to withdraw, they should notify the PI or a member of the research team. Data collected up to the point of withdrawal will be retained and included in analyses unless the participant specifically requests that their data be destroyed. If a participant experiences a change in health status that makes continued participation unsafe (e.g., uncontrolled blood pressure, new cardiovascular event, injury), the PI will discontinue the participant from the study and refer them back to their physician. The PI also reserves the right to discontinue a participant's involvement if it is in the best interest of the participant's safety.",
+    "index": 74
+  },
+  {
+    "dataId": 3862869,
+    "protocol": "2023-377",
+    "text": "All study procedures will be conducted at the Human Performance Laboratory (HPL) in the Bailey Building on the TCU campus.\n\nBaseline Assessment (Week 0): After providing informed consent and completing the screening visit, eligible participants will complete baseline assessments including: (1) fasting blood draw for HbA1c, fasting glucose, and lipid panel (total cholesterol, LDL, HDL, triglycerides) performed by a certified phlebotomist; (2) body composition assessment via dual-energy X-ray absorptiometry (DEXA) scan; (3) anthropometric measurements (height, weight, BMI, waist circumference); (4) resting blood pressure measured after 5 minutes of seated rest using an automated oscillometric device (average of 3 readings); (5) muscular strength assessment via one-repetition maximum (1-RM) testing for leg press and chest press. 1-RM testing will follow the NSCA guidelines with appropriate warm-up sets and rest periods between attempts.\n\nResistance Training Intervention (Weeks 1-12): Participants randomized to the resistance training group will complete supervised resistance training sessions 3 days per week (typically Monday, Wednesday, Friday) for 12 weeks at the HPL. Each session will last approximately 60 minutes and include a 5-minute warm-up, 45-50 minutes of resistance exercises, and a 5-minute cool-down. The program will include 8 exercises targeting major muscle groups: leg press, leg curl, leg extension, chest press, lat pulldown, seated row, shoulder press, and bicep curl. The program will be progressive: Weeks 1-4: 2 sets of 12-15 repetitions at 60-65% 1-RM; Weeks 5-8: 3 sets of 10-12 repetitions at 65-75% 1-RM; Weeks 9-12: 3 sets of 8-10 repetitions at 75-85% 1-RM. Rest periods between sets will be 60-90 seconds. All sessions will be supervised by trained research personnel who will ensure proper form and technique, monitor for adverse events, and record training loads.\n\nControl Group (Weeks 1-12): Participants in the control group will be asked to maintain their current level of physical activity and dietary habits for the 12-week study period. Control group participants will receive weekly check-in phone calls to monitor health status and physical activity levels. They will be offered the resistance training program at the conclusion of the study.\n\nPost-Intervention Assessment (Week 12): All participants will repeat the same battery of assessments completed at baseline: fasting blood draw, DEXA scan, anthropometric measurements, resting blood pressure, and 1-RM testing.\n\nParticipants in both groups will be asked to maintain a 3-day food diary at baseline and during week 12 to monitor dietary intake. They will also be asked to report any changes in diabetes medication throughout the study period.",
+    "index": 75
+  },
+  {
+    "dataId": 3862824,
+    "protocol": "2023-377",
+    "text": "Participants will be randomly assigned to either the resistance training group or the control group using a computer-generated random number sequence created by a research team member not involved in data collection. Randomization will occur after the baseline assessment is completed. The allocation sequence will be concealed in sequentially numbered, sealed opaque envelopes. The PI will open the envelope and inform the participant of their group assignment.",
+    "index": 76
+  },
+  {
+    "dataId": 3862828,
+    "protocol": "2023-377",
+    "text": "The control group will not receive the resistance training intervention during the 12-week study period. They will be asked to maintain their current level of physical activity. The rationale for using a no-exercise control group is to isolate the effects of the resistance training intervention on the study outcomes. To enhance retention and reduce the ethical concern of withholding a potentially beneficial intervention, control group participants will be offered the full 12-week resistance training program at the conclusion of the study.",
+    "index": 77
+  },
+  {
+    "dataId": 3862820,
+    "protocol": "2023-377",
+    "text": "1. Fasting venous blood samples (approximately 10 mL per draw) will be collected from an antecubital vein by a certified phlebotomist at baseline and post-intervention. Participants will be instructed to fast for at least 8 hours and to avoid strenuous exercise for 24 hours prior to the blood draw. Blood samples will be collected into appropriate vacutainer tubes (EDTA for HbA1c, SST for glucose and lipids). 2. Blood samples will be processed (centrifuged, aliquoted) within 30 minutes of collection at the HPL and transported in a cooler with ice packs to the designated laboratory for analysis. Samples will be stored temporarily at -80 degrees Celsius if not analyzed immediately. 3. Samples will be stored for the duration of the analysis period, no longer than 6 months after the final participant completes the study. 4. Samples will be used only for the analyses described in this protocol. 5. All blood sample processing and analysis will be conducted on the TCU campus in the Department of Kinesiology laboratory. The laboratory is not CLIA certified as this is a research laboratory; results will not be used for clinical diagnosis.",
+    "index": 78
+  },
+  {
+    "dataId": 3862811,
+    "protocol": "2023-377",
+    "text": "Blood samples will be collected using standard venipuncture technique by a certified phlebotomist. Universal precautions will be followed at all times during blood collection, processing, and disposal. Sharps will be disposed of in designated sharps containers. Blood-contaminated materials will be disposed of in biohazard bags. The phlebotomist and all research personnel handling blood samples will have current bloodborne pathogen training. Blood collection supplies (needles, vacutainers, alcohol swabs, gauze, bandages) will be stored in the HPL and checked for expiration dates regularly.",
+    "index": 79
+  },
+  {
+    "dataId": 3863061,
+    "protocol": "2023-377",
+    "text": "There will be no direct costs to participants for any study procedures. Parking will be available at no cost on the TCU campus. Participants will be responsible for their own transportation to and from the study site.",
+    "index": 80
+  },
+  {
+    "dataId": 3863065,
+    "protocol": "2023-377",
+    "text": "Participants will be compensated for their time and effort. Participants in both groups will receive $25 for completing each assessment visit (baseline and post-intervention) for a total of $50. In addition, participants in the resistance training group will receive $5 per completed training session (maximum of 36 sessions over 12 weeks) for a total possible training compensation of $180. Therefore, the maximum total compensation for the resistance training group is $230 and for the control group is $50. Compensation will be provided in the form of Visa gift cards distributed at the post-intervention assessment visit. Participants who withdraw from the study will receive prorated compensation for completed activities ($25 per completed assessment visit and $5 per completed training session).",
+    "index": 81
+  },
+  {
+    "dataId": 3863068,
+    "protocol": "2023-377",
+    "text": "Potential risks include:\n\n1. Musculoskeletal injury: Resistance training carries a risk of muscle strains, joint sprains, and other musculoskeletal injuries. To minimize this risk, all training sessions will be supervised by trained research personnel, proper warm-up will precede all sessions, proper exercise form and technique will be demonstrated and monitored, and the progressive overload protocol allows for gradual adaptation. Participants will be instructed to stop exercise immediately and notify the supervisor if they experience pain.\n\n2. Cardiovascular event: There is a small risk of a cardiovascular event (e.g., abnormal blood pressure response) during exercise. To minimize this risk, participants must obtain physician clearance prior to enrollment. Blood pressure will be monitored before each training session. Participants with uncontrolled hypertension will be excluded. Research personnel will be trained in CPR and emergency procedures, and an AED will be available in the HPL.\n\n3. Hypoglycemia: Participants with T2DM may experience exercise-induced hypoglycemia. To minimize this risk, participants will be advised to check blood glucose before each session. If blood glucose is below 100 mg/dL, participants will be asked to consume a snack before training. If blood glucose is above 300 mg/dL, the session will be postponed. Glucose tablets and juice will be available at each session. Research personnel will be trained to recognize and respond to signs and symptoms of hypoglycemia.\n\n4. Venipuncture risks: Blood draws carry minor risks including bruising, bleeding, infection, and lightheadedness. These risks will be minimized by using a certified phlebotomist and standard aseptic technique. Participants will be seated during blood draws.\n\n5. DEXA scan: The DEXA scan exposes participants to a very low dose of radiation (approximately 1-5 microSieverts per scan), which is well below the annual occupational exposure limit and comparable to the natural background radiation received in a few hours. The risk from this exposure is negligible.\n\n6. Breach of confidentiality: There is a minimal risk that participant information could be inadvertently disclosed. To minimize this risk, data will be de-identified and stored securely as described in the data management plan.\n\n7. Psychological risks: There is a minimal risk of frustration or anxiety related to exercise testing, blood draws, or body composition assessment. Participants will be informed that they can stop any procedure at any time and can withdraw from the study without penalty.",
+    "index": 82
+  },
+  {
+    "dataId": 3863069,
+    "protocol": "2023-377",
+    "text": "There may be direct benefits to participants in the resistance training group, including improved glycemic control, improved cardiovascular risk profile, increased muscular strength, and improved body composition. Control group participants may benefit from the resistance training program offered at the end of the study. All participants may benefit from learning about their health status through the assessments performed at baseline and post-intervention. There is no guarantee that any participant will receive direct benefit from participation. The potential benefits to society include contributing to the scientific understanding of the effects of resistance training on glycemic control and cardiovascular risk factors in individuals with Type 2 Diabetes, which may inform clinical exercise recommendations for this population.",
+    "index": 83
+  },
+  {
+    "dataId": 3863071,
+    "protocol": "2023-377",
+    "text": "All study data will be de-identified using a unique participant ID number. A master linking file connecting participant names to ID numbers will be stored in a separate password-protected file on the PI's TCU OneDrive account, accessible only to the PI. All paper documents (consent forms, screening forms, data collection sheets) will be stored in a locked filing cabinet in the PI's locked office in the Bailey Building. All electronic data will be stored on the PI's password-protected TCU OneDrive account. Only members of the research team will have access to the de-identified data. Blood samples will be labeled with participant ID numbers only and stored in the locked laboratory at -80 degrees Celsius. Research activities (assessments and training sessions) will be conducted in the HPL, which is a private space within the Bailey Building, ensuring participant privacy during study procedures. DEXA scans will be conducted in a private room with only the participant and same-sex research team member present. The 3-day food diaries will be collected and stored with other paper documents in the locked filing cabinet. All data will be retained for a minimum of 3 years following the completion of the study, after which paper documents will be shredded and electronic files will be permanently deleted.",
+    "index": 84
+  },
+  {
+    "dataId": 3863075,
+    "protocol": "2023-377",
+    "text": "Descriptive statistics (means, standard deviations) will be calculated for all outcome variables at baseline and post-intervention for both groups. Independent samples t-tests will be used to compare baseline characteristics between groups to verify successful randomization. The primary analysis will use a 2 (group: resistance training vs. control) x 2 (time: baseline vs. post-intervention) mixed-model analysis of variance (ANOVA) for each outcome variable. The between-subjects factor will be group and the within-subjects factor will be time. The primary outcome of interest will be the group x time interaction effect. If significant interaction effects are found, post-hoc pairwise comparisons will be conducted using Bonferroni correction. Effect sizes (Cohen's d) will be calculated for all significant findings. An intent-to-treat analysis approach will be used, with last observation carried forward for missing data. Statistical significance will be set at p < 0.05. All analyses will be conducted using SPSS (version 29). A power analysis was conducted a priori using G*Power software, indicating that a sample of 34 participants (17 per group) is needed to detect a medium effect size (f = 0.25) with 80% power at an alpha level of 0.05 for the group x time interaction effect. To account for an estimated 15% attrition rate, we will aim to enroll 40 participants (20 per group).",
+    "index": 85
+  },
+  {
+    "dataId": 3863076,
+    "protocol": "2023-377",
+    "text": "The PI will serve as the data safety monitor for this study. The PI will review all adverse events and will be responsible for determining whether the study should be modified or terminated based on safety concerns. Adverse events will be documented on an adverse event form and reported to the TCU IRB in accordance with IRB policies. The PI will review study data on an ongoing basis to monitor for any unexpected patterns or safety signals. If a serious adverse event occurs that is related to the study procedures, the PI will immediately suspend the study and report to the IRB within 24 hours.",
+    "index": 86
+  }
+]

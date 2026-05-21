@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compliance Assistant - How It Works</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #1a2234;
+    background: #fff;
+    line-height: 1.6;
+    font-size: 13px;
+  }
+
+  @page { size: letter; margin: 0.5in; }
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page-break { page-break-before: always; }
+  }
+
+  .page { max-width: 850px; margin: 0 auto; padding: 40px 36px; }
+
+  /* Header */
+  .header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 32px; padding-bottom: 16px; border-bottom: 2px solid #1a2234;
+  }
+  .header h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
+  .header-sub { font-size: 14px; color: #5a6578; margin-top: 2px; }
+  .header-right { text-align: right; font-size: 12px; color: #8b94a7; }
+  .badge {
+    display: inline-block; padding: 3px 10px; border-radius: 4px;
+    font-size: 11px; font-weight: 600; margin-bottom: 6px;
+  }
+  .badge-blue { background: #eff2ff; color: #4f6df5; }
+
+  /* Section headings */
+  h2 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+  h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+  .section-desc { font-size: 12.5px; color: #5a6578; margin-bottom: 16px; }
+  .mb-32 { margin-bottom: 32px; }
+  .mb-24 { margin-bottom: 24px; }
+
+  /* Architecture diagram */
+  .arch-container {
+    background: #f8f9fb; border: 1px solid #e5e8ed; border-radius: 10px;
+    padding: 24px; margin-bottom: 28px;
+  }
+  .arch-row {
+    display: flex; gap: 12px; align-items: stretch; justify-content: center;
+  }
+  .arch-box {
+    border-radius: 8px; padding: 14px 16px; text-align: center;
+    flex: 1; max-width: 200px; display: flex; flex-direction: column;
+    justify-content: center; gap: 4px;
+  }
+  .arch-box-title { font-size: 12px; font-weight: 700; }
+  .arch-box-desc { font-size: 10.5px; color: #5a6578; line-height: 1.4; }
+  .arch-user { background: #dbeafe; border: 1px solid #93c5fd; }
+  .arch-user .arch-box-title { color: #1d4ed8; }
+  .arch-frontend { background: #ede9fe; border: 1px solid #c4b5fd; }
+  .arch-frontend .arch-box-title { color: #6d28d9; }
+  .arch-backend { background: #fef3c7; border: 1px solid #fcd34d; }
+  .arch-backend .arch-box-title { color: #b45309; }
+  .arch-ai { background: #ecfdf5; border: 1px solid #86efac; }
+  .arch-ai .arch-box-title { color: #16a34a; }
+  .arch-data { background: #fff1f2; border: 1px solid #fda4af; }
+  .arch-data .arch-box-title { color: #dc2626; }
+
+  .arch-arrow {
+    display: flex; align-items: center; font-size: 18px; color: #8b94a7;
+    flex-shrink: 0; padding: 0 2px;
+  }
+
+  .arch-labels {
+    display: flex; justify-content: center; gap: 12px; margin-top: 10px;
+  }
+  .arch-label-line {
+    font-size: 10px; color: #8b94a7; text-align: center; max-width: 100px;
+  }
+
+  /* Form tree */
+  .form-tree {
+    background: #f8f9fb; border: 1px solid #e5e8ed; border-radius: 8px;
+    padding: 16px 20px; font-family: 'JetBrains Mono', monospace; font-size: 11.5px;
+    line-height: 1.7; overflow-x: auto;
+  }
+  .tree-section { color: #1a2234; font-weight: 600; }
+  .tree-field { color: #4f6df5; }
+  .tree-type { color: #8b94a7; font-size: 10.5px; }
+  .tree-dep { color: #dc2626; font-size: 10.5px; font-style: italic; }
+  .tree-indent { padding-left: 20px; border-left: 1px solid #ddd; margin-left: 8px; }
+  .tree-connector { color: #ccc; }
+
+  /* Agent reasoning steps */
+  .reasoning-flow {
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .reason-step {
+    display: flex; gap: 10px; align-items: flex-start;
+    padding: 10px 14px; border-radius: 8px; background: #f8f9fb;
+    border: 1px solid #e5e8ed;
+  }
+  .reason-step-num {
+    width: 22px; height: 22px; border-radius: 50%;
+    font-size: 11px; font-weight: 700; display: flex;
+    align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .reason-tool { background: #eff2ff; color: #4f6df5; }
+  .reason-think { background: #fef3c7; color: #b45309; }
+  .reason-fill { background: #ecfdf5; color: #16a34a; }
+  .reason-search { background: #fff1f2; color: #dc2626; }
+  .reason-content { flex: 1; }
+  .reason-label { font-size: 11px; font-weight: 700; margin-bottom: 2px; }
+  .reason-text { font-size: 11.5px; color: #5a6578; line-height: 1.5; }
+  .reason-result {
+    margin-top: 4px; padding: 6px 10px; background: #fff;
+    border: 1px solid #e5e8ed; border-radius: 6px;
+    font-size: 11px; color: #374151; line-height: 1.5;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Data pipeline */
+  .pipeline-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;
+  }
+  .pipeline-card {
+    border: 1px solid #e5e8ed; border-radius: 8px; padding: 14px;
+  }
+  .pipeline-card h4 {
+    font-size: 12px; font-weight: 700; margin-bottom: 6px;
+  }
+  .pipeline-card p { font-size: 11.5px; color: #5a6578; line-height: 1.5; }
+  .pipeline-example {
+    margin-top: 8px; padding: 8px 10px; background: #f8f9fb;
+    border-radius: 6px; font-size: 10.5px; color: #374151;
+    line-height: 1.5; font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Dep chain */
+  .dep-chain {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .dep-node {
+    padding: 6px 12px; border-radius: 6px; font-size: 11px;
+    font-weight: 600; border: 1px solid;
+  }
+  .dep-locked { background: #fef2f2; border-color: #fecaca; color: #dc2626; }
+  .dep-unlocked { background: #ecfdf5; border-color: #bbf7d0; color: #16a34a; }
+  .dep-arrow-right { color: #8b94a7; font-size: 14px; }
+
+  /* Stats bar */
+  .stats-bar {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    margin-bottom: 28px;
+  }
+  .stat {
+    background: #f8f9fb; border: 1px solid #e5e8ed; border-radius: 8px;
+    padding: 14px; text-align: center;
+  }
+  .stat-val { font-size: 22px; font-weight: 700; color: #4f6df5; }
+  .stat-label { font-size: 11px; color: #5a6578; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="header">
+    <div>
+      <h1>Compliance Assistant</h1>
+      <div class="header-sub">System Architecture and Agent Workflow</div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-bar">
+    <div class="stat"><div class="stat-val">3</div><div class="stat-label">Application Modes</div></div>
+    <div class="stat"><div class="stat-val">20</div><div class="stat-label">Form Sections</div></div>
+    <div class="stat"><div class="stat-val">728</div><div class="stat-label">Total Form Elements</div></div>
+    <div class="stat"><div class="stat-val">7</div><div class="stat-label">Agent Tools</div></div>
+  </div>
+
+  <!-- Application Modes -->
+  <h2>Application Modes</h2>
+  <p class="section-desc">The researcher selects a mode at session start. Each mode has its own system prompt, available tools, and UI behavior.</p>
+
+  <div class="pipeline-grid mb-32">
+    <div class="pipeline-card" style="border-left: 3px solid #4f6df5;">
+      <h4 style="font-family: Inter, sans-serif; color: #4f6df5;">Co-Author</h4>
+      <p>Guided section-by-section form completion. The agent fills one section at a time using the uploaded study document, then pauses and waits for the researcher to approve before continuing.</p>
+      <div class="pipeline-example">
+        <strong>Flow:</strong> Agent fills section &rarr; summarizes &rarr; STOPS &rarr; researcher reviews/edits &rarr; clicks Approve &rarr; agent continues to next section<br><br>
+        <strong>Tools:</strong> 6 standard tools (incl. fill_field)<br>
+        <strong>Key feature:</strong> Change tracking &mdash; if researcher edits fields before approving, the diff is sent back to the agent
+      </div>
+    </div>
+    <div class="pipeline-card" style="border-left: 3px solid #f59e0b;">
+      <h4 style="font-family: Inter, sans-serif; color: #b45309;">Review</h4>
+      <p>Expert reviewer mode. The agent reads a completed form and flags compliance issues without modifying any fields. Issues appear as inline annotations on the form.</p>
+      <div class="pipeline-example">
+        <strong>Flow:</strong> Agent reads all fields &rarr; compares against IRB guidance &rarr; flags issues (major/minor) with suggestions<br><br>
+        <strong>Tools:</strong> 6 tools (fill_field removed, flag_issue added)<br>
+        <strong>Key feature:</strong> Agent cannot fill fields &mdash; only flag problems with severity and actionable suggestions
+      </div>
+    </div>
+    <div class="pipeline-card" style="border-left: 3px solid #22a879;">
+      <h4 style="font-family: Inter, sans-serif; color: #16a34a;">Adapt</h4>
+      <p>Resubmission helper. Pre-fills from a prior approved protocol and identifies fields that need updates for the new study.</p>
+      <div class="pipeline-example">
+        <strong>Flow:</strong> Agent loads previous submission &rarr; pre-fills fields &rarr; identifies what needs changing &rarr; researcher confirms/modifies<br><br>
+        <strong>Tools:</strong> 6 standard tools (incl. fill_field)<br>
+        <strong>Key feature:</strong> Tracks what changed vs. original protocol
+      </div>
+    </div>
+  </div>
+
+  <!-- Architecture -->
+  <h2>System Architecture</h2>
+  <p class="section-desc">End-to-end flow from user input to form completion.</p>
+  <div class="arch-container">
+    <div class="arch-row">
+      <div class="arch-box arch-user">
+        <div class="arch-box-title">Researcher</div>
+        <div class="arch-box-desc">Uploads study document and chats with assistant</div>
+      </div>
+      <div class="arch-arrow">&rarr;</div>
+      <div class="arch-box arch-frontend">
+        <div class="arch-box-title">Split-View UI</div>
+        <div class="arch-box-desc">Chat panel (left) + Cayuse form (right), real-time field updates via SSE</div>
+      </div>
+      <div class="arch-arrow">&rarr;</div>
+      <div class="arch-box arch-backend">
+        <div class="arch-box-title">Agent Runtime</div>
+        <div class="arch-box-desc">Agentic loop: tool calls, form state tracking, dependency evaluation</div>
+      </div>
+      <div class="arch-arrow">&rarr;</div>
+      <div class="arch-box arch-ai">
+        <div class="arch-box-title">Claude (Bedrock)</div>
+        <div class="arch-box-desc">Converse API with tool use, reasons over form fields and study content</div>
+      </div>
+    </div>
+    <div style="display:flex; justify-content:center; margin-top:12px;">
+      <div class="arch-arrow" style="transform: rotate(90deg); margin: 0 0 0 390px;">&darr;</div>
+    </div>
+    <div style="display:flex; justify-content:center; margin-top:4px;">
+      <div class="arch-box arch-data" style="max-width: 420px;">
+        <div class="arch-box-title">Data Layer</div>
+        <div class="arch-box-desc">
+          Cayuse eTemplate (728 elements) &bull; Field writing prompts &bull; Past submission vectors (Cohere Embed v4) &bull; Form state mirror
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form Structure -->
+  <h2>Cayuse Form Structure</h2>
+  <p class="section-desc">The eTemplate is a deeply nested tree of sections, questions, and input fields. Sections unlock based on previous answers (conditional visibility).</p>
+
+  <h3>Conditional Visibility Chain</h3>
+  <p class="section-desc">Sections are hidden until their dependency field is selected. Here is the unlock chain for the main form path:</p>
+  <div class="dep-chain">
+    <div class="dep-node dep-unlocked">Introduction</div>
+    <div class="dep-arrow-right">&rarr; select "Yes"  &rarr;</div>
+    <div class="dep-node dep-unlocked">ASPRIn</div>
+    <div class="dep-arrow-right">&rarr;</div>
+    <div class="dep-node dep-unlocked">Submission Type</div>
+    <div class="dep-arrow-right">&rarr; select "Initial" + "Full Board/Expedited" &rarr;</div>
+    <div class="dep-node dep-unlocked">Study Information</div>
+    <div class="dep-arrow-right">&rarr;</div>
+    <div class="dep-node dep-unlocked">Participants</div>
+    <div class="dep-arrow-right">&rarr;</div>
+    <div class="dep-node dep-unlocked">Recruitment</div>
+    <div class="dep-arrow-right">&rarr; ...</div>
+  </div>
+
+  <h3>Example: "Participant Population" Section (nested fields)</h3>
+  <div class="form-tree mb-24">
+    <div><span class="tree-section">Participant Population &amp; Recruitment</span></div>
+    <div class="tree-indent">
+      <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">Adults (18-65)</span> <span class="tree-type">checkbox</span></div>
+      <div class="tree-indent">
+        <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">Healthy Adults</span> <span class="tree-type">checkbox</span> <span class="tree-dep">&larr; shows when "Adults (18-65)" checked</span></div>
+        <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">Students (18+)</span> <span class="tree-type">checkbox</span> <span class="tree-dep">&larr; shows when "Adults (18-65)" checked</span></div>
+        <div><span class="tree-connector">&boxur;</span> <span class="tree-field">Specific age range</span> <span class="tree-type">textbox</span> <span class="tree-dep">&larr; shows when "Students" checked</span></div>
+      </div>
+      <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">Children (Minors)</span> <span class="tree-type">checkbox</span></div>
+      <div class="tree-indent">
+        <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">0-6 yrs old</span> <span class="tree-type">checkbox</span> <span class="tree-dep">&larr; shows when "Children" checked</span></div>
+        <div><span class="tree-connector">&boxur;</span> <span class="tree-field">7-17 yrs old</span> <span class="tree-type">checkbox</span></div>
+      </div>
+      <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">Number of Participants</span> <span class="tree-type">textbox</span></div>
+      <div><span class="tree-connector">&boxvr;</span> <span class="tree-field">Inclusion Criteria</span> <span class="tree-type">textarea</span></div>
+      <div><span class="tree-connector">&boxur;</span> <span class="tree-field">Exclusion Criteria</span> <span class="tree-type">textarea</span></div>
+    </div>
+  </div>
+
+  <div class="page-break"></div>
+
+  <!-- Agent Tools -->
+  <h2>Agent Tool Set</h2>
+  <p class="section-desc">The AI agent has 6 tools it uses to navigate and fill the form. It decides which tool to call and in what order.</p>
+
+  <div class="pipeline-grid mb-32">
+    <div class="pipeline-card">
+      <h4>get_visible_sections</h4>
+      <p>Lists which form sections are currently visible based on the fields already selected. The agent calls this after filling radio/checkbox fields to discover newly unlocked sections.</p>
+    </div>
+    <div class="pipeline-card">
+      <h4>get_fields_in_section</h4>
+      <p>Returns all fillable fields within a section, including their type (text, radio, checkbox), whether they are required, and their current value.</p>
+    </div>
+    <div class="pipeline-card">
+      <h4>get_field_guidance</h4>
+      <p>Retrieves writing instructions, common mistakes, and examples from past approved submissions for a specific field. The agent calls this before writing any free-text response.</p>
+    </div>
+    <div class="pipeline-card">
+      <h4>fill_field</h4>
+      <p>Sets the value of a form field. For text fields, provides the written response. For radio/checkbox, selects or deselects the option. Updates appear instantly in the UI.</p>
+    </div>
+    <div class="pipeline-card">
+      <h4>search_past_submissions</h4>
+      <p>Semantic search over a vector database of previously approved IRB submissions. Returns similar text with relevance scores. Uses Cohere Embed v4 for embeddings.</p>
+    </div>
+    <div class="pipeline-card">
+      <h4>get_form_progress</h4>
+      <p>Returns a summary of how many fields have been filled across all sections. The agent uses this to track its own progress and decide what to work on next.</p>
+    </div>
+  </div>
+
+  <!-- Agent Reasoning Example -->
+  <h2>Agent Reasoning: Worked Example</h2>
+  <p class="section-desc">Here is the exact sequence of steps the agent takes to fill the "Study Design" field, using a yoga intervention study as the uploaded document.</p>
+
+  <div class="reasoning-flow mb-32">
+    <div class="reason-step">
+      <div class="reason-step-num reason-tool">1</div>
+      <div class="reason-content">
+        <div class="reason-label">TOOL: get_fields_in_section("Study Information")</div>
+        <div class="reason-text">Agent asks: what fields are in this section?</div>
+        <div class="reason-result">
+          3862587 &mdash; Study Design (textarea, required, empty)<br>
+          3862588 &mdash; Outcomes (textarea, required, empty)<br>
+          3862589 &mdash; Background (textarea, required, empty)<br>
+          Study Site Location &mdash; checkboxes for campus, external, online...
+        </div>
+      </div>
+    </div>
+
+    <div class="reason-step">
+      <div class="reason-step-num reason-tool">2</div>
+      <div class="reason-content">
+        <div class="reason-label">TOOL: get_field_guidance(3862587 - Study Design)</div>
+        <div class="reason-text">Before writing, the agent retrieves the writing prompt and past examples.</div>
+        <div class="reason-result">
+          <strong>Prompt:</strong> "Describe the overall design and structure of your study, including the type of study (e.g., randomized controlled trial, quasi-experimental, cross-sectional survey, qualitative interview, mixed methods)..."<br><br>
+          <strong>Common issues:</strong><br>
+          &bull; Not naming the specific study design type<br>
+          &bull; Failing to describe how participants will be assigned to groups<br><br>
+          <strong>Past examples:</strong><br>
+          &bull; 2022-368: "This study will use a cross-sectional survey design to examine the mental health of Division I college football players at TCU..."<br>
+          &bull; 2023-345: "This is a triple-blind, randomized, placebo-controlled trial to assess the effects of a 12-week supplementation..."
+        </div>
+      </div>
+    </div>
+
+    <div class="reason-step">
+      <div class="reason-step-num reason-search">3</div>
+      <div class="reason-content">
+        <div class="reason-label">TOOL: search_past_submissions("randomized controlled trial yoga intervention athletes anxiety")</div>
+        <div class="reason-text">Agent searches for past submissions relevant to this specific study to find similar language and structure.</div>
+        <div class="reason-result">
+          Result 1 (92.4% match): 2023-377 &mdash; "This is a randomized controlled trial. Participants with Type 2 Diabetes will be randomly assigned to either a resistance training group or a control group..."<br>
+          Result 2 (87.1% match): 2023-345 &mdash; "This is a triple-blind, randomized, placebo-controlled trial..."
+        </div>
+      </div>
+    </div>
+
+    <div class="reason-step">
+      <div class="reason-step-num reason-think">4</div>
+      <div class="reason-content">
+        <div class="reason-label">REASONING</div>
+        <div class="reason-text">
+          "The uploaded document describes a randomized controlled trial with two groups (yoga intervention vs. wait-list control), 60 participants, 8-week duration. The field prompt asks me to name the specific design type and describe group assignment. Past approved submissions for RCTs typically state the design type up front, then describe randomization. I should follow that pattern."
+        </div>
+      </div>
+    </div>
+
+    <div class="reason-step">
+      <div class="reason-step-num reason-fill">5</div>
+      <div class="reason-content">
+        <div class="reason-label">TOOL: fill_field(3862587, value)</div>
+        <div class="reason-text">Agent writes the response and fills the field. It appears instantly on the form in the UI.</div>
+        <div class="reason-result">
+          "This is a randomized controlled trial (RCT) with a parallel two-group design. Approximately 60 Division I varsity athletes at TCU will be randomly assigned using a computer-generated randomization sequence (1:1 allocation) to one of two conditions: (1) an 8-week instructor-led yoga intervention group, or (2) a wait-list control group that will maintain their usual routine. The yoga intervention consists of two 60-minute sessions per week for 8 weeks (16 sessions total). Assessments will be conducted at three time points: baseline (week 0), mid-intervention (week 4), and post-intervention (week 8)..."
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data sources -->
+  <h2>Data Sources Powering the Agent</h2>
+  <p class="section-desc">Three data layers give the agent institutional knowledge beyond what the uploaded document contains.</p>
+
+  <div class="pipeline-grid mb-32">
+    <div class="pipeline-card">
+      <h4>Cayuse eTemplate</h4>
+      <p>The full IRB "Initial Submission" form parsed as a JSON tree. Contains 728 elements across 20 sections, with conditional visibility rules (display dependencies) between fields.</p>
+      <div class="pipeline-example">
+        "type": "textarea"<br>
+        "dataId": 3862587<br>
+        "text": "Study Design"<br>
+        "dependencies": [<br>
+        &nbsp;&nbsp;{"type": "displayed",<br>
+        &nbsp;&nbsp;&nbsp;"targetId": 3862423}<br>
+        ]
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <h4>Field Writing Prompts</h4>
+      <p>Custom writing guidance for each free-text field. Encodes what IRB reviewers expect: content requirements, formatting, common mistakes, and institutional policies.</p>
+      <div class="pipeline-example">
+        <strong>Field: Inclusion Criteria</strong><br>
+        "List the specific criteria that participants must meet to be eligible..."<br><br>
+        <strong>Common issues:</strong><br>
+        &bull; Criteria too vague (e.g., "healthy adults")<br>
+        &bull; Omitting key requirements mentioned elsewhere
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <h4>Past Submission Vectors</h4>
+      <p>87 text entries from 3 previously approved TCU protocols, embedded using Cohere Embed v4 (1024-dim). Enables semantic search to find similar past responses for any field.</p>
+      <div class="pipeline-example">
+        <strong>Protocols in store:</strong><br>
+        &bull; 2022-368: Mental health in college football (survey)<br>
+        &bull; 2023-345: Synbiotic supplementation (RCT)<br>
+        &bull; 2023-377: Resistance training for T2DM (RCT)
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>

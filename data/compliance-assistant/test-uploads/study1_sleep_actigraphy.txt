@@ -1,0 +1,42 @@
+Study Title: The Relationship Between Sleep Quality and Academic Performance in First-Year College Students: An Actigraphy-Based Investigation
+
+Principal Investigator: Dr. Maria Chen, Department of Psychology, Texas Christian University
+Co-Investigator: Jordan Williams (Graduate Research Assistant)
+
+Background and Purpose:
+Sleep deprivation is a pervasive problem among college students, with estimates suggesting that over 60% of students report poor sleep quality. First-year students are particularly vulnerable due to the transition to independent living, changes in social schedules, and academic pressures. While prior research has relied heavily on self-report measures such as the Pittsburgh Sleep Quality Index (PSQI), few studies have used objective measures like wrist actigraphy to track actual sleep patterns over extended periods. This study aims to objectively measure sleep quality in first-year TCU students using actigraphy devices and correlate these measurements with academic outcomes (GPA) and self-reported well-being across one full semester.
+
+Study Design:
+This is a prospective observational cohort study. No intervention is being administered.
+
+Participants:
+We will recruit 80 first-year students (ages 18-20) from TCU. Participants must be enrolled full-time and living on campus. Exclusion criteria include diagnosed sleep disorders (e.g., sleep apnea, narcolepsy), current use of prescription sleep medications, and night-shift employment. We aim for a gender-balanced sample reflective of TCU demographics.
+
+Recruitment:
+Participants will be recruited through flyers posted in first-year residence halls, announcements in introductory psychology courses (PSY 10113), and the TCU SONA system. Interested students will complete an online screening questionnaire to confirm eligibility.
+
+Procedures:
+1. Orientation session (30 min): Participants will attend a group orientation in the Behavioral Sciences Building where they will receive their actigraphy device (Actigraph GT9X Link), complete the informed consent process, and fill out baseline questionnaires (PSQI, PHQ-9 for depression screening, demographics).
+2. Daily monitoring (14 weeks): Participants will wear the actigraph on their non-dominant wrist continuously. They will also complete a brief daily sleep diary via a smartphone app (REDCap mobile) each morning (~2 minutes).
+3. Mid-semester check-in (Week 7): Participants will return to the lab for device data download, battery check, and completion of mid-semester questionnaires.
+4. End-of-semester session (30 min): Participants will return the actigraphy device and complete final questionnaires. Academic records (semester GPA) will be obtained from the Registrar with participant consent.
+
+Data Collection:
+- Actigraphy data: sleep onset, wake time, total sleep time, sleep efficiency, wake after sleep onset (WASO)
+- Self-report: PSQI, PHQ-9, daily sleep diary, demographic questionnaire
+- Academic: semester GPA from Registrar (with signed FERPA release)
+
+Risks:
+The risks associated with this study are minimal. Some participants may experience minor skin irritation from wearing the actigraph continuously. There is a small risk of emotional discomfort when completing the depression screening (PHQ-9). If a participant scores above the clinical threshold on the PHQ-9, they will be provided with information about the TCU Counseling Center. There are no physical risks beyond those encountered in daily life.
+
+Benefits:
+Participants will receive personalized sleep reports at the end of the study summarizing their sleep patterns. They may also benefit from increased awareness of their sleep habits. The study will contribute to understanding sleep-academic performance relationships, which could inform campus health initiatives.
+
+Compensation:
+Participants will receive SONA research credits (3 credits total) for the orientation and final sessions. Additionally, participants who complete at least 80% of daily sleep diaries will be entered into a drawing for one of four $50 Amazon gift cards.
+
+Confidentiality:
+All data will be de-identified using a study ID number. The linking file connecting names to study IDs will be stored in an encrypted file on a password-protected TCU computer accessible only to the PI and co-investigator. Actigraphy data will be stored on a secure TCU server. Academic records will be destroyed after being linked to study IDs. All data will be retained for 5 years after study completion per TCU policy.
+
+Funding:
+This study is funded by a TCU Research and Creative Activities Fund (RCAF) grant awarded to Dr. Chen ($8,500).

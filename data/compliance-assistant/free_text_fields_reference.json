@@ -1,0 +1,1815 @@
+[
+  {
+    "dataId": "3862371",
+    "name": "TextBox8",
+    "type": "textbox",
+    "label": "Provide the name of the TCU funding source or grant.",
+    "rawLabel": "Provide the name of the TCU funding source or grant.",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862370
+    ]
+  },
+  {
+    "dataId": "3862374",
+    "name": "TextBox7",
+    "type": "textbox",
+    "label": "Describe other funding sources.",
+    "rawLabel": "Describe other funding sources.",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862373
+    ]
+  },
+  {
+    "dataId": "3862378",
+    "name": "TextBox4",
+    "type": "textbox",
+    "label": "If you could not find a sponsor using the FIND SPONSORS tool, enter the sponsor name. TCU Office of Research Compliance&nbsp;will help you identify the correct sponsor to select so that you can update this section.",
+    "rawLabel": "If you could not find a sponsor using the FIND SPONSORS tool, enter the sponsor name. TCU Office of Research Compliance&nbsp;will help you identify the correct sponsor to select so that you can update this section.",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862375
+    ]
+  },
+  {
+    "dataId": "3862382",
+    "name": "TextBox9",
+    "type": "textbox",
+    "label": "Provide the Proposal or Award # assigned by the TCU Office of Sponsored Programs&nbsp;(OSP).",
+    "rawLabel": "Provide the Proposal or Award # assigned by the TCU Office of Sponsored Programs&nbsp;(OSP).<br><br>",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862380,
+      3862381
+    ]
+  },
+  {
+    "dataId": "3862386",
+    "name": "TextBox10",
+    "type": "textbox",
+    "label": "Enter lead institution/prime awardee name.",
+    "rawLabel": "Enter lead institution/prime awardee name.",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862385
+    ]
+  },
+  {
+    "dataId": "3862391",
+    "name": "TextBox13",
+    "type": "textbox",
+    "label": "Please add the Full name of the funding source and provide the Proposal or Award # assigned by the Office of Sponsored Programs.",
+    "rawLabel": "Please add the Full name of the funding source and provide the Proposal or Award # assigned by the Office of Sponsored Programs.",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862389
+    ]
+  },
+  {
+    "dataId": "3862393",
+    "name": "TextBox14",
+    "type": "textbox",
+    "label": "Please add the Full name of the funding source and provide the Proposal or Award # assigned by the Office of Sponsored Programs.",
+    "rawLabel": "Please add the Full name of the funding source and provide the Proposal or Award # assigned by the Office of Sponsored Programs.",
+    "helpText": "",
+    "required": false,
+    "section": "Administrative Sponsored Programs Research Information (ASPRIn)",
+    "sectionName": "Section4",
+    "dependencies": [
+      3862392
+    ]
+  },
+  {
+    "dataId": "3862435",
+    "name": "TextArea45",
+    "type": "textarea",
+    "label": "Please list the name of the Principal Investigator of the study&nbsp;at&nbsp;the facility where the research will be conducted/ approved.",
+    "rawLabel": "Please list the name of the Principal Investigator of the study&nbsp;at&nbsp;the facility where the research will be conducted/ approved.",
+    "helpText": "",
+    "required": false,
+    "section": "Research Personnel",
+    "sectionName": "Section3",
+    "dependencies": [
+      3862401,
+      3862401
+    ]
+  },
+  {
+    "dataId": "3862440",
+    "name": "TextArea44",
+    "type": "textarea",
+    "label": "Please list where the research will be conducted/ the IRB that provided approval.&nbsp; Describe your role in the study if you are not leading it.",
+    "rawLabel": "<ol><li>Please list where the research will be conducted/ the IRB that provided approval.&nbsp;</li><li> Describe your role in the study if you are not leading it.</li></ol>",
+    "helpText": "",
+    "required": true,
+    "section": "External IRB approval ",
+    "sectionName": "Section11",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862470",
+    "name": "TextArea3",
+    "type": "textarea",
+    "label": "Summary of the Activity(ies)",
+    "rawLabel": "<strong>Summary of the Activity(ies)</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Not Research/ Not Human Subject Research Determination Request",
+    "sectionName": "Section5",
+    "dependencies": [
+      3862467,
+      3862461,
+      3862456,
+      3862447,
+      3862450,
+      3862453
+    ]
+  },
+  {
+    "dataId": "3862476",
+    "name": "TextArea84",
+    "type": "textarea",
+    "label": "Explain why the setting is considered an established or commonly accepted education setting.Explain why this research involves normal educational practices.",
+    "rawLabel": "<ol><li>Explain why the setting is considered an established or commonly accepted education setting.</li><li>Explain why this research involves normal educational practices.</li></ol>",
+    "helpText": "45 CFR 46 does not specify that normal educational practice takes place in schools only.  The IRB defines an educational setting as any setting where an educational experience takes place.  For example, a public school, an after-school club or program, a Boy or Girl Scout meeting, a professional development seminar for school district personnel, or a postsecondary education setting.<br><br>The IRB considers educational time to be a valuable commodity, and thus, the design of a research study that will be carried out in an educational setting should be developed with this in mind.  At the minimum, the research should not waste student educational time, and may offer benefit to the individual and/or classwide educational experience.  The IRB will consider the proposed methodology for the study in light of both time requirements and likelihood of benefit in order to determine whether it qualifies as normal educational practice.  In all cases, the IRB will need to assess risks to all proposed participants in the study to determine the level of review required.<br>In some cases, it may be helpful if the PI can provide a letter verifying that the appropriate school administrator (e.g, principal, superintendent, school board) considers the proposed research study to be normal educational practice. <br>",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862475
+    ]
+  },
+  {
+    "dataId": "3862519",
+    "name": "TextBox31",
+    "type": "textbox",
+    "label": "Provide the web address where this research project is listed. If there is no website, provide information on how the federal&nbsp;department/agency publishes this information:",
+    "rawLabel": "Provide the web address where this research project is listed. If there is no website, provide information on how the federal&nbsp;department/agency publishes this information:",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862518
+    ]
+  },
+  {
+    "dataId": "3862535",
+    "name": "TextBox28",
+    "type": "textbox",
+    "label": "Please provide the exact location on-campus where study procedures will take place.",
+    "rawLabel": "Please provide the exact location on-campus where study procedures will take place.",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862534
+    ]
+  },
+  {
+    "dataId": "3862537",
+    "name": "TextBox29",
+    "type": "textbox",
+    "label": "Please provide the exact location(s) off-campus where study procedures will take place.",
+    "rawLabel": "Please provide the exact location(s) off-campus where study procedures will take place.",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862536
+    ]
+  },
+  {
+    "dataId": "3862548",
+    "name": "TextBox30",
+    "type": "textbox",
+    "label": "Please describe.",
+    "rawLabel": "Please describe.",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862547
+    ]
+  },
+  {
+    "dataId": "3862549",
+    "name": "TextBox32",
+    "type": "textbox",
+    "label": "Study Purpose",
+    "rawLabel": "<strong>Study Purpose</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862511,
+      3862532,
+      3862514,
+      3862517,
+      3862509,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862550",
+    "name": "TextArea85",
+    "type": "textarea",
+    "label": "Hypotheses/Aim/Objectives",
+    "rawLabel": "<strong>Hypotheses/Aim/Objectives</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862511,
+      3862532,
+      3862514,
+      3862517,
+      3862509,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862551",
+    "name": "TextArea87",
+    "type": "textarea",
+    "label": "Background",
+    "rawLabel": "<strong>Background</strong>",
+    "helpText": "<ul><li>This item lets you expand on the summary. Again, it should be brief ~ a few paragraphs.</li><li>If you copy and paste from your proposal, be sure to accept destination formatting and edit as necessary. <strong>In particular, change any past tense verbs to future tense.<br></strong></li><li><strong>Note the request to cite references in the text and to upload the bibliography as a separate document. The IRB does not need to receive the full bibliography that supports the proposal.</strong></li></ul>",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862511,
+      3862532,
+      3862514,
+      3862517,
+      3862509,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862553",
+    "name": "TextArea88",
+    "type": "textarea",
+    "label": "Participant Population & Recruitment",
+    "rawLabel": "<strong>Participant Population & Recruitment</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862511,
+      3862514,
+      3862517,
+      3862509,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862558",
+    "name": "TextBox33",
+    "type": "textbox",
+    "label": "Please list who will serve as the point of contact who will distribute your recruitment material.",
+    "rawLabel": "<em>Please list who will serve as the point of contact who will distribute your recruitment material.</em>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862557
+    ]
+  },
+  {
+    "dataId": "3862561",
+    "name": "TextArea89",
+    "type": "textarea",
+    "label": "Study Procedures & Methods",
+    "rawLabel": "<strong>Study Procedures & Methods</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862511,
+      3862514,
+      3862517,
+      3862509,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862563",
+    "name": "TextArea73",
+    "type": "textarea",
+    "label": "Research that includes the use of deception should justify the use of this method and demonstrate that risks to subjects will be minimized by using procedures that are consistent with sound research design, including:",
+    "rawLabel": "Research that includes the use of deception should justify the use of this method and demonstrate that risks to subjects will be minimized by using procedures that are consistent with sound research design, including:",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862509
+    ]
+  },
+  {
+    "dataId": "3862564",
+    "name": "TextArea74",
+    "type": "textarea",
+    "label": "Please describe the debriefing process. You can review the TCU IRB Deception and Debriefing guidelines document.",
+    "rawLabel": "Please describe the debriefing process. You can review the <a href=\"https://research.tcu.edu/wp-content/uploads/2021/07/Deception-and-Debreifing-Guidelines_7.2021-clean.docx\" target=\"_blank\">TCU IRB Deception and Debriefing guidelines</a> document.",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862509
+    ]
+  },
+  {
+    "dataId": "3862575",
+    "name": "TextArea27",
+    "type": "textarea",
+    "label": "Inclusion/Exclusion criteria & chart identification process",
+    "rawLabel": "<strong>Inclusion/Exclusion criteria & chart identification process</strong>",
+    "helpText": "Here's what to consider when developing inclusion criteria:<br><ul><li><strong>Demographics:</strong> Age range, gender, ethnicity, etc.</li><li><strong>Diagnosis:</strong> Specific diagnoses or related conditions relevant to your study.</li><li><strong>Procedures:</strong> Specific procedures or interventions received.</li><li><strong>Dates:</strong> Date of diagnosis, treatment, or admission window for chart review.</li><li><strong>Medical History:</strong> Specific co-morbidities or past medical history relevant to your study.</li></ul>Reasons for exclusion could be:<br><ul><li><strong>Incomplete records:</strong> Charts missing crucial information for your study.</li><li><strong>Wrong diagnosis:</strong> Patients with diagnoses not relevant to your study question.</li><li><strong>Alternative procedures:</strong> Patients receiving different approaches compared to your study focus.</li><li><strong>Timeframe:</strong> Charts outside the designated date range.</li><li><strong>Consent issues:</strong> Lack of proper informed consent for research use of data.</li></ul><strong>Remember:</strong><br><ul><li>Be specific and clear in defining both inclusion and exclusion criteria.</li><li>Pilot test your criteria on a small sample to refine them if needed.</li><li>Ensure your criteria are relevant to your research question and generate a focused study population.</li></ul>",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862532
+    ]
+  },
+  {
+    "dataId": "3862576",
+    "name": "TextBox36",
+    "type": "textbox",
+    "label": "Total Number of Charts",
+    "rawLabel": "<strong>Total Number of Charts</strong><br>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862532
+    ]
+  },
+  {
+    "dataId": "3862577",
+    "name": "TextArea28",
+    "type": "textarea",
+    "label": "Study Design & Methodology",
+    "rawLabel": "<strong>Study Design & Methodology</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862532
+    ]
+  },
+  {
+    "dataId": "3862579",
+    "name": "TextArea91",
+    "type": "textarea",
+    "label": "Cost & Compensation",
+    "rawLabel": "<strong>Cost & Compensation</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862511,
+      3862509,
+      3862514,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862580",
+    "name": "TextArea29",
+    "type": "textarea",
+    "label": "Data Management & Privacy/Confidentiality",
+    "rawLabel": "<strong>Data Management & </strong><strong>Privacy/Confidentiality</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862509,
+      3862511,
+      3862514,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862581",
+    "name": "TextArea31",
+    "type": "textarea",
+    "label": "Data Analysis",
+    "rawLabel": "<strong>Data Analysis</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862484,
+      3862502,
+      3862509,
+      3862511,
+      3862514,
+      3862500,
+      3862518,
+      3862526,
+      3862527,
+      3862528,
+      3862529,
+      3862530
+    ]
+  },
+  {
+    "dataId": "3862584",
+    "name": "TextArea52",
+    "type": "textarea",
+    "label": "Describe where the data or specimens will be stored and how long they will be stored.How will the data or specimens be labeled?Who will have access to the data or specimens?Will data or specimens be shared with other investigators?",
+    "rawLabel": "<ol><li>Describe where the data or specimens will be stored and how long they will be stored.</li><li>How will the data or specimens be labeled?</li><li>Who will have access to the data or specimens?</li><li>Will data or specimens be shared with other investigators?</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Guided Exempt Determination",
+    "sectionName": "Section20",
+    "dependencies": [
+      3862583
+    ]
+  },
+  {
+    "dataId": "3862587",
+    "name": "TextArea4",
+    "type": "textarea",
+    "label": "Study Design",
+    "rawLabel": "<strong>Study Design</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Study Information",
+    "sectionName": "Section7",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862588",
+    "name": "TextArea50",
+    "type": "textarea",
+    "label": "Outcomes",
+    "rawLabel": "<strong>Outcomes</strong>",
+    "helpText": "An outcome measure is the result of a treatment or intervention that is used to objectively determine the baseline function<br>of a patient at the beginning of the clinical trial. Once the treatment or intervention has commenced, the same instrument<br>can be used to determine progress and efficacy. Outcome measures normally stem from overarching goals and aims.<br>Outcome measures should be measurable, which indicates that they are assessed by a numerical value. <br>",
+    "required": true,
+    "section": "Study Information",
+    "sectionName": "Section7",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862589",
+    "name": "TextArea5",
+    "type": "textarea",
+    "label": "Background",
+    "rawLabel": "<strong>Background</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Study Information",
+    "sectionName": "Section7",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862593",
+    "name": "TextBox15",
+    "type": "textbox",
+    "label": "Please provide the exact location on-campus where study procedures will take place.",
+    "rawLabel": "Please provide the exact location on-campus where study procedures will take place.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Information",
+    "sectionName": "Section7",
+    "dependencies": [
+      3862592
+    ]
+  },
+  {
+    "dataId": "3862595",
+    "name": "TextBox16",
+    "type": "textbox",
+    "label": "Please provide the exact location(s) off-campus where study procedures will take place.",
+    "rawLabel": "Please provide the exact location(s) off-campus where study procedures will take place.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Information",
+    "sectionName": "Section7",
+    "dependencies": [
+      3862594
+    ]
+  },
+  {
+    "dataId": "3862607",
+    "name": "TextBox11",
+    "type": "textbox",
+    "label": "Please decribe.",
+    "rawLabel": "Please decribe.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Information",
+    "sectionName": "Section7",
+    "dependencies": [
+      3862606
+    ]
+  },
+  {
+    "dataId": "3862620",
+    "name": "TextBox2",
+    "type": "textbox",
+    "label": "If you have a specific age range please provide it here.",
+    "rawLabel": "If you have a specific age range please provide it here.",
+    "helpText": "",
+    "required": false,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": [
+      3862614,
+      3862616,
+      3862617
+    ]
+  },
+  {
+    "dataId": "3862628",
+    "name": "TextArea72",
+    "type": "textarea",
+    "label": "What additional precautions to protect&nbsp;participants and study team members will be utilized?&nbsp;",
+    "rawLabel": "What additional precautions to protect&nbsp;participants and study team members will be utilized?&nbsp;",
+    "helpText": "",
+    "required": false,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": [
+      3862627
+    ]
+  },
+  {
+    "dataId": "3862632",
+    "name": "TextArea71",
+    "type": "textarea",
+    "label": "Subpart C Certification information",
+    "rawLabel": "<strong>Subpart C Certification information</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": [
+      3862631
+    ]
+  },
+  {
+    "dataId": "3862641",
+    "name": "TextBox18",
+    "type": "textbox",
+    "label": "Please describe.",
+    "rawLabel": "Please describe.",
+    "helpText": "",
+    "required": false,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": [
+      3862640
+    ]
+  },
+  {
+    "dataId": "3862642",
+    "name": "TextBox19",
+    "type": "textbox",
+    "label": "Number of Participants",
+    "rawLabel": "<strong>Number of Participants</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862643",
+    "name": "TextBox20",
+    "type": "textbox",
+    "label": "If this is a multi-site study with a Reliance Agreement pending IRB approval and TCU IRB will serve as the IRB of Record, list the total number of participants through all study sites.",
+    "rawLabel": "If this is a multi-site study with a Reliance Agreement pending IRB approval and TCU IRB will serve as the IRB of Record, list the total number of participants through all study sites.",
+    "helpText": "",
+    "required": false,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": [
+      3862404
+    ]
+  },
+  {
+    "dataId": "3862644",
+    "name": "TextArea6",
+    "type": "textarea",
+    "label": "Inclusion Criteria",
+    "rawLabel": "<strong>Inclusion Criteria</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862645",
+    "name": "TextArea7",
+    "type": "textarea",
+    "label": "Exclusion Criteria",
+    "rawLabel": "<strong>Exclusion Criteria</strong>",
+    "helpText": "<strong>Note* It is important to understand that exclusion criterion are not the opposite of inclusion criteria. For example: If inclusion criteria are female, over age 18, and having a diagnosis of hypertension, exclusion criteria are not male, under 18, and not having a diagnosis of hypertension. Persons excluded from a study like this might be females who meet inclusion criteria but who are pregnant, nursing, or have a co-morbid diagnosis of diabetes.<br><br></strong><strong>Additional Considerations:</strong><br><ul><li><strong>Balance:</strong> Strive for a balance between being inclusive enough to recruit an adequate sample size and being selective enough to ensure a homogenous study population that minimizes confounding factors.</li><li><strong>Ethical Considerations:</strong> Ensure that exclusion criteria are not discriminatory or unfairly exclude certain groups without a valid scientific or ethical reason.</li></ul>",
+    "required": true,
+    "section": "Participant Population & Recruitment",
+    "sectionName": "Section6",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862662",
+    "name": "TextBox17",
+    "type": "textbox",
+    "label": "Please describe.",
+    "rawLabel": "<em>Please describe.</em>",
+    "helpText": "",
+    "required": false,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862661
+    ]
+  },
+  {
+    "dataId": "3862663",
+    "name": "TextArea1",
+    "type": "textarea",
+    "label": "Recruitment Process",
+    "rawLabel": "<strong>Recruitment Process<br></strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862648,
+      3862654,
+      3862649,
+      3862650,
+      3862651,
+      3862652,
+      3862658,
+      3862659,
+      3862656,
+      3862653
+    ]
+  },
+  {
+    "dataId": "3862664",
+    "name": "TextArea75",
+    "type": "textarea",
+    "label": "Existing Records",
+    "rawLabel": "<strong>Existing Records</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862655
+    ]
+  },
+  {
+    "dataId": "3862666",
+    "name": "TextBox1",
+    "type": "textbox",
+    "label": "Please list who will serve as the point of contact who will distribute your recruitment material.",
+    "rawLabel": "<em>Please list who will serve as the point of contact who will distribute your recruitment material.</em>",
+    "helpText": "",
+    "required": false,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862656
+    ]
+  },
+  {
+    "dataId": "3862669",
+    "name": "TextArea11",
+    "type": "textarea",
+    "label": "Will investigators prospectively collect information to recruit potential participants for this study prior to consent? If so, please explain this process,&nbsp;then;&nbsp;Describe what identifiable information the study will collect for&nbsp;recruitment purposes. (For example, will they collect email addresses to send out recruitment messages/materials)&nbsp;What will happen with data collected for recruitment purposes? Explain reasons for keeping the data or describe how it will be destroyed.&nbsp;",
+    "rawLabel": "<ol><li>Will investigators prospectively collect information to recruit potential participants for this study prior to consent? If so, please explain this process,&nbsp;<strong>then;&nbsp;</strong></li><li>Describe what identifiable information the study will collect for&nbsp;recruitment purposes. <em>(For example, will they collect email addresses to send out recruitment messages/materials)</em></li><li>&nbsp;What will happen with data collected for recruitment purposes? Explain reasons for keeping the data or describe how it will be destroyed.&nbsp;</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862658,
+      3862659
+    ]
+  },
+  {
+    "dataId": "3862673",
+    "name": "TextArea10",
+    "type": "textarea",
+    "label": "Provide a complete description of study screening procedures( e.g., telephone interview, online questionnaire, etc.). This should include how, when, where, and by whom potential participants will be screened.Specify if you will collect identifiable, non-identifiable information, or both&nbsp;for screening purposes.How long will the screening process take",
+    "rawLabel": "<ol><li>Provide a complete description of study screening procedures( e.g., telephone interview, online questionnaire, etc.). </li><li>This should include how, when, where, and by whom potential participants will be screened.</li><li>Specify if you will collect identifiable, non-identifiable information, or both&nbsp;for screening purposes.</li><li>How long will the screening process take</li></ol>",
+    "helpText": "",
+    "required": true,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862672
+    ]
+  },
+  {
+    "dataId": "3862674",
+    "name": "TextArea12",
+    "type": "textarea",
+    "label": "Explain what you will do with the data for people who turn out to not be eligible for your study or are eligible and decide not to participate. Describe if the data collected for screening&nbsp;will be retained separate from study data, combined with study data, or destroyed.",
+    "rawLabel": "<ol><li>Explain what you will do with the data for people who turn out to not be eligible for your study or are eligible and decide not to participate.</li><li> Describe if the data collected for screening&nbsp;will be retained separate from study data, combined with study data, or destroyed.</li></ol>",
+    "helpText": "",
+    "required": true,
+    "section": "Recruitment & Screening",
+    "sectionName": "Section8",
+    "dependencies": [
+      3862672
+    ]
+  },
+  {
+    "dataId": "3862688",
+    "name": "TextArea76",
+    "type": "textarea",
+    "label": "Research Information Sheet Process",
+    "rawLabel": "<strong>Research Information Sheet Process</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862678
+    ]
+  },
+  {
+    "dataId": "3862689",
+    "name": "TextArea19",
+    "type": "textarea",
+    "label": "Informed Consent Process",
+    "rawLabel": "<strong>Informed Consent Process</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862679,
+      3862680,
+      3862681,
+      3862682,
+      3862683,
+      3862684
+    ]
+  },
+  {
+    "dataId": "3862692",
+    "name": "TextArea70",
+    "type": "textarea",
+    "label": "Participant withdrawal procedures",
+    "rawLabel": "<strong>Participant withdrawal procedures</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862678,
+      3862679,
+      3862680,
+      3862681,
+      3862682,
+      3862683,
+      3862684
+    ]
+  },
+  {
+    "dataId": "3862698",
+    "name": "TextArea21",
+    "type": "textarea",
+    "label": "Describe how the risk in this research is minimal.Without the protection of informed consent, how are the rights and welfare of the participants protected (not adversely affected)&nbsp;Explain why it is not practicable to carry out the research without the waiver or alteration.&nbsp;Design issues or feasibility issues; pick one and provide justification based on the selected option.Explain why it is not practicable to carry out the research without using identifiable private information or biospecimens, if applicable. Design issues or feasibility issues; pick one and provide justification based on the selected option. If it may be appropriate to provide participants with additional pertinent information after the study is done, explain what type of information you anticipate giving the subjects and how it would be handled.",
+    "rawLabel": "<ol><li>Describe how the risk in this research is minimal.</li><li>Without the protection of informed consent, how are the rights and welfare of the participants protected (not adversely affected)&nbsp;</li><li>Explain why it is not practicable to carry out the research without the waiver or alteration.&nbsp;Design issues or feasibility issues; pick one and provide justification based on the selected option.</li><li>Explain why it is not practicable to carry out the research without using identifiable private information or biospecimens, if applicable. Design issues or feasibility issues; pick one and provide justification based on the selected option.</li><li> If it may be appropriate to provide participants with additional pertinent information after the study is done, explain what type of information you anticipate giving the subjects and how it would be handled.</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862697
+    ]
+  },
+  {
+    "dataId": "3862700",
+    "name": "TextArea25",
+    "type": "textarea",
+    "label": "Describe how the risk in this research is minimal.Without the protection of informed consent, how are the rights and welfare of the participants protected (not adversely affected)Explain why it is not practicable to carry out the research without the waiver or alteration. Design issues or feasibility issues; pick one and provide justification based on the selected option.Explain why it is not practicable to carry out the research without using identifiable private information or biospecimens, if applicable. Design issues or feasibility issues; pick one and provide justification based on the selected option.If it may be appropriate to provide participants with additional pertinent information after the study is done, explain what type of information you anticipate giving the subjects and how it would be handled.",
+    "rawLabel": "<ol><li>Describe how the risk in this research is minimal.</li><li>Without the protection of informed consent, how are the rights and welfare of the participants protected (not adversely affected)</li><li>Explain why it is not practicable to carry out the research without the waiver or alteration. Design issues or feasibility issues; pick one and provide justification based on the selected option.</li><li>Explain why it is not practicable to carry out the research without using identifiable private information or biospecimens, if applicable. Design issues or feasibility issues; pick one and provide justification based on the selected option.</li><li>If it may be appropriate to provide participants with additional pertinent information after the study is done, explain what type of information you anticipate giving the subjects and how it would be handled.</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862699
+    ]
+  },
+  {
+    "dataId": "3862706",
+    "name": "TextArea22",
+    "type": "textarea",
+    "label": "Plan for providing information relevant to the research when documentation is waived  If it may be appropriate to provide participants with a written statement regarding the research before participation.  If so, provide a plan for providing subjects with information about the research.  Include a description of the type of information you anticipate providing the subjects (e.g., an information letter).",
+    "rawLabel": "<strong><br>Plan for providing information relevant to the research when documentation is waived<br></strong><br>  If it may be appropriate to provide participants with a written statement regarding the research before participation.  If so, provide a plan for providing subjects with information about the research.  Include a description of the type of information you anticipate providing the subjects (e.g., an information letter).",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862701
+    ]
+  },
+  {
+    "dataId": "3862710",
+    "name": "TextArea23",
+    "type": "textarea",
+    "label": "Please describe.",
+    "rawLabel": "Please describe.",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862709
+    ]
+  },
+  {
+    "dataId": "3862721",
+    "name": "TextArea24",
+    "type": "textarea",
+    "label": "If including Non-English-speaking participants, please include a plan to have consent documents or other study documents translated after initial approval, by either student or faculty that is fluent in the desired language (give names and document translation and back translation) or a translation service/vendor.",
+    "rawLabel": "If including Non-English-speaking participants, please include a plan to have consent documents or other study documents translated after initial approval, by either student or faculty that is fluent in the desired language (give names and document translation and back translation) or a translation service/vendor.",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862686
+    ]
+  },
+  {
+    "dataId": "3862758",
+    "name": "TextArea26",
+    "type": "textarea",
+    "label": "",
+    "rawLabel": "",
+    "helpText": "",
+    "required": false,
+    "section": "Informed Consent & HIPAA",
+    "sectionName": "Section9",
+    "dependencies": [
+      3862757
+    ]
+  },
+  {
+    "dataId": "3862783",
+    "name": "TextArea2",
+    "type": "textarea",
+    "label": "Please explain any extra considerations/ resources that will be made available to further protect participants.",
+    "rawLabel": "Please explain any extra considerations/ resources that will be made available to further protect participants.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862782
+    ]
+  },
+  {
+    "dataId": "3862788",
+    "name": "TextArea34",
+    "type": "textarea",
+    "label": "Please explain any extra considerations/ resources that will be made available to further protect participants.",
+    "rawLabel": "Please explain any extra considerations/ resources that will be made available to further protect participants.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862787
+    ]
+  },
+  {
+    "dataId": "3862793",
+    "name": "TextArea35",
+    "type": "textarea",
+    "label": "Please explain any extra considerations/ resources that will be made available to further protect participants.",
+    "rawLabel": "Please explain any extra considerations/ resources that will be made available to further protect participants.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862792
+    ]
+  },
+  {
+    "dataId": "3862798",
+    "name": "TextArea40",
+    "type": "textarea",
+    "label": "Describe the recording procedures.&nbsp;If transcribing data please indicate and provide the name of the person(s) or service/vendor that will conduct the transcription. Noting what data will be sent to the transcription service.",
+    "rawLabel": "<ol><li>Describe the recording procedures.&nbsp;</li><li>If transcribing data please indicate and provide the name of the person(s) or service/vendor that will conduct the transcription. Noting what data will be sent to the transcription service.</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862797
+    ]
+  },
+  {
+    "dataId": "3862802",
+    "name": "TextArea41",
+    "type": "textarea",
+    "label": "Describe data security measures that will be implemented to ensure the protection of the recordings as they occur, and if any necessary transfers.Describe how and where the recordings will be stored including data security measures that will be implemented to ensure protection.Describe how and when the recordings will be destroyed.",
+    "rawLabel": "<div><br><br></div><ol><li>Describe data security measures that will be implemented to ensure the protection of the recordings as they occur, and if any necessary transfers.</li><li>Describe how and where the recordings will be stored including data security measures that will be implemented to ensure protection.</li><li>Describe how and when the recordings will be destroyed.</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862795
+    ]
+  },
+  {
+    "dataId": "3862804",
+    "name": "TextArea43",
+    "type": "textarea",
+    "label": "Explain how and where you will take notes on naturally occurring interaction and conversations among [place/people/situation] and if you will participate.",
+    "rawLabel": "Explain how and where you will take notes on naturally occurring interaction and conversations among [place/people/situation] and if you will participate.<br>",
+    "helpText": "<ul><li>Participant observation may require a<a href=\"https://research.tcu.edu/wp-content/uploads/2021/08/Letter-of-Support-Guidelines_8.2021.docx\" target=\"_blank\"> Letter of Support&nbsp;</a>from a ?gatekeeper? of the institution/organization involved (e.g. the director, owner, manager). </li><li>Participant observation and observation usually require informed consent from participants as well.  If it is not feasible to present each individual with a written consent form, think about how you might make people aware of your research and give them the opportunity to opt out of participation (such as by using a Study Information Sheet).  If they opt out, do not include them in your notes or project.</li><li>Observation in a public place does not require informed consent as long as:<ul><li>Those observed are not children</li><li>The observations are recorded in a manner such that the subjects cannot be identified</li><li>The observations could not reasonably place the subject at risk (legal, financial, employment, reputation) if they became known outside the research.</li></ul></li></ul>",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862803
+    ]
+  },
+  {
+    "dataId": "3862806",
+    "name": "TextArea42",
+    "type": "textarea",
+    "label": "Please describe the procedure that will be used and the part of the body that will be scanned.&nbsp;Please explain and justify the data that will be collected and the number of scans needed to answer the research questions.&nbsp;",
+    "rawLabel": "<ol><li>Please describe the procedure that will be used and the part of the body that will be scanned.&nbsp;</li><li>Please explain and justify the data that will be collected and the number of scans needed to answer the research questions.&nbsp;</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862805
+    ]
+  },
+  {
+    "dataId": "3862811",
+    "name": "TextArea49",
+    "type": "textarea",
+    "label": "Collection & Handling",
+    "rawLabel": "<strong>Collection & Handling</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862810
+    ]
+  },
+  {
+    "dataId": "3862812",
+    "name": "TextBox5",
+    "type": "textbox",
+    "label": "Please provide the IBC study number.",
+    "rawLabel": "Please provide the IBC study number.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862810
+    ]
+  },
+  {
+    "dataId": "3862818",
+    "name": "TextArea33",
+    "type": "textarea",
+    "label": "Provide the testing location and indicate whether or not the testing labs used is&nbsp;CLIA certified.Please indicate if genetic test results will be returned to participants or their physicians?Provide detail regarding specifically what results will be returned, to whom they will be returned, and how they will be returned.Please indicate if this study is part of a Genome-Wide Association Study (GWAS) and whether the data will be forwarded to the NIH dbGaP.",
+    "rawLabel": "<ol><li>Provide the testing location and indicate whether or not the testing labs used is&nbsp;<a href=\"https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laboratory-improvement-amendments-clia\" target=\"_blank\">CLIA certified</a>.</li><li>Please indicate if genetic test results will be returned to participants or their physicians?</li><li>Provide detail regarding specifically what results will be returned, to whom they will be returned, and how they will be returned.</li><li>Please indicate if this study is part of a Genome-Wide Association Study (GWAS) and whether the data will be forwarded to the NIH dbGaP.</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862817
+    ]
+  },
+  {
+    "dataId": "3862820",
+    "name": "TextArea32",
+    "type": "textarea",
+    "label": "Please address each question if collecting and/or analyzing biological specimens, describe:How will the biological specimens be or have been collected?How the biological specimens will be stored and where?How long the biological specimens will be stored?How long the biological specimens will be used?Provide the testing location and indicate whether or not the testing labs used is CLIA certified or if testing will be done on campus provide the lab location on-campus.If you plan to ship biological samples to a relying institution, you need to provide a Material Transfer Agreement for each site. (Please contact the Office of Sponsored Programs at sponsoredprograms@tcu.edu to request an MTA)&nbsp;Please note that MTAs can be submitted via an amendment. Be sure to state that the fully executed MTA will be submitted via an amendment before any samples are shipped.",
+    "rawLabel": "Please address each question if collecting and/or analyzing biological specimens, describe:<br><br><ol><li>How will the biological specimens be or have been collected?</li><li>How the biological specimens will be stored and where?</li><li>How long the biological specimens will be stored?</li><li>How long the biological specimens will be used?</li><li>Provide the testing location and indicate whether or not the testing labs used is <a href=\"https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laboratory-improvement-amendments-clia\" target=\"_blank\">CLIA certified</a> or if testing will be done on campus provide the lab location on-campus.</li></ol>If you plan to ship biological samples to a relying institution, you need to provide a Material Transfer Agreement for each site. (Please contact the Office of Sponsored Programs at <a href=\"mailto:%22SponsoredPrograms@tcu.edu%22\" target=\"_blank\">sponsoredprograms@tcu.edu</a> to request an MTA)&nbsp;<br><br><em style=\"background-color: initial;\"><strong>Please note that MTAs can be submitted via an amendment. Be sure to state that the fully executed MTA will be submitted via an amendment before any samples are shipped.</strong></em><br>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862807
+    ]
+  },
+  {
+    "dataId": "3862824",
+    "name": "TextArea77",
+    "type": "textarea",
+    "label": "Describe how randomization will be carried out in this study.",
+    "rawLabel": "Describe how randomization will be carried out in this study.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862823
+    ]
+  },
+  {
+    "dataId": "3862826",
+    "name": "TextArea78",
+    "type": "textarea",
+    "label": "Describe study blinding, including whether the trial is single-blind or double-blind.",
+    "rawLabel": "Describe study blinding, including whether the trial is single-blind or double-blind.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862825
+    ]
+  },
+  {
+    "dataId": "3862828",
+    "name": "TextArea48",
+    "type": "textarea",
+    "label": "Describe the use of a placebo or control group (e.g., lack of behavioral intervention) and provide a rationale for its use.",
+    "rawLabel": "Describe the use of a placebo or control group (e.g., lack of behavioral intervention) and provide a rationale for its use.",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862827
+    ]
+  },
+  {
+    "dataId": "3862849",
+    "name": "TextArea79",
+    "type": "textarea",
+    "label": "Please describe",
+    "rawLabel": "Please describe",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862848
+    ]
+  },
+  {
+    "dataId": "3862864",
+    "name": "TextArea47",
+    "type": "textarea",
+    "label": "Procedures for Sharing Results",
+    "rawLabel": "<strong>Procedures for Sharing Results</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862862
+    ]
+  },
+  {
+    "dataId": "3862869",
+    "name": "TextArea17",
+    "type": "textarea",
+    "label": "Study Procedures",
+    "rawLabel": "<strong>Study Procedures</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862762,
+      3862765,
+      3862770,
+      3862771,
+      3862780,
+      3862785,
+      3862790,
+      3862803,
+      3862805,
+      3862807,
+      3862822,
+      3862829,
+      3862829
+    ]
+  },
+  {
+    "dataId": "3862874",
+    "name": "TextBox34",
+    "type": "textbox",
+    "label": "Total Number of Charts to review",
+    "rawLabel": "<strong>Total Number of Charts to review</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862777,
+      3862778,
+      3862779
+    ]
+  },
+  {
+    "dataId": "3862875",
+    "name": "TextArea90",
+    "type": "textarea",
+    "label": "Study Design/ Methodology",
+    "rawLabel": "<strong>Study Design/ Methodology</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862777,
+      3862778,
+      3862779,
+      3862655
+    ]
+  },
+  {
+    "dataId": "3862882",
+    "name": "TextArea36",
+    "type": "textarea",
+    "label": "Research that includes the use of deception should justify the&nbsp;use of this method and demonstrate that risks to subjects will be minimized by using procedures that are consistent with sound research design, including:",
+    "rawLabel": "Research that includes the use of deception should justify the&nbsp;use of this method and demonstrate that risks to subjects will be minimized by using procedures that are consistent with sound research design, including:<br>",
+    "helpText": "<strong><em>Examples of Deception</em>:<br></strong><br>Subjects complete a quiz, and are falsely told that they did very poorly, regardless of their actual performance.<br><br>The study includes a researcher?s ?confederate? (an individual who poses as a subject) but whose behavior in the study is actually part of the researcher?s experimental design.<br> <br><strong><em>Example of Incomplete Disclosure</em>:<br></strong><br>Subjects are asked to take a quiz for research but they are not told that the research question involves how background noise affects their ability to concentrate.<br><br>Participants are asked to read a list of words or view a series of images but are not told that their memory will be tested.<br>",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862772
+    ]
+  },
+  {
+    "dataId": "3862883",
+    "name": "TextArea37",
+    "type": "textarea",
+    "label": "Please describe the debriefing process. You can review the TCU IRB Deception and Debriefing guidelines document.",
+    "rawLabel": "Please describe the debriefing process. You can review the <a href=\"https://research.tcu.edu/wp-content/uploads/2021/07/Deception-and-Debreifing-Guidelines_7.2021-clean.docx\" target=\"_blank\">TCU IRB Deception and Debriefing guidelines</a> document.",
+    "helpText": "Debriefing is a process that can be undertaken at the conclusion of any research activity, regardless of whether deception is part of the research design. It is appropriate to provide participants with a simple, clear, and informative explanation of the experiment's purpose and the methods that were used, as well as bibliographical citations advising them where they can obtain additional information on the subject being studied.",
+    "required": false,
+    "section": "Study Procedures",
+    "sectionName": "Section10",
+    "dependencies": [
+      3862772,
+      3862773
+    ]
+  },
+  {
+    "dataId": "3862892",
+    "name": "TextBox3",
+    "type": "textbox",
+    "label": "Please enter the IND#, issued by the FDA.&nbsp;",
+    "rawLabel": "Please enter the IND#, issued by the FDA.&nbsp;",
+    "helpText": "",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": [
+      3862891
+    ]
+  },
+  {
+    "dataId": "3862898",
+    "name": "TextBox35",
+    "type": "textbox",
+    "label": "Please describe.&nbsp;",
+    "rawLabel": "Please describe.&nbsp;",
+    "helpText": "",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": [
+      3862897
+    ]
+  },
+  {
+    "dataId": "3862907",
+    "name": "TextBox26",
+    "type": "textbox",
+    "label": "Please describe.",
+    "rawLabel": "<strong>Please describe.</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": [
+      3862906
+    ]
+  },
+  {
+    "dataId": "3862940",
+    "name": "TextArea80",
+    "type": "textarea",
+    "label": "Please describe.",
+    "rawLabel": "<strong>Please describe.</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": [
+      3862939
+    ]
+  },
+  {
+    "dataId": "3862942",
+    "name": "TextArea51",
+    "type": "textarea",
+    "label": "Drug/Biologic/Food/Cosmetic Description",
+    "rawLabel": "<strong>Drug/Biologic/Food/Cosmetic Description</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862949",
+    "name": "TextArea81",
+    "type": "textarea",
+    "label": "Device Description",
+    "rawLabel": "<strong>Device Description</strong>",
+    "helpText": "<em><strong style=\"font-weight: bold;\"><em>Medical Device:</em></strong><em> An instrument, apparatus, implement, machine, contrivance, implant, in vitro reagent, or other similar or related article, including a component part, or accessory which is:<br></em><br>  <br><ul><li><em><em style=\"font-weight: bold;\">intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease or other conditions </em></em></li></ul><em style=\"font-weight: bold;\">&nbsp;(Examples: EEG, ECG, MRI,&nbsp;NIRS, TENS, Ultrasound, microneurography electrodes, low-level laser, pneumobelt, hearing aid, X-ray) or;&nbsp; &nbsp;&nbsp;<br></em><br>  <br><ul><li><em><em style=\"font-weight: bold;\">intended to affect the structure <u>or</u> any function of the body.  </em></em></li></ul><em style=\"font-weight: bold;\"> (Examples: pacemakers, implants, brain stimulation devices, prosthetics)<br></em><br>  <em style=\"font-weight: bold;\"><br></em><strong>Any devices used in this study, even those which do not meet the definition above, must be described in the protocol - including how they operate and how they will be utilized with subjects.</strong><br><br><br><strong></strong><br><strong>Testing Safety</strong></em><em>: A scientific evaluation to determine if the device?s probable benefits to health outweigh any probable risks, from use of the device for its intended uses and conditions of use and when accompanied by adequate directions and warnings against unsafe use. Studies evaluating the safety of a device shall adequately demonstrate the absence of unreasonable risk of illness or injury associated with the use of the device for its intended uses and conditions of use.  </em><a href=\"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfCFR/CFRSearch.cfm?FR=860.7\" target=\"_blank\"><em>21 CFR 860.7(d)(1)</em></a><em><br> <br></em><em><br></em><br>  <strong><em>Testing Effectiveness:</em></strong><em> A scientific evaluation to determine whether a device is effective in providing clinically significant results in a significant portion of the target population, from use of the device for its intended uses and conditions of use and when accompanied by adequate directions for use and warnings against unsafe use.  </em><a href=\"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfCFR/CFRSearch.cfm?FR=860.7\" target=\"_blank\"><em>21 CFR 860.7(e)(1)</em></a><em><br></em><br>",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": []
+  },
+  {
+    "dataId": "3862952",
+    "name": "TextArea83",
+    "type": "textarea",
+    "label": "NSR Justification",
+    "rawLabel": "<strong>NSR Justification</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Study Products",
+    "sectionName": "Section19",
+    "dependencies": [
+      3862951
+    ]
+  },
+  {
+    "dataId": "3862960",
+    "name": "TextBox12",
+    "type": "textbox",
+    "label": "Provide the Smart IRB application #",
+    "rawLabel": "Provide the Smart IRB application #",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862959
+    ]
+  },
+  {
+    "dataId": "3862963",
+    "name": "TextBox6",
+    "type": "textbox",
+    "label": "Please describe.",
+    "rawLabel": "Please describe.",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862962
+    ]
+  },
+  {
+    "dataId": "3862964",
+    "name": "TextArea53",
+    "type": "textarea",
+    "label": "Please list the following for all participating sites&nbsp;that will conduct this study. Identify who will serve as participating site PI.Numerate each relying Institution's full name (No acronyms) & Federal Wide&nbsp;Assurance (FWA)# (see&nbsp;Approved FWA Database)Name(s) and credentials of all investigators and their study team members. Identify who will serve as site PI and provide their email address.Please attach the current Human Subject Research&nbsp;CITI training certificates for all sub-investigators and their teams.",
+    "rawLabel": "Please list the following for all participating sites&nbsp;that will conduct this study. Identify who will serve as participating site PI.<br><br><ul><li>Numerate each relying Institution's full name (No acronyms) & Federal Wide&nbsp;Assurance (FWA)# (see&nbsp;<a href=\"https://ohrp.cit.nih.gov/search/search.aspx?styp=bsc\" target=\"_blank\">Approved FWA Database</a>)</li><li>Name(s) and credentials of all investigators and their study team members. Identify who will serve as site PI and provide their email address.</li><li>Please attach the current Human Subject Research&nbsp;CITI training certificates for all sub-investigators and their teams.</li></ul>",
+    "helpText": "",
+    "required": true,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862407
+    ]
+  },
+  {
+    "dataId": "3862978",
+    "name": "TextArea39",
+    "type": "textarea",
+    "label": "Please describe what will be done differently at each site.&nbsp;e.g., not enrolling minors, not collecting specimens, different recruitment methods.",
+    "rawLabel": "Please describe what will be done differently at each site.&nbsp;e.g., not enrolling minors, not collecting specimens, different recruitment methods.<br>",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862977
+    ]
+  },
+  {
+    "dataId": "3862982",
+    "name": "TextArea57",
+    "type": "textarea",
+    "label": "Provide information&nbsp; regarding :Will biological samples be collected at the relying institution or shipped to the relying institution? Identify the lab and lab location.If you plan to ship biological samples to a relying institution, have you need to provide a Material Transfer Agreement for each site. (Please contact the Office of Sponsored Programs at&nbsp;sponsoredprograms@tcu.edu to request an MTA) Please note MTAs can be submitted via an amendment. Be sure to state that the fully executed MTA will be submitted via an amendment before any samples are shipped.Be specific about what kind of biological samples will be shipped and what test will be conducted at each site.&nbsp;",
+    "rawLabel": "Provide information&nbsp; regarding :<br><br><ol><li>Will biological samples be collected at the relying institution or shipped to the relying institution? Identify the lab and lab location.</li><li>If you plan to ship biological samples to a relying institution, have you need to provide a Material Transfer Agreement for each site. (Please contact the Office of Sponsored Programs at&nbsp;<a href=\"mailto:%22SponsoredPrograms@tcu.edu%22\" target=\"_blank\">sponsoredprograms@tcu.edu</a> to request an MTA) <em><strong>Please note MTAs can be submitted via an amendment. Be sure to state that the fully executed MTA will be submitted via an amendment before any samples are shipped.</strong></em></li><li>Be specific about what kind of biological samples will be shipped and what test will be conducted at each site.&nbsp;</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862981
+    ]
+  },
+  {
+    "dataId": "3862991",
+    "name": "TextArea58",
+    "type": "textarea",
+    "label": "Provide details of the COI management measures or attach a description of the COI management plan. NOTE:Do NOT provide details of the interest beyond management measures.If providing via an attachment enter \"N/A\".",
+    "rawLabel": "Provide details of the COI management measures or attach a description of the COI management plan. <br><strong>NOTE:</strong><br><ul><li>Do NOT provide details of the interest beyond management measures.</li><li>If providing via an attachment enter \"N/A\".</li></ul>",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862990
+    ]
+  },
+  {
+    "dataId": "3862993",
+    "name": "TextArea56",
+    "type": "textarea",
+    "label": "Please provide&nbsp;Participating sites' IRB/HRPP contact name, title, and email address",
+    "rawLabel": "Please provide&nbsp;Participating sites' IRB/HRPP contact name, title, and email address",
+    "helpText": "",
+    "required": true,
+    "section": "Multi-Site (Reviewing)",
+    "sectionName": "Section2",
+    "dependencies": [
+      3862407
+    ]
+  },
+  {
+    "dataId": "3862999",
+    "name": "TextBox21",
+    "type": "textbox",
+    "label": "Provide the Smart IRB application #",
+    "rawLabel": "Provide the Smart IRB application #",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Relying)",
+    "sectionName": "Section16",
+    "dependencies": [
+      3862998
+    ]
+  },
+  {
+    "dataId": "3863003",
+    "name": "TextBox22",
+    "type": "textbox",
+    "label": "Please describe.",
+    "rawLabel": "Please describe.",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Relying)",
+    "sectionName": "Section16",
+    "dependencies": [
+      3863002
+    ]
+  },
+  {
+    "dataId": "3863004",
+    "name": "TextBox23",
+    "type": "textbox",
+    "label": "Reviewing institution's IRB Protocol #",
+    "rawLabel": "Reviewing institution's IRB Protocol #",
+    "helpText": "",
+    "required": true,
+    "section": "Multi-Site (Relying)",
+    "sectionName": "Section16",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863005",
+    "name": "TextBox24",
+    "type": "textbox",
+    "label": "Reviewing site's Principal Investigator's name and email address.",
+    "rawLabel": "Reviewing site's Principal Investigator's name and email address.",
+    "helpText": "",
+    "required": true,
+    "section": "Multi-Site (Relying)",
+    "sectionName": "Section16",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863006",
+    "name": "TextArea46",
+    "type": "textarea",
+    "label": "Please provide Reviewing sites' IRB/HRPP contact name, title, and email address",
+    "rawLabel": "Please provide Reviewing sites' IRB/HRPP contact name, title, and email address",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Relying)",
+    "sectionName": "Section16",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863021",
+    "name": "TextArea59",
+    "type": "textarea",
+    "label": "Provide a more detailed description of the selected study activities.",
+    "rawLabel": "Provide a more detailed description of the selected study activities.",
+    "helpText": "",
+    "required": false,
+    "section": "Multi-Site (Relying)",
+    "sectionName": "Section16",
+    "dependencies": [
+      3863012
+    ]
+  },
+  {
+    "dataId": "3863024",
+    "name": "TextArea18",
+    "type": "textarea",
+    "label": "Describe who will conduct the data analysis and provide the name of their institution.&nbsp;You do not need to name members of the TCU study team; only those who are not affiliated with TCU who will conduct data analysis.&nbsp;",
+    "rawLabel": "Describe who will conduct the data analysis and provide the name of their institution.&nbsp;<br><br><strong><em>You do not need to name members of the TCU study team; only those who are not affiliated with TCU who will conduct data analysis.&nbsp;</em></strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Collaborative Research",
+    "sectionName": "Section18",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863025",
+    "name": "TextArea54",
+    "type": "textarea",
+    "label": "Specify what collected data will be sent for analysis.",
+    "rawLabel": "Specify what collected data will be sent for analysis.",
+    "helpText": "",
+    "required": true,
+    "section": "Collaborative Research",
+    "sectionName": "Section18",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863030",
+    "name": "TextArea55",
+    "type": "textarea",
+    "label": "How will the data be shared with the external collaborator(s) and how will it be stored?",
+    "rawLabel": "How will the data be shared with the external collaborator(s) and how will it be stored?",
+    "helpText": "",
+    "required": true,
+    "section": "Collaborative Research",
+    "sectionName": "Section18",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863031",
+    "name": "TextArea69",
+    "type": "textarea",
+    "label": "Describe what will happen to the data once the analysis is complete.",
+    "rawLabel": "Describe what will happen to the data once the analysis is complete.",
+    "helpText": "",
+    "required": true,
+    "section": "Collaborative Research",
+    "sectionName": "Section18",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863034",
+    "name": "TextBox25",
+    "type": "textbox",
+    "label": "Please state where this research will be conducted. Cities, regions countries where research will be conducted.",
+    "rawLabel": "Please state where this research will be conducted. Cities, regions countries where research will be conducted.",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863035",
+    "name": "TextArea68",
+    "type": "textarea",
+    "label": "For International research please provide an understanding of the local context by describing any political, legal, and cultural considerations specific to this study location.",
+    "rawLabel": "For International research please provide an understanding of the local context by describing any political, legal, and cultural considerations specific to this study location.",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863036",
+    "name": "TextArea66",
+    "type": "textarea",
+    "label": "Describe the scientific/ethical justification for conducting the research in an international setting.",
+    "rawLabel": "Describe the scientific/ethical justification for conducting the research in an international setting.",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863037",
+    "name": "TextArea67",
+    "type": "textarea",
+    "label": "Describe the societal and cultural beliefs in the country that may impact research conduct or alter the risks or benefits to subjects",
+    "rawLabel": "Describe the societal and cultural beliefs in the country that may impact research conduct or alter the risks or benefits to subjects",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863040",
+    "name": "TextArea60",
+    "type": "textarea",
+    "label": "Please describe these risks and the steps you will take to minimize these risks.",
+    "rawLabel": "Please describe these risks and the steps you will take to minimize these risks.",
+    "helpText": "",
+    "required": false,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": [
+      3863039
+    ]
+  },
+  {
+    "dataId": "3863045",
+    "name": "TextArea61",
+    "type": "textarea",
+    "label": "Describe how the researcher will have culturally appropriate access to the community.",
+    "rawLabel": "Describe how the researcher will have culturally appropriate access to the community.",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": [
+      3863043,
+      3863044
+    ]
+  },
+  {
+    "dataId": "3863049",
+    "name": "TextArea62",
+    "type": "textarea",
+    "label": "Provide contact information for the local IRB or Ethics Committee equivalent.",
+    "rawLabel": "Provide contact information for the local IRB or Ethics Committee equivalent.",
+    "helpText": "",
+    "required": false,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": [
+      3863047
+    ]
+  },
+  {
+    "dataId": "3863053",
+    "name": "TextArea65",
+    "type": "textarea",
+    "label": "Please describe.",
+    "rawLabel": "Please describe.",
+    "helpText": "",
+    "required": false,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": [
+      3863052
+    ]
+  },
+  {
+    "dataId": "3863056",
+    "name": "TextArea63",
+    "type": "textarea",
+    "label": "Describe how the researchers collecting data internationally will communicate with the TCU IRB in the event the project requires changes or there are reportable incidents.",
+    "rawLabel": "Describe how the researchers collecting data internationally will communicate with the TCU IRB in the event the project requires changes or there are reportable incidents.",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863057",
+    "name": "TextArea64",
+    "type": "textarea",
+    "label": "Identify a local contact who is fluent in the local language and provide their contact information:",
+    "rawLabel": "Identify a local contact who is fluent in the local language and provide their contact information:",
+    "helpText": "",
+    "required": true,
+    "section": "International Research",
+    "sectionName": "Section17",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863061",
+    "name": "TextArea8",
+    "type": "textarea",
+    "label": "Please describe all costs to participants&nbsp;associated with the study.",
+    "rawLabel": "Please describe all costs to participants&nbsp;associated with the study.",
+    "helpText": "",
+    "required": false,
+    "section": "Cost & Compensation",
+    "sectionName": "Section13",
+    "dependencies": [
+      3863060
+    ]
+  },
+  {
+    "dataId": "3863065",
+    "name": "TextArea9",
+    "type": "textarea",
+    "label": "Describe in detail if participants will be compensated for their time and effort to complete the study procedures. Compensation can take on many forms and can include monetary (cash, gift cards, etc.) and/or non-monetary (gifts, course credit, extra credit, SONA credit, etc.) payments to subjects.&nbsp; For non-monetary items, please provide an approximate value.Note:&nbsp;&nbsp;Compensation cannot be random, if utilizing a raffle, you must describe how you will choose which participants (every 5th or 10th, or 15th for example). Your consent document should clearly specify what form(s) and how compensation would be provided to participants in your study and the amount of payment. You must also include and describe if participants can still receive full or partial compensation should they either withdraw or are not able to complete the study procedures for any reason.",
+    "rawLabel": "Describe in detail if participants will be compensated for their time and effort to complete the study procedures. Compensation can take on many forms and can include monetary (cash, gift cards, etc.) and/or non-monetary (gifts, course credit, extra credit, SONA credit, etc.) payments to subjects.&nbsp;<br><strong> For non-monetary items, please provide an approximate value.</strong><u style=\"font-weight: bold;\"><br></u><br><strong>Note:&nbsp;&nbsp;<strong>Compensation cannot be random, if utilizing a raffle, you must describe how you will choose which participants (every 5<sup>th</sup> or 10<sup>th</sup>, or 15<sup>th</sup> for example). Your consent document should clearly specify what form(s) and how compensation would be provided to participants in your study and the amount of payment. You must also include and describe if participants can still receive full or partial compensation should they either withdraw or are not able to complete the study procedures for any reason.</strong></strong><br>",
+    "helpText": "",
+    "required": false,
+    "section": "Cost & Compensation",
+    "sectionName": "Section13",
+    "dependencies": [
+      3863064
+    ]
+  },
+  {
+    "dataId": "3863068",
+    "name": "TextArea13",
+    "type": "textarea",
+    "label": "Potential Risks and Mechanisms to Reduce Risk",
+    "rawLabel": "<strong>Potential Risks and Mechanisms to Reduce Risk</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Risk & Benefits",
+    "sectionName": "Section12",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863069",
+    "name": "TextArea14",
+    "type": "textarea",
+    "label": "Potential Benefits",
+    "rawLabel": "<strong>Potential Benefits</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Risk & Benefits",
+    "sectionName": "Section12",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863071",
+    "name": "TextArea15",
+    "type": "textarea",
+    "label": "Data Management&nbsp;&&nbsp;Privacy/Confidentiality",
+    "rawLabel": "<strong>Data Management&nbsp;&&nbsp;</strong><strong>Privacy/Confidentiality</strong>",
+    "helpText": "<strong>Privacy </strong><br>Privacy refers to a person's desire to control the access of others to themselves. For example, persons may not want to be seen entering a place that might stigmatize them, such as a pregnancy counseling center that is clearly identified as such by signs on the front of the building. Privacy concerns people, whereas confidentiality concerns data. The research proposal should outline strategies to protect privacy including how the investigator will access information from or about participants.<br><br> In developing strategies for the protection of subjects' privacy, consideration should be given to:<br><br><ul><li>The methods used to identify and contact potential participants.&nbsp;</li><li> The settings in which an individual will be interacting with an investigator. </li><li>The appropriateness of all personnel present for research activities. </li><li>The methods used to obtain information about participants.</li><li>The nature of the requested information.</li><li>Information that is obtained about individuals other than the target participants and whether such individuals meet the regulatory definition of human participant (e.g., a subject provides information about a family member for a survey). </li><li>Privacy guidelines developed by relevant professional associations and scholarly disciplines (e.g., oral history, anthropology, psychology). How to access the minimum amount of information necessary to complete the study.</li></ul><br><strong> Regulatory and Guidance </strong><strong>References </strong><br>45 CFR 46.111(a)(7) <br>21 CFR 56.111(a)(7) <br><br><strong>Confidentiality </strong><br>Confidentiality refers to the researcher's agreement with the participant about how the participant's identifiable private information will be handled, managed, and disseminated. The research proposal should outline strategies to maintain confidentiality of identifiable data, including controls on storage, handling, and sharing of data. When appropriate, certificates of confidentiality could be used to maintain the confidentiality of identifiable data (for more information on Certificates of Confidentiality, see ORI's Certificate of Confidentiality Summary Sheet in the online IRB Survival Handbook under topic Confidentiality/Certificate of Confidentiality:). <br><br>When the IRB evaluates research proposals for strategies for maintaining confidentiality, where appropriate, consideration will be given as to whether: <br><br><ul><li>Methods to shield participants' identity adequately protect participant privacy. </li><li>There is a long-range plan for protecting the confidentiality of research data, including a schedule for destruction of identifiers associated with the data.</li><li>&nbsp;The consent form and other information presented to potential research participants adequately and clearly describe confidentiality risks. </li><li>The informed consent process and the informed consent document (and, if applicable, the HIPAA Authorization section), clearly delineate who will have access to the subject's information and under what circumstances data may be shared (i.e., with government agencies, sponsors).</li></ul>",
+    "required": true,
+    "section": "Privacy, Confidentiality, Data Analysis, & Data Monitoring",
+    "sectionName": "Section14",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863075",
+    "name": "TextArea16",
+    "type": "textarea",
+    "label": "Data Analysis",
+    "rawLabel": "<strong>Data Analysis</strong>",
+    "helpText": "",
+    "required": true,
+    "section": "Privacy, Confidentiality, Data Analysis, & Data Monitoring",
+    "sectionName": "Section14",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863076",
+    "name": "TextArea30",
+    "type": "textarea",
+    "label": "Data Safety Monitoring",
+    "rawLabel": "<strong>Data Safety Monitoring</strong>",
+    "helpText": "",
+    "required": false,
+    "section": "Privacy, Confidentiality, Data Analysis, & Data Monitoring",
+    "sectionName": "Section14",
+    "dependencies": []
+  },
+  {
+    "dataId": "3863079",
+    "name": "TextArea38",
+    "type": "textarea",
+    "label": "Describe where the data or specimens will be stored and how long they will be stored.How will the data or specimens be labeled?Who will have access to the data or specimens?Will data or specimens be shared with other investigators?",
+    "rawLabel": "<ol><li>Describe where the data or specimens will be stored and how long they will be stored.</li><li>How will the data or specimens be labeled?</li><li>Who will have access to the data or specimens?</li><li>Will data or specimens be shared with other investigators?</li></ol>",
+    "helpText": "",
+    "required": false,
+    "section": "Privacy, Confidentiality, Data Analysis, & Data Monitoring",
+    "sectionName": "Section14",
+    "dependencies": [
+      3863078
+    ]
+  }
+]

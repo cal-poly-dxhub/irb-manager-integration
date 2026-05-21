@@ -1,0 +1,1152 @@
+{
+  "3862435": {
+    "name": "PI at External Facility",
+    "prompt": "Provide the full name and credentials of the Principal Investigator at the external facility where the research will be conducted or has been approved. Include their institutional affiliation, department, and contact information (email and/or phone). This should be the PI who holds the primary IRB approval at the external institution, not the TCU investigator.",
+    "commonIssues": [
+      "Listing the TCU investigator instead of the external site PI",
+      "Providing only a name without credentials or institutional affiliation",
+      "Omitting contact information for the external PI",
+      "Not specifying the external PI's department or role",
+      "Confusing co-investigators at the external site with the designated PI"
+    ],
+    "formatting": "Provide the PI's full name followed by their credentials (e.g., PhD, MD), institutional affiliation, department, and email address. Use a structured, easy-to-read format."
+  },
+  "3862440": {
+    "name": "External IRB Approval Details",
+    "prompt": "Provide the following information about your external IRB approval: (1) the name and location of the facility or institution where the research will be conducted, (2) the name of the IRB that provided approval for the study, and (3) a description of your role in the study if you are not serving as the lead investigator. Include the IRB protocol number and approval date if available. Be clear about what aspects of the research TCU personnel are involved in.",
+    "commonIssues": [
+      "Not identifying the specific IRB that granted approval (e.g., only naming the institution)",
+      "Failing to describe the TCU researcher's specific role in the study",
+      "Omitting the IRB protocol number or approval status",
+      "Not clarifying where the research will physically take place",
+      "Providing insufficient detail about the TCU investigator's responsibilities versus the lead site PI",
+      "Not attaching the external IRB approval letter as supporting documentation"
+    ],
+    "formatting": "Use numbered responses: (1) research location and approving IRB, (2) your role in the study. Include protocol numbers and dates where available."
+  },
+  "3862470": {
+    "name": "Summary of the Activity(ies)",
+    "prompt": "Provide a concise, non-technical summary of the entire research activity in plain language that a non-scientist could understand. Describe what you are doing, with whom, and why in approximately 3-5 sentences. Avoid jargon, acronyms, and technical methodology details; this summary is used by IRB administrators for quick classification of your submission.",
+    "commonIssues": [
+      "Using technical jargon or discipline-specific acronyms without explanation",
+      "Describing methods in excessive detail instead of summarizing the overall activity",
+      "Failing to mention the target population or participant group",
+      "Writing in past tense instead of future tense (this describes planned activities)",
+      "Omitting the purpose or rationale, making it unclear why the activity is being conducted",
+      "Exceeding a reasonable length; this should be a brief overview, not a full proposal"
+    ],
+    "formatting": "Write in future tense as a short paragraph (3-5 sentences). Do not use bullet points, citations, or technical notation."
+  },
+  "3862476": {
+    "name": "Educational Setting Explanation",
+    "prompt": "Explain why your research setting qualifies as an established or commonly accepted educational setting (e.g., public school, after-school program, professional development seminar, postsecondary institution) and why the research involves normal educational practices. Address how the study design respects the value of educational time and describe any direct or indirect benefit to the educational experience of participants. If possible, note whether a school administrator has confirmed the research as normal educational practice.",
+    "commonIssues": [
+      "Failing to define why the setting counts as an 'educational setting' under 45 CFR 46",
+      "Not explaining how the research constitutes 'normal educational practices' rather than experimental intervention",
+      "Omitting any discussion of how student educational time is respected or not wasted",
+      "Providing only a generic statement without connecting the specific study design to educational benefit",
+      "Not mentioning whether a letter from a school administrator has been obtained or could be provided",
+      "Confusing educational research with research that merely takes place in a school building"
+    ],
+    "formatting": "Use numbered responses corresponding to each sub-question: (1) why the setting is educational, and (2) why this involves normal educational practices. Write in complete sentences."
+  },
+  "3862549": {
+    "name": "Study Purpose",
+    "prompt": "State the overarching purpose of your study in 1-3 sentences. Clearly articulate what you intend to accomplish and why it matters. The purpose should convey the practical or scientific significance of the research without diving into specific methods or hypotheses.",
+    "commonIssues": [
+      "Conflating the purpose with the hypothesis or specific aims",
+      "Being too vague (e.g., 'to study health' without specifying what aspect of health)",
+      "Failing to convey the significance or real-world relevance of the research",
+      "Including methodology details that belong in the Study Design section",
+      "Using language that does not clearly distinguish this study from prior work"
+    ],
+    "formatting": "Write 1-3 clear, declarative sentences. Use future tense (e.g., 'The purpose of this study is to...')."
+  },
+  "3862550": {
+    "name": "Hypotheses/Aim/Objectives",
+    "prompt": "List the specific, testable hypotheses or clearly defined aims and objectives of your study. Each hypothesis should state the expected relationship between variables. If your study is exploratory or qualitative, state your research questions or specific aims instead. Reviewers look for alignment between these objectives and the proposed methods.",
+    "commonIssues": [
+      "Stating vague goals instead of specific, testable hypotheses or measurable aims",
+      "Hypotheses that do not specify the direction of the expected effect or relationship",
+      "Mismatch between stated hypotheses and the proposed study design or outcomes",
+      "Omitting secondary aims or exploratory objectives that are described later in procedures",
+      "Confusing aims (what you will do) with hypotheses (what you predict will happen)"
+    ],
+    "formatting": "Use a numbered list for multiple hypotheses or aims. Each should be a single, specific statement. Label clearly whether each item is a hypothesis, aim, or research question."
+  },
+  "3862551": {
+    "name": "Background (Exempt Path)",
+    "prompt": "Provide a brief literature-based rationale for your study in a few paragraphs. Summarize the current state of knowledge, identify the gap your study addresses, and explain why this research is needed. Cite references in-text and upload the bibliography as a separate document. If you copy from your grant proposal, convert all past tense verbs to future tense.",
+    "commonIssues": [
+      "Copying directly from a grant proposal without converting past tense to future tense",
+      "Providing background that is too long or reads like a full literature review rather than a focused summary",
+      "Failing to cite any references or including a bibliography inline instead of as a separate upload",
+      "Not clearly identifying the specific gap in knowledge this study will address",
+      "Omitting relevant statistics, prevalence data, or contextual information that justifies the need"
+    ],
+    "formatting": "Write in future tense as 2-4 focused paragraphs. Cite references in-text using author-date or numbered notation and upload the full bibliography as a separate attachment."
+  },
+  "3862553": {
+    "name": "Participant Population & Recruitment (Exempt Path)",
+    "prompt": "Describe the target participant population including key demographics (age range, gender if relevant, and any other defining characteristics). Explain how and where participants will be recruited, who will conduct recruitment, and what materials will be used. Include the total number of participants you plan to enroll and provide justification for that number.",
+    "commonIssues": [
+      "Failing to specify the target age range or other key demographic characteristics",
+      "Not describing the recruitment method or materials (e.g., flyers, emails, social media posts)",
+      "Omitting who will perform the recruitment and their relationship to the participant population",
+      "Not justifying the number of participants or explaining the basis for the sample size",
+      "Failing to mention whether participants come from a vulnerable population requiring additional protections"
+    ],
+    "formatting": "Write in clear paragraphs. Address population characteristics, recruitment methods, and sample size justification as distinct elements. Use specific numbers rather than vague ranges."
+  },
+  "3862561": {
+    "name": "Study Procedures & Methods (Exempt Path)",
+    "prompt": "Describe all study procedures and methods that participants will experience, step by step, from the point of enrollment through study completion. Include what data will be collected, how it will be collected (instruments, tools, platforms), the duration and frequency of participant involvement, and the setting in which procedures occur. The description should be detailed enough that a reviewer can assess the risks to participants.",
+    "commonIssues": [
+      "Providing a vague overview instead of a step-by-step description of what participants will experience",
+      "Omitting the time commitment required of participants at each step",
+      "Failing to name the specific instruments, surveys, or tools that will be used for data collection",
+      "Not describing the setting or mode of participation (in-person, online, phone)",
+      "Leaving out procedures that could pose risk (e.g., audio/video recording, sensitive questions) without noting them",
+      "Not distinguishing between research procedures and standard-of-care or educational procedures"
+    ],
+    "formatting": "Write in chronological order as narrative paragraphs or a numbered sequence. Include timing, duration, instruments, and setting for each procedure."
+  },
+  "3862563": {
+    "name": "Deception Justification (Exempt)",
+    "prompt": "Justify the use of deception or incomplete disclosure by explaining why the research objectives cannot be achieved without it and how the deception is consistent with sound research design. Describe the specific nature of the deception (what information is withheld or altered), why alternative non-deceptive methods are inadequate, and how risks to participants will be minimized. Address whether the deception could reasonably be expected to cause participants physical or emotional harm if they later learn the true nature of the study.",
+    "commonIssues": [
+      "Not clearly describing the specific nature and extent of the deception being used",
+      "Failing to explain why non-deceptive alternatives cannot achieve the research objectives",
+      "Providing a weak justification that focuses on convenience rather than methodological necessity",
+      "Not addressing the potential for participant distress upon learning of the deception",
+      "Omitting the risk-mitigation strategies specific to the use of deception",
+      "Failing to distinguish between active deception and incomplete disclosure"
+    ],
+    "formatting": "Begin by stating the specific deception, then provide the methodological justification, followed by the risk assessment and mitigation plan. Use clear, direct language."
+  },
+  "3862564": {
+    "name": "Debriefing Process (Exempt)",
+    "prompt": "Describe the debriefing process that will be used after study participation. Specify when debriefing will occur (immediately after participation, after all data collection is complete, etc.), who will conduct it, and what information will be disclosed to participants. Explain how participants will be informed of the true nature of the study, the reasons for the deception, and any available resources if the debriefing causes distress. Reference the TCU IRB Deception and Debriefing guidelines to ensure compliance.",
+    "commonIssues": [
+      "Not specifying the exact timing of the debriefing relative to study completion",
+      "Failing to describe the content of the debriefing (what will actually be disclosed)",
+      "Omitting the provision of resources for participants who experience distress upon learning of the deception",
+      "Not addressing whether participants will have the opportunity to withdraw their data after debriefing",
+      "Failing to identify who will conduct the debriefing and their qualifications",
+      "Not including a plan for debriefing participants who withdraw before study completion"
+    ],
+    "formatting": "Describe the debriefing process chronologically. Include the timing, content, delivery method, and personnel involved. Reference applicable TCU IRB guidelines."
+  },
+  "3862575": {
+    "name": "Inclusion/Exclusion Criteria & Chart Identification (Chart Review)",
+    "prompt": "Define the inclusion and exclusion criteria for selecting charts or records for review, and describe the process by which eligible charts will be identified. Inclusion criteria should address relevant demographics (age, gender), diagnoses, procedures, treatment dates, and any other characteristics that define the target population. Exclusion criteria should address incomplete records, wrong diagnoses, procedures outside the study scope, or charts outside the designated date range.",
+    "commonIssues": [
+      "Using vague criteria that would not allow consistent identification of eligible records",
+      "Not specifying the date range or time window for eligible records",
+      "Failing to describe how charts will be identified in the system (e.g., ICD codes, keyword search, provider referral)",
+      "Omitting exclusion criteria for incomplete or unusable records",
+      "Not addressing how eligibility determinations will be documented or verified",
+      "Failing to describe who will perform the chart identification and selection process"
+    ],
+    "formatting": "Present inclusion and exclusion criteria as separate bulleted or numbered lists. Follow with a narrative description of the chart identification and selection process."
+  },
+  "3862577": {
+    "name": "Study Design & Methodology (Chart Review - Exempt Path)",
+    "prompt": "Describe the overall design and methodology for your chart review, including the type of review (retrospective, prospective, or both), the records source, the date range covered, the specific data elements to be extracted, and the analytic approach. Explain how data will be extracted, recorded, and stored, and how participant confidentiality will be maintained throughout the process.",
+    "commonIssues": [
+      "Not clearly stating whether the review is retrospective or prospective",
+      "Failing to specify the data source and how access to records was authorized",
+      "Omitting the specific variables or data fields that will be extracted",
+      "Not describing the data extraction and recording process in sufficient detail",
+      "Failing to address how de-identification or confidentiality protections will be applied",
+      "Not describing the planned statistical or analytic methods"
+    ],
+    "formatting": "Write in narrative form. Cover the review type, data source, date range, extracted variables, data management procedures, and analytic plan."
+  },
+  "3862579": {
+    "name": "Cost and Compensation (Exempt Path)",
+    "prompt": "Describe any costs participants may incur and any compensation they will receive for participating in this exempt study. Specify the type and amount of compensation (monetary or non-monetary such as course credit, SONA credit, extra credit, gift cards), the timing and method of delivery, and what happens if a participant does not complete the study. If there are no costs and no compensation, state both explicitly. If using raffle-based compensation, describe the systematic selection method.",
+    "commonIssues": [
+      "Leaving the field blank or writing only 'N/A' without clarifying both costs and compensation",
+      "Not specifying the exact value of non-monetary compensation items",
+      "Failing to describe proration or partial compensation for incomplete participation",
+      "Using random raffle selection without a described systematic method",
+      "Not ensuring consistency between this section and the information sheet or consent document",
+      "Omitting the method and timing of compensation delivery"
+    ],
+    "formatting": "Address costs and compensation separately in clear sentences. Specify amounts, timing, delivery method, and proration policy. Be explicit if there are no costs or no compensation."
+  },
+  "3862580": {
+    "name": "Data Management and Privacy/Confidentiality (Exempt)",
+    "prompt": "Describe how participant data will be collected, stored, and protected throughout the study. Specify whether data will be identifiable, coded, or de-identified, and explain the coding system if applicable. Detail the physical and electronic security measures (encrypted storage, password protection, locked cabinets, secure servers), identify who will have access to the data, and describe the plan for de-identifying or destroying identifiable information after the study. Address how participant privacy will be protected during data collection (e.g., private interview settings, anonymous survey links).",
+    "commonIssues": [
+      "Not specifying whether data is identifiable, coded, or fully de-identified",
+      "Failing to describe where the key linking codes to identities will be stored and who has access to it",
+      "Omitting electronic security measures such as encryption, password protection, or secure server use",
+      "Not addressing privacy protections during the data collection process itself",
+      "Failing to specify a data destruction or de-identification timeline",
+      "Not identifying all individuals who will have access to identifiable data"
+    ],
+    "formatting": "Organize by data collection, storage, access control, and destruction/de-identification. Specify technical safeguards (encryption type, server location) and administrative safeguards (access restrictions, training)."
+  },
+  "3862581": {
+    "name": "Data Analysis (Exempt)",
+    "prompt": "Describe the data analysis plan, including the statistical methods or qualitative analysis approaches that will be used. Specify what software will be used for analysis, how data will be prepared and cleaned, and whether analysis will be conducted on identifiable or de-identified data. If using qualitative methods, describe the coding and thematic analysis process. Address how results will be reported to ensure no individual participant can be identified.",
+    "commonIssues": [
+      "Not specifying the statistical tests or qualitative methods that will be used",
+      "Failing to state whether analysis will be performed on identifiable or de-identified data",
+      "Omitting the software or tools that will be used for data analysis",
+      "Not addressing how results will be reported in a way that protects participant identity",
+      "Providing only a vague description like 'standard statistical methods' without specifics",
+      "Not describing the data cleaning or preparation process before analysis"
+    ],
+    "formatting": "Describe the analysis approach in a logical sequence: data preparation, analysis methods, software used, and reporting safeguards. Be specific about statistical tests or qualitative procedures."
+  },
+  "3862584": {
+    "name": "Data/Specimens Storage (Exempt)",
+    "prompt": "Address each of the following: (1) Describe where the data or specimens will be stored and for how long. (2) Explain how the data or specimens will be labeled (e.g., coded identifiers, de-identified). (3) Identify who will have access to the data or specimens. (4) State whether data or specimens will be shared with other investigators, and if so, describe the conditions and safeguards for sharing. Include details about both physical storage (locked facilities, restricted-access labs) and electronic storage (encrypted drives, institutional servers).",
+    "commonIssues": [
+      "Not addressing all four required sub-questions (storage location/duration, labeling, access, sharing)",
+      "Failing to specify the storage duration or stating an unreasonably long or indefinite retention period",
+      "Not describing the labeling system in enough detail to demonstrate confidentiality protections",
+      "Omitting specific storage locations (building, room, server name) for physical and electronic data",
+      "Not addressing data sharing conditions or stating 'no sharing' without considering future use",
+      "Failing to describe the ultimate disposition of data (destruction method and timeline)"
+    ],
+    "formatting": "Use a numbered format corresponding to the four required questions. Provide specific details for each: location, duration, labeling method, access list, and sharing conditions."
+  },
+  "3862587": {
+    "name": "Study Design",
+    "prompt": "Describe the overall design and structure of your study, including the type of study (e.g., randomized controlled trial, quasi-experimental, cross-sectional survey, qualitative interview, mixed methods). Explain the number of groups or conditions, the assignment strategy, the timeline, and the sequence of major study activities. The design should clearly support the stated hypotheses or aims.",
+    "commonIssues": [
+      "Not naming the specific study design type (e.g., just saying 'survey study' without specifying cross-sectional vs. longitudinal)",
+      "Failing to describe how participants will be assigned to groups or conditions",
+      "Omitting the study timeline or sequence of events from enrollment to completion",
+      "Design description that does not logically connect to the stated hypotheses or aims",
+      "Leaving out important design features such as comparison groups, time points, or repeated measures"
+    ],
+    "formatting": "Write in narrative paragraph form. Consider including a brief timeline or sequence of study phases. Use precise terminology for the study design type."
+  },
+  "3862588": {
+    "name": "Outcomes",
+    "prompt": "List and describe all primary and secondary outcome measures for your study. Each outcome should be measurable and assessed by a specific instrument, scale, or metric. Explain how each outcome will be measured, at what time points, and how it relates to your stated hypotheses or aims. Outcome measures should be quantifiable wherever possible.",
+    "commonIssues": [
+      "Listing outcomes without specifying how they will be measured (e.g., 'anxiety' without naming the instrument or scale)",
+      "Failing to distinguish between primary and secondary outcomes",
+      "Outcomes that are not clearly linked to the stated hypotheses or aims",
+      "Omitting the time points at which outcomes will be assessed",
+      "Describing outcomes that are not truly measurable or lack a numerical assessment method",
+      "Confusing study procedures with outcome measures"
+    ],
+    "formatting": "Clearly label primary and secondary outcomes. For each, specify the measurement instrument or metric and the assessment time points. A numbered or bulleted list is appropriate."
+  },
+  "3862589": {
+    "name": "Background (Study Info Section)",
+    "prompt": "Provide the scientific background and rationale for this study. Summarize relevant prior research, identify the specific gap in existing knowledge, and explain how this study will contribute new understanding. Include citations to key literature and relevant prevalence or contextual data that establishes the importance of the research question.",
+    "commonIssues": [
+      "Providing a background that does not clearly connect to the specific study being proposed",
+      "Omitting citations or relevant published evidence to support claims",
+      "Failing to identify the specific knowledge gap or explain why existing research is insufficient",
+      "Including excessive detail that belongs in the methods section rather than the background",
+      "Using imprecise or vague terminology instead of precise, measurable terms",
+      "Not including relevant statistics or prevalence data that justify the need for the study"
+    ],
+    "formatting": "Write in narrative paragraph form (2-4 paragraphs). Cite references in-text and ensure the bibliography is uploaded as a separate document."
+  },
+  "3862620": {
+    "name": "Age Range",
+    "prompt": "Specify the exact minimum and maximum ages of participants eligible for this study. If there is no upper or lower bound, state that explicitly (e.g., '18 and older' or 'no upper age limit'). If you are including minors, be aware this may trigger additional regulatory requirements under Subpart D.",
+    "commonIssues": [
+      "Providing a vague age description instead of specific numbers (e.g., 'adults' instead of '18-65')",
+      "Failing to acknowledge that including minors (under 18) triggers Subpart D requirements",
+      "Not providing a rationale for the chosen age range when it is restrictive",
+      "Inconsistency between the age range stated here and inclusion/exclusion criteria elsewhere"
+    ],
+    "formatting": "Provide a specific numeric range (e.g., '18-65 years'). If open-ended, state clearly (e.g., '18 years and older, no upper limit')."
+  },
+  "3862628": {
+    "name": "Additional Precautions (COVID/Infectious Disease)",
+    "prompt": "Describe the specific additional precautions you will implement to protect participants and study team members from COVID-19 or other infectious disease risks during study activities. Address physical distancing, PPE usage, sanitization procedures, screening protocols, and any modifications to standard study procedures made to reduce transmission risk.",
+    "commonIssues": [
+      "Providing only generic statements (e.g., 'we will follow CDC guidelines') without specifying actual procedures",
+      "Failing to address how in-person study procedures will be modified for safety",
+      "Not describing sanitization protocols for shared equipment or study spaces",
+      "Omitting screening or symptom-check procedures for participants and research staff before contact",
+      "Not mentioning what happens if a participant or staff member becomes symptomatic during the study"
+    ],
+    "formatting": "Write in narrative form or as a bulleted list of specific precautions. Be concrete about what PPE, cleaning protocols, and procedural modifications will be used."
+  },
+  "3862632": {
+    "name": "Subpart C Certification",
+    "prompt": "If your study involves prisoners or individuals who may become incarcerated during participation, provide the required Subpart C certification information. Describe the prisoner population, explain why their involvement is necessary, and confirm that the research meets one of the permissible categories under 45 CFR 46 Subpart C. Address how the study will ensure that participation is truly voluntary and not influenced by the prison environment.",
+    "commonIssues": [
+      "Failing to identify that participants may become incarcerated during a longitudinal study",
+      "Not specifying which permissible category under Subpart C the research falls under",
+      "Omitting safeguards to ensure voluntary participation free from coercion in a correctional setting",
+      "Not describing how consent will be obtained or re-obtained in the correctional environment"
+    ],
+    "formatting": "Write in narrative form. Clearly reference the applicable Subpart C category and describe the specific safeguards in place."
+  },
+  "3862642": {
+    "name": "Number of Participants",
+    "prompt": "State the total number of participants you plan to enroll in this study. This should reflect the number needed to achieve your research objectives, including any expected attrition. Provide a brief justification such as a power analysis, prior study precedent, or practical rationale. If using a range, explain the flexibility needed.",
+    "commonIssues": [
+      "Providing a number without any justification or basis for how it was determined",
+      "Not accounting for expected attrition or dropout when calculating sample size",
+      "Inconsistency between the number stated here and the numbers described in the study design or procedures sections",
+      "Using vague language like 'approximately' without explaining why flexibility is needed",
+      "Failing to mention whether the number includes pilot participants, screening failures, or other non-completers"
+    ],
+    "formatting": "State a single number or narrow range. Follow with 1-2 sentences of justification. If using a power analysis, state the test, effect size, alpha, and power level."
+  },
+  "3862644": {
+    "name": "Inclusion Criteria",
+    "prompt": "List the specific criteria that participants must meet to be eligible for this study. Include relevant demographics, diagnoses, conditions, or characteristics that define your target population. Criteria should be specific enough that a research team member could consistently determine eligibility. Each criterion should be directly relevant to the research question or necessary for participant safety.",
+    "commonIssues": [
+      "Listing criteria that are too vague to apply consistently (e.g., 'healthy adults' without defining 'healthy')",
+      "Omitting key eligibility requirements that are mentioned elsewhere in the protocol",
+      "Including criteria that are not relevant to the research question and unnecessarily restrict enrollment",
+      "Failing to specify language or literacy requirements when the study involves surveys or questionnaires",
+      "Not addressing consent capacity requirements when studying populations with cognitive impairments"
+    ],
+    "formatting": "Present as a numbered or bulleted list. Each criterion should be a specific, assessable requirement. Use clear, unambiguous language."
+  },
+  "3862645": {
+    "name": "Exclusion Criteria",
+    "prompt": "List the specific criteria that would disqualify an otherwise eligible participant from the study. Exclusion criteria are not simply the inverse of inclusion criteria; they identify additional conditions, circumstances, or characteristics that would make participation inappropriate due to safety concerns, confounding factors, or ethical considerations. Provide scientific or ethical justification for each exclusion.",
+    "commonIssues": [
+      "Simply listing the opposite of inclusion criteria instead of identifying genuinely disqualifying conditions",
+      "Excluding groups (e.g., pregnant women, non-English speakers) without scientific or safety justification",
+      "Overly broad exclusion criteria that unnecessarily limit generalizability or create discriminatory barriers",
+      "Failing to include exclusion criteria for conditions that could confound study results",
+      "Not aligning exclusion criteria with what is described in the screening procedures section",
+      "Omitting co-morbid conditions or concurrent treatments that could affect outcomes"
+    ],
+    "formatting": "Present as a numbered or bulleted list. Each exclusion should specify the disqualifying condition and, where needed, a brief rationale. Ensure exclusions are ethically defensible and scientifically justified."
+  },
+  "3862663": {
+    "name": "Recruitment Process",
+    "prompt": "Describe the complete recruitment process including how potential participants will be identified and contacted, what recruitment methods and materials will be used (e.g., flyers, emails, social media, in-person announcements), who will conduct recruitment, and where recruitment will take place. Explain how you will avoid undue influence or coercion, especially if recruiting from dependent populations such as students, patients, or employees.",
+    "commonIssues": [
+      "Not specifying who will perform recruitment and their relationship to potential participants",
+      "Failing to describe the actual recruitment materials or how they will be distributed",
+      "Omitting how potential participants will initially learn about the study",
+      "Not addressing potential coercion when recruiting from populations with a dependent relationship to the researcher (e.g., students, patients, employees)",
+      "Failing to mention whether a gatekeeper or point of contact will distribute materials on the researcher's behalf",
+      "Not describing the setting or context in which recruitment will occur"
+    ],
+    "formatting": "Write in narrative paragraph form. Address the who, what, where, when, and how of recruitment. Mention all recruitment channels and materials."
+  },
+  "3862664": {
+    "name": "Existing Records",
+    "prompt": "If recruitment involves accessing existing records, databases, or registries to identify potential participants, describe the source of these records, what information will be accessed, who has authorized access, and how you obtained permission to use them for recruitment. Explain how participant privacy will be protected during this process.",
+    "commonIssues": [
+      "Not identifying the specific source or custodian of the existing records",
+      "Failing to describe what data elements will be accessed for recruitment purposes",
+      "Omitting who has authorized the use of these records for research recruitment",
+      "Not explaining how HIPAA or FERPA requirements are being met when accessing protected information",
+      "Failing to describe how individuals identified through records will be contacted"
+    ],
+    "formatting": "Write in narrative form. Specify the record source, the data accessed, authorization obtained, and privacy protections in place."
+  },
+  "3862669": {
+    "name": "Prospective Collection for Recruitment",
+    "prompt": "If investigators will prospectively collect information to identify or recruit potential participants prior to obtaining consent, describe this process in detail. Specify what identifiable information will be collected (e.g., email addresses, phone numbers), who will collect it, how it will be stored, and what will happen with this data after recruitment is complete (retained, combined with study data, or destroyed).",
+    "commonIssues": [
+      "Not clearly describing what identifiable information will be collected before consent",
+      "Failing to explain the disposition of recruitment data (whether it will be retained, merged, or destroyed)",
+      "Omitting how the pre-consent data will be securely stored",
+      "Not specifying who will have access to the identifiable recruitment data",
+      "Failing to acknowledge that collecting identifiable information prior to consent raises additional privacy considerations"
+    ],
+    "formatting": "Write in narrative form or as a numbered list addressing: (1) what information is collected, (2) how it is stored, (3) who has access, and (4) what happens to it after recruitment ends."
+  },
+  "3862673": {
+    "name": "Screening Procedures",
+    "prompt": "Provide a complete description of how potential participants will be screened for eligibility, including the method (e.g., telephone interview, online questionnaire, in-person assessment), who will conduct screening, where and when it will occur, and how long it will take. Specify whether identifiable or non-identifiable information will be collected during screening and describe how screening data will be handled for both eligible and ineligible individuals.",
+    "commonIssues": [
+      "Describing the screening instrument but not explaining who administers it, where, or when",
+      "Failing to specify whether screening data is identifiable or non-identifiable",
+      "Not addressing how long the screening process will take for each participant",
+      "Omitting how data from ineligible participants will be handled (see also the Ineligible Screening Data field)",
+      "Not describing how eligibility determinations are documented",
+      "Failing to mention whether screening occurs before or after the consent process"
+    ],
+    "formatting": "Write in narrative form addressing the how, who, where, when, and duration of screening. Specify the type of information collected (identifiable vs. non-identifiable)."
+  },
+  "3862674": {
+    "name": "Ineligible Screening Data",
+    "prompt": "Explain what will happen to data collected from individuals who are screened but found ineligible, or who are eligible but decline to participate. State explicitly whether this screening data will be retained separate from study data, combined with study data, or destroyed. If retained, explain the justification and how it will be stored securely.",
+    "commonIssues": [
+      "Not addressing the disposition of data from ineligible individuals at all",
+      "Failing to distinguish between data from ineligible individuals and data from those who decline participation",
+      "Stating data will be destroyed but not describing the destruction method or timeline",
+      "Not explaining why screening data is being retained if the decision is to keep it",
+      "Inconsistency with what is described in the screening procedures section"
+    ],
+    "formatting": "Write 2-4 clear sentences. Explicitly state whether screening data will be retained, combined, or destroyed, and provide the rationale."
+  },
+  "3862688": {
+    "name": "Research Information Sheet Process",
+    "prompt": "Describe how the research information sheet will be presented to participants, including when it will be provided (before any study activities begin), who will distribute it, and how participants will be given the opportunity to ask questions. Explain how the information sheet communicates the voluntary nature of participation and the right to decline without penalty. If the study involves online participation, specify how the information sheet will be displayed and how acknowledgment of receipt will be documented.",
+    "commonIssues": [
+      "Failing to specify the timing of when the information sheet is provided relative to study procedures",
+      "Not describing how participants can ask questions or contact the research team after receiving the sheet",
+      "Omitting how the information sheet addresses the voluntary nature of participation",
+      "Not clarifying whether participants receive a copy to keep",
+      "Failing to address how the information sheet will be distributed in online or remote study designs",
+      "Not specifying who on the research team is responsible for distributing the information sheet"
+    ],
+    "formatting": "Write in future tense using complete sentences. Use a sequential, step-by-step description of the information sheet distribution process."
+  },
+  "3862689": {
+    "name": "Informed Consent Process",
+    "prompt": "Provide a detailed description of how informed consent will be obtained, including the setting where consent discussions will take place, who will conduct the consent process, and how sufficient time will be provided for participants to consider their decision. Address how the researcher will verify participant comprehension of key study elements such as purpose, procedures, risks, benefits, and the right to withdraw. If consent involves special populations (minors, individuals with diminished capacity), describe the assent and legally authorized representative process.",
+    "commonIssues": [
+      "Not specifying who will conduct the consent discussion or their qualifications",
+      "Failing to describe how participant comprehension will be assessed before obtaining consent",
+      "Omitting the physical or virtual setting where the consent process will take place",
+      "Not addressing how sufficient time and privacy will be provided for the consent decision",
+      "Failing to describe procedures for participants who have questions after initially consenting",
+      "Not addressing the consent process for participants with limited literacy or cognitive impairments"
+    ],
+    "formatting": "Use future tense and describe the process chronologically from initial contact through signed consent. Include specific details about setting, personnel, and verification methods."
+  },
+  "3862692": {
+    "name": "Participant Withdrawal Procedures",
+    "prompt": "Describe the procedures that will be followed when a participant wishes to withdraw from the study, including how participants are informed of their right to withdraw at any time without penalty. Specify what will happen to data and specimens already collected from a withdrawn participant, whether partial compensation will be provided, and how the research team will handle any ongoing interventions or follow-up. Address whether the PI may remove a participant involuntarily and under what circumstances.",
+    "commonIssues": [
+      "Not specifying what happens to already-collected data and specimens upon withdrawal",
+      "Failing to address whether partial compensation is provided to participants who withdraw early",
+      "Omitting procedures for safe discontinuation of study interventions upon withdrawal",
+      "Not clarifying whether the PI reserves the right to remove participants and under what conditions",
+      "Failing to describe how withdrawal requests are communicated and documented",
+      "Not addressing whether withdrawn participants will be contacted for follow-up safety monitoring"
+    ],
+    "formatting": "Present as a clear procedural description covering notification, data handling, compensation, and documentation. Use future tense throughout."
+  },
+  "3862698": {
+    "name": "Waiver of Consent - Minimal Risk",
+    "prompt": "Address each of the regulatory criteria for a waiver of informed consent under 45 CFR 46.116(f). Specifically: (1) explain how the research poses no more than minimal risk, (2) describe how the waiver does not adversely affect participant rights and welfare, (3) justify why it is not practicable to carry out the research with the waiver or alteration (citing design or feasibility issues), (4) if applicable, explain why the research cannot be carried out without using identifiable private information or biospecimens, and (5) describe any plan to provide participants with pertinent information after participation.",
+    "commonIssues": [
+      "Failing to address each of the five regulatory criteria individually and explicitly",
+      "Providing a vague minimal risk argument without comparing to risks encountered in daily life or routine examinations",
+      "Not explaining why consent is impracticable rather than merely inconvenient",
+      "Omitting the plan for providing participants with relevant information after study completion",
+      "Failing to describe specific safeguards that protect participant rights and welfare in the absence of consent",
+      "Confusing waiver of consent with waiver of documentation of consent"
+    ],
+    "formatting": "Use a numbered list corresponding to each regulatory criterion. Provide specific justification for each point rather than generic statements."
+  },
+  "3862700": {
+    "name": "Waiver of Documentation of Consent",
+    "prompt": "Address each of the regulatory criteria for a waiver of documentation of consent under 45 CFR 46.117(c). Explain: (1) how the research involves no more than minimal risk, (2) how participant rights and welfare are protected without a signed consent document, (3) why it is not practicable to carry out the research with documented consent (design or feasibility rationale), (4) if applicable, why the research cannot proceed without identifiable private information or biospecimens, and (5) your plan for providing participants with pertinent information after the study. Clarify that participants will still be informed about the study even though a signature is not collected.",
+    "commonIssues": [
+      "Confusing waiver of documentation with waiver of consent itself -- participants must still be informed",
+      "Not explaining why a signed consent form would be impracticable rather than just inconvenient",
+      "Failing to address how participant identity is protected when the signed form is the only link to identity",
+      "Omitting the alternative method of informing participants about the study (e.g., information sheet, verbal script)",
+      "Not addressing each regulatory criterion separately with specific justification",
+      "Failing to describe the plan for providing post-study information to participants"
+    ],
+    "formatting": "Use a numbered list matching the regulatory criteria. Clearly distinguish between waiver of documentation and waiver of consent in your response."
+  },
+  "3862706": {
+    "name": "Plan for Providing Information When Documenting Consent is Waived",
+    "prompt": "Describe the plan for providing participants with a written statement or information letter about the research when documentation of consent has been waived. Specify what information will be included (study purpose, procedures, risks, benefits, contact information, voluntary nature), how the document will be provided to participants (in person, electronically, mailed), and at what point in the study process participants will receive it. Explain whether participants will have the opportunity to ask questions before proceeding.",
+    "commonIssues": [
+      "Not specifying the content that will be included in the information letter or statement",
+      "Failing to describe the method and timing of distributing the information to participants",
+      "Omitting researcher contact information from the information provided to participants",
+      "Not including a statement about voluntary participation and right to decline",
+      "Failing to address how participants can ask questions or raise concerns",
+      "Not explaining how the information letter differs from a formal consent document"
+    ],
+    "formatting": "Describe the information provision plan in sequential order. Include details about the content, format, timing, and distribution method of the information letter or statement."
+  },
+  "3862710": {
+    "name": "HIPAA - Please Describe",
+    "prompt": "Describe the HIPAA authorization or waiver process for this study. If requesting a HIPAA waiver, explain why the research could not practicably be conducted without the waiver, how the protected health information (PHI) will be used and safeguarded, and the minimum necessary PHI required for the study. If obtaining HIPAA authorization, describe how it will be integrated into the consent process, what PHI will be accessed or disclosed, and who will have access to it. Address the plan for de-identifying data when possible and the timeline for destroying PHI after study completion.",
+    "commonIssues": [
+      "Not specifying the exact types of protected health information that will be accessed or collected",
+      "Failing to justify why the minimum necessary standard is met for the PHI requested",
+      "Omitting the plan for de-identifying data or the timeline for destroying identifiable health information",
+      "Not listing all individuals or entities who will have access to the PHI",
+      "Failing to describe the physical and electronic safeguards for PHI during the study",
+      "Not addressing whether the HIPAA authorization is combined with the consent form or provided separately"
+    ],
+    "formatting": "Clearly state whether you are requesting a HIPAA waiver or obtaining HIPAA authorization. List the specific PHI elements needed and describe safeguards in detail."
+  },
+  "3862721": {
+    "name": "Non-English Speakers Plan",
+    "prompt": "Describe the plan for translating consent documents and other study materials for non-English-speaking participants. Identify who will perform the translation (name and qualifications of a bilingual faculty/student, or a professional translation service/vendor), and describe the process for ensuring translation accuracy, including back-translation procedures. Specify which languages will be needed and the timeline for obtaining translated and IRB-approved documents before enrolling non-English-speaking participants.",
+    "commonIssues": [
+      "Not identifying the specific translator by name and qualifications or the translation service/vendor to be used",
+      "Failing to describe a back-translation process to verify translation accuracy",
+      "Omitting which specific languages the documents will be translated into",
+      "Not clarifying that translated documents must be submitted to the IRB for approval before use",
+      "Failing to address how verbal communication during the consent process and study procedures will be handled in the participant's language",
+      "Not specifying the timeline for having translated documents available"
+    ],
+    "formatting": "Provide a step-by-step plan including the language(s), translator identity and qualifications, translation and back-translation process, and IRB submission timeline."
+  },
+  "3862783": {
+    "name": "Extra Considerations - Sensitive Topics",
+    "prompt": "Describe the specific protections and resources you will provide to participants because your study involves sensitive topics (e.g., trauma, mental health, substance use, sexuality). Explain what referral resources (such as counseling services, hotlines, or community organizations) will be made available, how participants will be informed about these resources, and what procedures are in place if a participant becomes distressed during the study.",
+    "commonIssues": [
+      "Listing a counseling hotline number without explaining when or how it will be provided to participants",
+      "Not specifying what constitutes a 'sensitive topic' in the context of the specific study",
+      "Failing to describe a concrete distress protocol or stopping rules during data collection",
+      "Omitting information about training research staff to recognize participant distress",
+      "Not addressing how the consent form will disclose the sensitive nature of the questions",
+      "Providing only generic resources rather than resources specific to the study population or topic"
+    ],
+    "formatting": "Write in paragraph form. Clearly identify each resource by name, phone number, or URL. Describe procedures in sequential order."
+  },
+  "3862788": {
+    "name": "Extra Considerations - Illegal Behavior",
+    "prompt": "Describe the extra considerations and resources you will implement to protect participants given that your study involves questions about or disclosure of illegal behavior. Address how you will protect participant confidentiality regarding illegal activities, whether a Certificate of Confidentiality will be obtained, and what resources will be available to participants. Explain how the consent form will clearly inform participants about the nature of these questions and any limits to confidentiality (e.g., mandatory reporting obligations).",
+    "commonIssues": [
+      "Not specifying the exact nature of the illegal behavior being studied (e.g., drug use, undocumented status, theft)",
+      "Failing to address mandatory reporting obligations and how they interact with participant confidentiality",
+      "Omitting mention of Certificates of Confidentiality when they would be appropriate",
+      "Not explaining how data about illegal behavior will be stored securely to prevent subpoena or breach",
+      "Failing to describe how the consent process will clearly communicate limits to confidentiality",
+      "Not providing participant resources such as legal aid or substance abuse treatment referrals"
+    ],
+    "formatting": "Write in paragraph form. Clearly distinguish between protections for confidentiality, resources for participants, and disclosures in the consent process."
+  },
+  "3862793": {
+    "name": "Extra Considerations - Damaging Information",
+    "prompt": "Describe the extra considerations and resources you will provide to protect participants given that disclosure of their information could reasonably place them at risk of criminal or civil liability, financial harm, employability damage, or reputational harm. Explain the specific data security measures that go beyond standard practice, how participant identity will be protected, and what resources will be made available to participants should a breach occur or distress arise.",
+    "commonIssues": [
+      "Not specifying what type of damaging information may be collected (financial, legal, reputational, employment)",
+      "Failing to describe enhanced data security measures beyond standard password protection",
+      "Omitting a breach notification or response plan",
+      "Not addressing whether data will be de-identified or coded and how the key will be stored",
+      "Providing only generic confidentiality statements without study-specific protections",
+      "Failing to explain how the consent form will clearly warn participants about the nature of the risk"
+    ],
+    "formatting": "Write in paragraph form. Be specific about data security measures, participant protections, and available resources."
+  },
+  "3862798": {
+    "name": "Recording Procedures",
+    "prompt": "Describe the recording procedures in detail, including the type of recording (audio, video, or both), the equipment that will be used, the setting where recordings will take place, and the duration and frequency of recording sessions. If data will be transcribed, identify the person(s) or service/vendor who will conduct the transcription and specify what data will be sent to the transcription service. Address whether recordings will capture identifiable information and how this will be managed.",
+    "commonIssues": [
+      "Not specifying the type of recording equipment and settings used",
+      "Failing to identify the transcription service or personnel by name",
+      "Not describing what specific data (audio only, video, identifiers) will be sent to transcription services",
+      "Omitting the duration and frequency of recording sessions",
+      "Not addressing whether recordings capture identifiable information (faces, voices, names)",
+      "Failing to describe quality assurance procedures for recordings and transcriptions"
+    ],
+    "formatting": "Describe the recording process step by step: equipment, setting, duration, frequency, transcription plans, and identifiability. Name transcription personnel or services specifically."
+  },
+  "3862802": {
+    "name": "Data Security Measures for Recordings",
+    "prompt": "Address each of the following: (1) Describe data security measures that will protect recordings during collection and any necessary transfers (e.g., encrypted transfer, secure upload). (2) Describe how and where recordings will be stored, including physical and electronic security measures. (3) Describe how and when the recordings will be destroyed, including the specific method of destruction and the timeline. Address the entire lifecycle of recordings from capture through final destruction.",
+    "commonIssues": [
+      "Not addressing security during the recording process itself (e.g., device encryption)",
+      "Failing to describe secure transfer methods when recordings move between devices or locations",
+      "Omitting the specific storage location (e.g., encrypted institutional server vs. personal device)",
+      "Not specifying a concrete timeline for recording destruction",
+      "Failing to describe the destruction method (e.g., secure digital deletion, physical destruction of media)",
+      "Not addressing backup copies and whether they are also subject to the same security and destruction protocols"
+    ],
+    "formatting": "Use a numbered format corresponding to the three required questions: protection during collection/transfer, storage security, and destruction method/timeline. Be specific about technology and procedures."
+  },
+  "3862804": {
+    "name": "Participant Observation Notes",
+    "prompt": "Explain how and where you will take notes on naturally occurring interactions and conversations, specifying the setting (place, people, situation) and whether you will participate as an observer or an active participant. Address whether a Letter of Support from a gatekeeper (director, owner, manager) of the institution or organization is needed. Describe how participants will be informed of the research and given the opportunity to opt out. Clarify whether observations involve children, identifiable information, or situations that could place participants at risk if disclosed.",
+    "commonIssues": [
+      "Not clarifying the observer's role (passive observer vs. active participant)",
+      "Failing to address how participants will be informed and given the chance to opt out",
+      "Omitting the need for a Letter of Support from an organizational gatekeeper",
+      "Not addressing whether observations in public spaces involve children or identifiable recording",
+      "Failing to describe how notes will be de-identified to protect participant privacy",
+      "Not clarifying whether consent is needed based on the nature of the observation setting"
+    ],
+    "formatting": "Describe the observation setting, the observer's role, the note-taking method, participant notification and opt-out procedures, and any required letters of support. Address consent requirements based on setting type."
+  },
+  "3862806": {
+    "name": "Body Procedure Description",
+    "prompt": "Describe the scanning or imaging procedure that will be used, including the specific body part(s) being scanned, the type of equipment or technology employed, and any preparations required of the participant (e.g., fasting, removal of metal objects). Explain and justify the data that will be collected from each scan and the total number of scans needed per participant, linking each to a specific research question. Address the duration of each scanning session and any potential discomfort or safety considerations.",
+    "commonIssues": [
+      "Not specifying the exact body part(s) that will be scanned or imaged",
+      "Failing to justify the number of scans per participant in relation to the research questions",
+      "Omitting the type of scanning equipment, model, or technology specifications",
+      "Not describing participant preparation requirements before the procedure",
+      "Failing to address the duration of each scanning session and its impact on participant comfort",
+      "Not mentioning safety considerations such as radiation exposure limits or contraindications"
+    ],
+    "formatting": "Describe the procedure step by step, including equipment, body part, participant preparation, scan duration, number of scans, and justification. Address safety considerations."
+  },
+  "3862811": {
+    "name": "Biological Specimen Collection and Handling",
+    "prompt": "Describe the complete collection and handling procedures for all biological specimens in the study. Include the type of specimens being collected, the collection method and equipment (e.g., needle gauge, collection tubes), the volume or amount per collection, and the total number of collection events per participant. Specify who will perform the collection and their qualifications. Describe how specimens will be handled immediately after collection, including labeling, transport, processing, and initial storage conditions. If an IBC study number is applicable, provide it.",
+    "commonIssues": [
+      "Not specifying the volume or amount of specimens collected per event and the total across the study",
+      "Failing to identify who will perform the collection and their credentials or training",
+      "Omitting the specific equipment details (e.g., needle gauge, tube type, collection kit)",
+      "Not describing the chain of custody from collection through processing and storage",
+      "Failing to address specimen labeling procedures to maintain confidentiality",
+      "Not providing the IBC study number when working with biohazardous materials"
+    ],
+    "formatting": "Describe the collection process sequentially: specimen type, method, volume, frequency, collector qualifications, immediate handling, labeling, transport, and initial storage. Include all relevant technical specifications."
+  },
+  "3862818": {
+    "name": "Testing Location and Genetic Testing Details",
+    "prompt": "Address each of the following: (1) Provide the testing location and indicate whether the lab is CLIA certified. (2) State whether genetic test results will be returned to participants or their physicians. (3) If results will be returned, describe specifically what results, to whom, and how they will be communicated. (4) Indicate whether this study is part of a Genome-Wide Association Study (GWAS) and whether data will be forwarded to the NIH dbGaP. If testing is on campus, provide the specific lab location.",
+    "commonIssues": [
+      "Not addressing CLIA certification status of the testing laboratory",
+      "Failing to clarify whether individual genetic results will or will not be returned to participants",
+      "Not describing the process for returning results including genetic counseling provisions",
+      "Omitting the specific lab location (building and room number for on-campus labs)",
+      "Not addressing whether the study involves GWAS or data submission to NIH dbGaP",
+      "Failing to address the informed consent implications of returning or not returning genetic results"
+    ],
+    "formatting": "Use a numbered format addressing all four required questions. Be specific about lab names, locations, CLIA status, and result return procedures."
+  },
+  "3862820": {
+    "name": "Biospecimen Analysis Details",
+    "prompt": "Describe how biological specimens will be collected or have been collected, where and how they will be stored, how long they will be stored and used, and the testing location with CLIA certification status. If testing is on campus, provide the specific lab location. If shipping specimens to a relying institution, address Material Transfer Agreement (MTA) requirements and contact the Office of Sponsored Programs. Note that MTAs can be submitted via amendment but must be fully executed before any samples are shipped.",
+    "commonIssues": [
+      "Not specifying how long specimens will be stored and the timeline for use",
+      "Failing to address CLIA certification of the testing lab",
+      "Omitting Material Transfer Agreement requirements when shipping specimens to external sites",
+      "Not describing the specific storage conditions (temperature, container type, facility)",
+      "Failing to provide the on-campus lab location when applicable",
+      "Not addressing specimen destruction procedures after the study or retention period ends"
+    ],
+    "formatting": "Address each sub-question in order: collection method, storage location and conditions, storage duration, usage duration, testing location with CLIA status, and MTA requirements if applicable."
+  },
+  "3862824": {
+    "name": "Randomization",
+    "prompt": "Describe how randomization will be carried out, including the method used (e.g., computer-generated random number sequence, block randomization, stratified randomization), who will generate and hold the randomization scheme, when randomization occurs relative to enrollment and consent, and how the randomization assignments will be concealed until allocation. If using stratification, specify the stratification variables.",
+    "commonIssues": [
+      "Stating that participants will be randomized without describing the specific randomization method",
+      "Not specifying who will generate or manage the randomization sequence",
+      "Failing to describe allocation concealment (how assignments are hidden until the moment of allocation)",
+      "Omitting stratification variables when subgroup balance is important",
+      "Not clarifying when in the study timeline randomization occurs relative to consent and baseline assessments"
+    ],
+    "formatting": "Write in narrative form. Specify the randomization method, who manages it, when it occurs, and how allocation is concealed."
+  },
+  "3862826": {
+    "name": "Blinding",
+    "prompt": "Describe the blinding strategy for this study, including whether the study is single-blind (participant only), double-blind (participant and investigator), or triple-blind (participant, investigator, and analyst). Specify who is blinded and who is not, how blinding is maintained throughout the study, and under what circumstances unblinding would occur. If the study is not blinded, explain why blinding is not feasible or appropriate.",
+    "commonIssues": [
+      "Stating the study is 'blinded' without specifying who is blinded (single vs. double vs. triple)",
+      "Not describing the mechanism by which blinding is maintained (e.g., identical packaging, coded labels)",
+      "Failing to describe the unblinding procedures and criteria for when unblinding is necessary",
+      "Not addressing whether data analysts will be blinded to group assignment",
+      "Omitting a rationale for why the study is open-label when blinding could reduce bias"
+    ],
+    "formatting": "Write in narrative form. Clearly state the type of blinding, who is blinded, how blinding is maintained, and the unblinding protocol."
+  },
+  "3862828": {
+    "name": "Placebo/Control Group",
+    "prompt": "Describe the placebo or control condition used in this study and provide a rationale for its use. Explain what the control group will receive (e.g., placebo treatment, waitlist, treatment as usual, no intervention, sham procedure) and why this comparator is scientifically appropriate and ethically justified. Address whether withholding or delaying the active intervention from the control group poses any risk.",
+    "commonIssues": [
+      "Describing the control condition without providing a scientific rationale for using it",
+      "Failing to address the ethical implications of withholding an active treatment from the control group",
+      "Not describing what the control group will actually experience during the study period",
+      "Omitting whether control group participants will be offered the active intervention after the study (e.g., crossover or waitlist design)",
+      "Vague description of the control condition that does not allow a reviewer to assess comparability"
+    ],
+    "formatting": "Write in narrative form. Describe the specific control condition, its rationale, and any ethical safeguards (e.g., rescue criteria, delayed treatment access)."
+  },
+  "3862849": {
+    "name": "Other Procedures - Please Describe",
+    "prompt": "Provide a detailed description of any study procedures that were not captured by the standard procedure categories in this form. Include what the procedure involves, who will conduct it, where it will take place, how long it will take, and how participant safety and data integrity will be maintained. Explain how these procedures relate to your research aims.",
+    "commonIssues": [
+      "Providing only a one-sentence description without sufficient procedural detail",
+      "Not explaining who will perform the procedure and their qualifications",
+      "Failing to address participant safety or risk considerations specific to this procedure",
+      "Omitting the duration or frequency of the procedure",
+      "Not connecting the procedure to the study aims or explaining its necessity",
+      "Describing procedures that actually belong in other standard form sections"
+    ],
+    "formatting": "Write in paragraph form with enough detail for the IRB to assess risk. Include who, what, where, when, and how for each procedure described."
+  },
+  "3862864": {
+    "name": "Procedures for Sharing Results",
+    "prompt": "Describe how and when research results will be shared with participants, communities, or stakeholders. Specify whether individual results, aggregate findings, or both will be shared, the format of dissemination (e.g., written summary, presentation, publication), and what safeguards will be in place to protect participant identities during results dissemination. If results will not be shared with participants, explain why.",
+    "commonIssues": [
+      "Not specifying whether individual or aggregate results will be shared",
+      "Failing to describe the timeline for sharing results",
+      "Omitting how participant confidentiality will be maintained during dissemination",
+      "Not addressing what happens if results reveal concerning findings about a participant",
+      "Providing vague statements like 'results will be published' without describing the participant-facing plan",
+      "Not describing how community or organizational partners will receive findings"
+    ],
+    "formatting": "Write in paragraph form. Clearly state the audience, format, timeline, and confidentiality protections for each type of result sharing."
+  },
+  "3862869": {
+    "name": "Study Procedures (Main)",
+    "prompt": "Provide a comprehensive, step-by-step description of all study procedures from enrollment through study completion, including every interaction with or data collection from participants. Describe each procedure in sufficient detail for a reviewer to assess the nature, duration, and level of risk involved. Include the sequence and timing of procedures, who will perform them, where they will occur, and what instruments, equipment, or interventions will be used.",
+    "commonIssues": [
+      "Describing the overall design but not the specific procedures participants will undergo",
+      "Failing to specify who will perform each procedure and their qualifications",
+      "Omitting the duration, frequency, and total time commitment for participants",
+      "Not describing procedures in chronological order, making it hard to follow the participant experience",
+      "Leaving out procedures mentioned elsewhere in the protocol (e.g., blood draws, questionnaires, recordings)",
+      "Not distinguishing between research-only procedures and those that are standard of care"
+    ],
+    "formatting": "Write as a chronological, step-by-step narrative or numbered procedure list. Include timing, personnel, setting, and instruments for each step."
+  },
+  "3862875": {
+    "name": "Study Design/Methodology (Chart Review)",
+    "prompt": "Describe the design and methodology for your chart review study, including whether the review is retrospective, prospective, or both. Specify the data source (e.g., electronic health records, paper charts, registry), the date range of records to be reviewed, what specific data elements will be extracted, and how the data will be recorded and stored. Explain the analytic approach and how data quality will be ensured.",
+    "commonIssues": [
+      "Not specifying the date range or time period for the chart review",
+      "Failing to list the specific data variables that will be extracted from records",
+      "Omitting how extracted data will be recorded (e.g., REDCap, Excel, paper forms) and who will have access",
+      "Not describing data quality measures such as double extraction or inter-rater reliability checks",
+      "Failing to explain whether the review is retrospective, prospective, or ambidirectional",
+      "Not addressing how patient privacy will be protected during data extraction"
+    ],
+    "formatting": "Write in narrative form. Specify the data source, date range, variables to be extracted, data recording method, and analytic plan."
+  },
+  "3862882": {
+    "name": "Deception Justification (Main Protocol)",
+    "prompt": "Justify the use of deception or incomplete disclosure by explaining why the research objectives cannot be achieved without it and how this approach is consistent with sound research design. Describe the specific deception being employed (e.g., false feedback, confederate involvement, withholding the true hypothesis), why non-deceptive alternatives are insufficient, and how risks to participants will be minimized. Address the possibility that participants may experience negative reactions upon learning the true study purpose, and describe safeguards against lasting harm.",
+    "commonIssues": [
+      "Not specifying the exact nature and scope of the deception (e.g., what participants are told vs. reality)",
+      "Failing to explain why non-deceptive alternative methods cannot achieve the research goals",
+      "Providing only a generic justification without tying it to the specific research design",
+      "Not addressing the potential psychological impact on participants when the deception is revealed",
+      "Omitting a description of how the deception is proportionate to the scientific value of the study",
+      "Failing to address safeguards against lasting harm from the deception"
+    ],
+    "formatting": "Clearly describe the deception first, then provide the scientific justification, and finally address risk minimization. Use specific examples relevant to your study rather than generic statements."
+  },
+  "3862883": {
+    "name": "Debriefing Process (Main Protocol)",
+    "prompt": "Describe the full debriefing process, including when it will occur, who will conduct it, what information will be provided to participants, and how it will be delivered (written, verbal, or both). Explain how participants will be told the true purpose of the study and the nature of any deception used. Address whether participants will be given the option to withdraw their data after learning about the deception, and describe resources available if the debriefing causes distress. Reference the TCU IRB Deception and Debriefing guidelines.",
+    "commonIssues": [
+      "Not specifying the timing of debriefing relative to individual participation vs. overall study completion",
+      "Failing to provide the specific content and script of the debriefing communication",
+      "Omitting the option for participants to withdraw their data after debriefing",
+      "Not identifying support resources (e.g., counseling services) available for participants who experience distress",
+      "Failing to describe how participants who dropped out or withdrew early will be debriefed",
+      "Not addressing whether debriefing will be delayed and the justification for any delay"
+    ],
+    "formatting": "Use a structured format covering timing, content, delivery method, data withdrawal option, and support resources. Reference the TCU IRB Deception and Debriefing guidelines document."
+  },
+  "3862940": {
+    "name": "Study Products - Please Describe",
+    "prompt": "Describe any study products that do not fall neatly into the drug/biologic or device categories, including dietary supplements, behavioral interventions delivered via technology, educational materials, or other products being evaluated. Provide the product name, source or manufacturer, how it will be used in the study, the dosage or exposure parameters, and any known risks. Address the regulatory status of the product and any applicable oversight requirements.",
+    "commonIssues": [
+      "Not providing sufficient detail about the product's composition, source, or manufacturer",
+      "Failing to describe the dosage, exposure duration, or usage parameters",
+      "Omitting known risks or side effects associated with the product",
+      "Not addressing the regulatory status or applicable oversight requirements",
+      "Providing only a generic description without connecting the product to its specific use in the study",
+      "Failing to describe quality control or standardization procedures for the product"
+    ],
+    "formatting": "Describe the product with specifics: name, source, composition, usage parameters, known risks, and regulatory status. Connect each detail to its role in the study design."
+  },
+  "3862942": {
+    "name": "Drug/Biologic/Food/Cosmetic Description",
+    "prompt": "Provide a comprehensive description of any drug, biologic, food product, or cosmetic used in this study. Include the product name (generic and brand), manufacturer, formulation, concentration/strength, dosage, route of administration, frequency, and duration of use. Describe the mechanism of action and the known side effects or adverse reactions. If the product is investigational, provide the IND number and current phase of development. Address storage requirements, preparation procedures, and who will administer the product and their qualifications.",
+    "commonIssues": [
+      "Not providing complete dosage information including concentration, dose, route, frequency, and duration",
+      "Failing to list known side effects and adverse reactions",
+      "Omitting the IND number for investigational products",
+      "Not specifying who will administer the product and their qualifications or training",
+      "Failing to describe storage conditions and preparation procedures",
+      "Not addressing drug-specific warnings, contraindications, or interactions relevant to the study population"
+    ],
+    "formatting": "Provide all product details in a structured format: name, manufacturer, formulation, dosage (with units), route, frequency, duration, mechanism of action, side effects, storage, and administration personnel."
+  },
+  "3862949": {
+    "name": "Device Description",
+    "prompt": "Provide a complete description of any device used in this study, including the device name, manufacturer, model number, and its intended purpose. Describe how the device operates, how it will be used with study participants, and whether it is FDA-cleared, FDA-approved, or investigational. Address whether the device is being used for its intended purpose or an off-label use. If testing device safety or effectiveness, describe the testing protocol. Include any known risks associated with the device and the safeguards in place to protect participants.",
+    "commonIssues": [
+      "Not specifying the device manufacturer, model, and FDA regulatory status",
+      "Failing to describe how the device operates in terms understandable to non-specialists",
+      "Omitting whether the device is used for its cleared/approved purpose or for an off-label application",
+      "Not listing the known risks associated with device use",
+      "Failing to describe the qualifications of personnel who will operate the device",
+      "Not addressing device maintenance, calibration, or safety inspection procedures"
+    ],
+    "formatting": "Include device identification (name, manufacturer, model), FDA status, operational description, participant interaction details, known risks, operator qualifications, and safety protocols."
+  },
+  "3862952": {
+    "name": "NSR Justification (Non-Significant Risk Device)",
+    "prompt": "Provide a justification for why the investigational device used in this study poses a non-significant risk (NSR) to participants. Explain why the device does not meet the criteria for a significant risk device under 21 CFR 812.3(m), which includes devices that are implanted, used to support or sustain life, substantially important in diagnosing or treating disease, or that otherwise present a potential for serious risk to health, safety, or welfare. Cite relevant literature or prior use data supporting the NSR determination.",
+    "commonIssues": [
+      "Not addressing each of the FDA's significant risk criteria and explaining why the device does not meet them",
+      "Failing to cite prior use data, literature, or safety information supporting the NSR classification",
+      "Providing only a conclusory statement without detailed analysis of the device's risk profile",
+      "Not comparing the device to legally marketed predicate devices",
+      "Omitting the specific risks that do exist and why they do not rise to the level of significant risk",
+      "Failing to address the conditions of use in the proposed study that support the NSR determination"
+    ],
+    "formatting": "Address each significant risk criterion from 21 CFR 812.3(m) and explain why the device does not meet it. Support with literature references, safety data, or predicate device comparisons."
+  },
+  "3862964": {
+    "name": "Participating Sites Listing (Multi-Site Reviewing)",
+    "prompt": "List all participating sites that will conduct this study under TCU IRB oversight. For each site, provide: (1) the institution's full name (no acronyms), (2) its Federal Wide Assurance (FWA) number, (3) the names and credentials of all investigators and study team members at that site, (4) who will serve as the site PI along with their email address, and (5) confirmation that current CITI training certificates are attached for all personnel. Use the OHRP FWA database to verify FWA numbers.",
+    "commonIssues": [
+      "Using institutional acronyms instead of full names",
+      "Omitting or providing incorrect FWA numbers",
+      "Not identifying which person at each site serves as the site PI",
+      "Failing to include email addresses for site PIs",
+      "Not listing all study team members, only the PI",
+      "Forgetting to attach current CITI training certificates for all listed personnel"
+    ],
+    "formatting": "Use a numbered list with one entry per site. Under each site, use sub-bullets for institution name, FWA number, personnel names and credentials, site PI identification, and email addresses."
+  },
+  "3862978": {
+    "name": "Site Differences (Multi-Site Reviewing)",
+    "prompt": "Describe what will be done differently at each participating site compared to the lead site. Address differences in participant populations (e.g., not enrolling minors), procedures (e.g., not collecting specimens), recruitment methods, consent processes, or any site-specific modifications. If all sites will follow identical procedures, state that explicitly and justify why no variations are needed.",
+    "commonIssues": [
+      "Providing a vague statement like 'minor differences' without specifying what they are",
+      "Not addressing how site-specific differences affect participant risk or consent processes",
+      "Failing to mention differences in recruitment methods or participant demographics across sites",
+      "Omitting site-specific regulatory requirements that may differ",
+      "Not explaining whether site-specific consent form modifications are needed",
+      "Failing to describe how consistency will be maintained across sites despite differences"
+    ],
+    "formatting": "Organize by site, listing each site name followed by the specific differences at that location. Use bullet points for clarity."
+  },
+  "3862982": {
+    "name": "Biological Samples at Sites (Multi-Site Reviewing)",
+    "prompt": "Describe the handling of biological samples across all participating sites. Address: (1) whether samples will be collected at the relying institution or shipped there, and identify the lab and location; (2) whether a Material Transfer Agreement (MTA) is in place or will be submitted via amendment before samples are shipped; and (3) what specific biological samples will be shipped and what tests will be conducted at each site. Contact OSP at sponsoredprograms@tcu.edu for MTAs if needed.",
+    "commonIssues": [
+      "Not specifying whether samples are collected on-site or shipped between institutions",
+      "Failing to mention Material Transfer Agreements (MTAs) when samples cross institutional boundaries",
+      "Omitting the specific lab name and location where samples will be processed",
+      "Not describing what types of biological samples are involved and what tests will be run",
+      "Failing to state that a fully executed MTA will be submitted via amendment before shipping begins",
+      "Not addressing sample storage, labeling, and chain-of-custody procedures across sites"
+    ],
+    "formatting": "Use numbered responses corresponding to each sub-question. For each site, clearly identify the lab location, sample types, and MTA status."
+  },
+  "3862991": {
+    "name": "COI Management (Multi-Site Reviewing)",
+    "prompt": "Provide details of the Conflict of Interest (COI) management measures that will be implemented for investigators at all participating sites. Describe the management plan without disclosing the specific nature of the financial interest. If a COI management plan is attached as a separate document, enter 'N/A' and reference the attachment. Include how COI will be monitored throughout the study and how participants will be informed if applicable.",
+    "commonIssues": [
+      "Disclosing the specific financial interest instead of only describing management measures",
+      "Providing only a generic COI statement without describing concrete management steps",
+      "Failing to address COI at relying sites, not just the lead site",
+      "Not referencing institutional COI policies or committees that reviewed the interest",
+      "Omitting how ongoing COI monitoring will be conducted during the study",
+      "Forgetting to enter 'N/A' when the management plan is provided as an attachment"
+    ],
+    "formatting": "Write in paragraph form or use bullet points for each management measure. Do not disclose the nature of the financial interest itself. Reference attachments if the plan is provided separately."
+  },
+  "3862993": {
+    "name": "IRB/HRPP Contact Info (Multi-Site Reviewing)",
+    "prompt": "Provide the IRB or Human Research Protection Program (HRPP) contact information for each participating site. Include the contact person's full name, title, and email address. This information is needed to facilitate communication between the reviewing IRB (TCU) and the relying institutions for reliance agreement coordination and ongoing oversight.",
+    "commonIssues": [
+      "Providing only a generic departmental email instead of a specific contact person",
+      "Omitting the title or role of the IRB/HRPP contact",
+      "Not providing contact information for every participating site",
+      "Listing outdated contact information",
+      "Confusing the site PI contact with the IRB/HRPP office contact",
+      "Using acronyms for institutional names without spelling them out"
+    ],
+    "formatting": "Use a numbered list organized by site. For each site, provide the institution name, contact name, title, and email address on separate lines or in a structured format."
+  },
+  "3863006": {
+    "name": "Reviewing Site IRB Contact (Multi-Site Relying)",
+    "prompt": "Provide the IRB or HRPP contact information for the reviewing site (the institution whose IRB will serve as the IRB of Record for this study). Include the contact person's full name, title, and email address. This information enables the TCU IRB to coordinate the reliance agreement and communicate about protocol changes, reportable events, and ongoing oversight requirements.",
+    "commonIssues": [
+      "Providing only a generic office email without a specific contact name",
+      "Omitting the contact person's title or role within the IRB/HRPP",
+      "Confusing the reviewing site PI with the reviewing site IRB administrator",
+      "Not providing a direct email for the IRB office or designated contact",
+      "Listing information for the wrong institution (e.g., the relying site instead of the reviewing site)"
+    ],
+    "formatting": "Provide the information in a structured format: contact name, title, institutional affiliation, and email address. Use complete institutional names without acronyms."
+  },
+  "3863021": {
+    "name": "Study Activities Description (Multi-Site Relying)",
+    "prompt": "Provide a detailed description of the specific study activities that will be conducted at TCU as a relying site. Expand on the activities you selected in the checklist by describing how each activity will be carried out, who will perform it, the timeline, and where at TCU it will occur. Be specific about which portions of the overall study protocol TCU personnel are responsible for versus what is handled by the reviewing site.",
+    "commonIssues": [
+      "Repeating the checklist selections without adding meaningful procedural detail",
+      "Not specifying who at TCU will perform each activity",
+      "Failing to distinguish between activities performed at TCU versus those at other sites",
+      "Omitting the timeline or sequence of study activities at TCU",
+      "Not describing how TCU activities integrate with the broader multi-site protocol",
+      "Providing a copy of the full study protocol instead of focusing on TCU-specific activities"
+    ],
+    "formatting": "Write in paragraph form or use a numbered list organized by activity type. Clearly identify each activity, the responsible personnel, location, and timeline."
+  },
+  "3863024": {
+    "name": "Who Conducts Data Analysis (Collaborative Research)",
+    "prompt": "Identify all non-TCU individuals or groups who will conduct data analysis for this study. For each external analyst, provide their full name, institutional affiliation, and role in the analysis. You do not need to list TCU study team members. Specify whether the external collaborators will have access to identifiable data or only de-identified datasets, and describe any data use agreements that govern their access.",
+    "commonIssues": [
+      "Listing TCU team members when the field asks only for non-TCU analysts",
+      "Providing institutional names without specific individual names and roles",
+      "Not specifying whether the external analyst will receive identifiable or de-identified data",
+      "Omitting mention of data use agreements or IRB approvals at the collaborator's institution",
+      "Failing to describe the collaborator's qualifications or expertise relevant to the analysis",
+      "Not addressing whether the collaborator's institution has its own IRB approval for this work"
+    ],
+    "formatting": "Use a structured format listing each external collaborator with their name, institution, role, and data access level. Write in complete sentences."
+  },
+  "3863025": {
+    "name": "What Data Sent for Analysis (Collaborative Research)",
+    "prompt": "Specify exactly what collected data will be sent to external collaborators for analysis. Identify each data type (e.g., survey responses, interview transcripts, biological specimen results, imaging data) and whether the data will be identifiable, coded, or fully de-identified before being sent. Describe any data transformations or de-identification steps that will occur before sharing.",
+    "commonIssues": [
+      "Providing only a vague description like 'study data' without specifying data types",
+      "Not clarifying whether data will be de-identified, coded, or sent with identifiers",
+      "Omitting mention of who performs the de-identification before data transfer",
+      "Failing to address whether a code key will be shared with the external collaborator",
+      "Not describing all data types being shared (e.g., mentioning survey data but omitting demographic data)",
+      "Not addressing whether biological specimens themselves will be shipped versus only results"
+    ],
+    "formatting": "Use a bulleted list of each data type being shared, followed by its identification status (identifiable, coded, or de-identified). Describe de-identification steps in a separate paragraph."
+  },
+  "3863030": {
+    "name": "Data Sharing with Collaborators (Collaborative Research)",
+    "prompt": "Describe the method by which data will be transmitted to external collaborators and how the collaborator will store the data upon receipt. Specify the transfer mechanism (e.g., encrypted email, secure file transfer protocol, institutional cloud platform), the encryption or security measures during transit, and the storage environment at the collaborator's site (e.g., password-protected server, institutional secure drive, encrypted local device).",
+    "commonIssues": [
+      "Stating data will be 'emailed' without specifying encryption or security measures",
+      "Not describing the storage environment at the receiving institution",
+      "Omitting details about access controls at the collaborator's site",
+      "Failing to mention whether institutional-approved platforms will be used versus personal devices",
+      "Not addressing data security during transit versus at rest separately",
+      "Providing vague statements like 'data will be shared securely' without specific mechanisms"
+    ],
+    "formatting": "Write in paragraph form. Address both the transfer method and the storage plan separately. Name specific platforms, tools, or protocols used."
+  },
+  "3863031": {
+    "name": "Data Disposition After Analysis (Collaborative Research)",
+    "prompt": "Describe what will happen to the data once the external collaborator completes their analysis. Specify whether the data will be returned to TCU, destroyed at the collaborator's site, or retained for a defined period. If data will be destroyed, describe the destruction method (e.g., secure deletion, certificate of destruction). If data will be retained, explain the retention period, justification, and ongoing security measures.",
+    "commonIssues": [
+      "Not specifying a concrete plan for data disposition (return, destroy, or retain)",
+      "Failing to describe the method of destruction if data will be destroyed",
+      "Omitting a timeline for when data disposition will occur after analysis is complete",
+      "Not addressing whether a certificate of destruction or confirmation will be provided",
+      "Providing conflicting information between this field and the data management plan",
+      "Not addressing what happens to backup copies of the data at the collaborator's site"
+    ],
+    "formatting": "Write in paragraph form. Clearly state the disposition action (return, destroy, or retain), the timeline, the method, and any confirmation procedures."
+  },
+  "3863035": {
+    "name": "Local Context - Political/Legal/Cultural (International Research)",
+    "prompt": "Describe the political, legal, and cultural considerations specific to the international research location that are relevant to conducting your study. Address the current political stability, any laws or regulations that affect research with human subjects (e.g., data privacy laws, restrictions on certain research topics), cultural norms around consent and autonomy, and any power dynamics or vulnerabilities that may affect participant willingness to participate freely. Demonstrate familiarity with the local research environment.",
+    "commonIssues": [
+      "Providing only a superficial or tourism-level description of the country without research-relevant details",
+      "Not addressing local data privacy or research ethics laws that may differ from U.S. regulations",
+      "Failing to discuss political stability or security considerations that could affect participants or researchers",
+      "Omitting cultural norms around informed consent, authority, or gender that affect voluntary participation",
+      "Not acknowledging power differentials between foreign researchers and local participants",
+      "Failing to address language barriers and their implications for informed consent"
+    ],
+    "formatting": "Write in paragraph form organized by category: political considerations, legal framework, and cultural factors. Cite specific laws or cultural practices where possible."
+  },
+  "3863036": {
+    "name": "Scientific/Ethical Justification for International Setting",
+    "prompt": "Explain why this research must be conducted in an international setting rather than domestically. Provide the scientific rationale (e.g., the study population, phenomenon, or condition is specific to that location) and the ethical justification (e.g., the research will benefit the local community, addresses a local health disparity, or involves a condition prevalent in that region). Address how the research avoids exploitation of the local population.",
+    "commonIssues": [
+      "Not providing a scientific reason specific to the international location",
+      "Failing to explain why the research could not be conducted domestically",
+      "Omitting the ethical dimension of how the research benefits the local community",
+      "Providing only convenience-based justifications (e.g., existing collaborator, lower costs) without scientific rationale",
+      "Not addressing the concern of exploitation or 'helicopter research'",
+      "Failing to describe how findings will be shared with or benefit the international community"
+    ],
+    "formatting": "Write in paragraph form with clearly separated scientific and ethical justifications. Be specific about what makes the international setting essential."
+  },
+  "3863037": {
+    "name": "Societal/Cultural Beliefs Impact on Research",
+    "prompt": "Describe the societal and cultural beliefs in the research country that may impact how the research is conducted or that could alter the risks or benefits to participants. Address beliefs about research participation, medical treatment, bodily autonomy, privacy, gender roles, authority, or any stigmatized conditions relevant to your study. Explain how your study design accounts for these beliefs to minimize risk and respect local customs.",
+    "commonIssues": [
+      "Providing a generic cultural overview without connecting it to specific study risks or procedures",
+      "Not addressing how cultural beliefs might affect informed consent or willingness to participate",
+      "Failing to discuss stigma associated with the research topic in the local culture",
+      "Omitting how gender norms or power dynamics might affect recruitment or data collection",
+      "Not explaining study design modifications made to respect local cultural practices",
+      "Assuming Western research norms apply universally without addressing cultural differences"
+    ],
+    "formatting": "Write in paragraph form. For each cultural factor identified, explain its relevance to your specific study and the mitigation or adaptation strategy you will employ."
+  },
+  "3863040": {
+    "name": "International Risks and Mitigation",
+    "prompt": "Describe the risks specific to conducting research internationally and the steps you will take to minimize them. Address risks to both participants and researchers, including political instability, travel safety, communication barriers, limited access to emergency services, data security across borders, potential for government surveillance, and any risks arising from the specific research topic in the local context. For each identified risk, provide a concrete mitigation strategy.",
+    "commonIssues": [
+      "Listing risks without corresponding mitigation strategies",
+      "Not addressing risks to both participants and researchers",
+      "Omitting data security risks related to cross-border data transfer or local government access",
+      "Failing to address travel safety or emergency protocols for research personnel",
+      "Not considering the risk of participants being identified in small or close-knit communities",
+      "Providing only generic risk statements without connection to the specific study location"
+    ],
+    "formatting": "Use a structured format pairing each risk with its mitigation strategy. A table or paired bullet points work well. Address participant risks and researcher risks separately."
+  },
+  "3863045": {
+    "name": "Culturally Appropriate Access (International Research)",
+    "prompt": "Describe how the researcher will have culturally appropriate access to the community where the international research will be conducted. Explain existing relationships with local organizations, community leaders, or institutions that facilitate trust and access. Describe the researcher's familiarity with the local culture and language, any local collaborators or cultural liaisons who will assist, and how the research team will navigate cultural protocols for entering and working within the community.",
+    "commonIssues": [
+      "Claiming cultural competence without providing evidence of prior experience or relationships",
+      "Not identifying specific local collaborators, organizations, or gatekeepers who will facilitate access",
+      "Failing to address language proficiency or plans for interpretation and translation",
+      "Omitting how community trust will be established before or during data collection",
+      "Not describing any formal community engagement or approval processes required locally",
+      "Providing only the name of a collaborating institution without explaining the relationship"
+    ],
+    "formatting": "Write in paragraph form. Name specific individuals, organizations, or community leaders involved. Describe the history of the relationship and the access strategy."
+  },
+  "3863049": {
+    "name": "Local IRB/Ethics Committee Contact (International Research)",
+    "prompt": "Provide the contact information for the local IRB or Ethics Committee equivalent at the international research location. Include the committee name, contact person's full name and title, institutional affiliation, mailing address, phone number, and email address. If the country does not have a formal IRB equivalent, explain the local ethical review process and identify the responsible authority.",
+    "commonIssues": [
+      "Providing incomplete contact information (e.g., email only without name or title)",
+      "Not specifying the official name of the local ethics review body",
+      "Failing to verify that the committee is currently active and has jurisdiction over the proposed research",
+      "Omitting the country or city where the committee is located",
+      "Confusing a local collaborator's departmental review with the national or institutional ethics committee",
+      "Not addressing the situation when no formal IRB equivalent exists in the country"
+    ],
+    "formatting": "Present contact information in a structured format: committee name, contact person name, title, institution, address, phone, and email. Each element should be on its own line."
+  },
+  "3863053": {
+    "name": "International - Please Describe (Other Considerations)",
+    "prompt": "Describe any additional international research considerations not covered by the other fields in this section. This may include unique regulatory requirements, import/export restrictions on data or materials, visa or research permit requirements, local institutional approvals needed, or any other country-specific factors that the IRB should be aware of when reviewing this protocol.",
+    "commonIssues": [
+      "Leaving this field blank when there are relevant considerations not addressed elsewhere",
+      "Repeating information already provided in other international research fields",
+      "Not mentioning research visa or permit requirements when applicable",
+      "Failing to address import/export restrictions on biological samples or research equipment",
+      "Omitting local institutional approvals or governmental research permits that are required",
+      "Not addressing customs or shipping regulations for research materials"
+    ],
+    "formatting": "Write in paragraph form. Clearly label each additional consideration and provide sufficient detail for the IRB to assess its impact on the study."
+  },
+  "3863056": {
+    "name": "Communication with TCU IRB Internationally",
+    "prompt": "Describe how researchers collecting data at the international site will communicate with the TCU IRB in the event the project requires changes, unanticipated problems arise, or there are reportable incidents. Specify the communication method (e.g., email, phone, video conference), expected response times given time zone differences, who will be responsible for reporting, and any backup communication plans if primary methods are unavailable due to local infrastructure limitations.",
+    "commonIssues": [
+      "Providing only 'we will email the IRB' without addressing time zone or connectivity challenges",
+      "Not designating a specific person responsible for IRB communication from the international site",
+      "Failing to address what happens if internet or phone service is unreliable at the research location",
+      "Not describing the process for reporting unanticipated problems or adverse events",
+      "Omitting a timeline for reporting events (e.g., within 24 hours, within 5 business days)",
+      "Not addressing how urgent versus routine communications will be handled differently"
+    ],
+    "formatting": "Write in paragraph form. Address routine communications, urgent/reportable event communications, and backup communication methods as distinct topics."
+  },
+  "3863057": {
+    "name": "Local Language Contact (International Research)",
+    "prompt": "Identify a local contact who is fluent in the local language at the international research site and provide their full contact information. Include the contact's name, role in the study or relationship to the research team, language(s) spoken, institution or organization, phone number, and email address. This person should be able to assist with participant communication, translation needs, and serve as a local point of contact for the TCU IRB if needed.",
+    "commonIssues": [
+      "Not providing complete contact information (name, phone, email, and affiliation)",
+      "Failing to specify which language(s) the contact speaks",
+      "Not explaining the contact's role or relationship to the research team",
+      "Listing someone who is not actually located at or near the research site",
+      "Omitting whether this person will assist with consent processes or participant questions",
+      "Not addressing the contact's availability during the data collection period"
+    ],
+    "formatting": "Present contact information in a structured format: name, role/relationship, languages spoken, institutional affiliation, phone number, and email address."
+  },
+  "3863061": {
+    "name": "Costs to Participants",
+    "prompt": "Describe all costs that participants may incur as a result of participating in this study, including direct costs (e.g., parking, transportation, medical procedures not covered by insurance) and indirect costs (e.g., time away from work, childcare). If there are no costs to participants, state this explicitly. If costs exist, explain whether participants will be reimbursed and how, and ensure the consent document accurately reflects these costs.",
+    "commonIssues": [
+      "Failing to consider indirect costs such as transportation, parking, or lost wages",
+      "Not explicitly stating 'no costs to participants' when applicable, leaving the field vague",
+      "Omitting costs associated with study-related medical procedures or tests that are not standard of care",
+      "Not addressing whether insurance will be billed for any study-related procedures",
+      "Failing to describe reimbursement plans for participant-incurred expenses",
+      "Not ensuring the cost description matches what is stated in the consent document"
+    ],
+    "formatting": "List all potential costs clearly. If no costs exist, provide an explicit statement. Ensure consistency with the informed consent document."
+  },
+  "3863065": {
+    "name": "Compensation Details",
+    "prompt": "Describe in detail all forms of compensation (monetary and non-monetary) that participants will receive, including the specific amount or value, the form of payment (cash, gift card, course credit, SONA credit, etc.), and the schedule of payments. Address whether compensation will be prorated for participants who withdraw early or cannot complete all study procedures. If using a raffle or drawing, describe the selection method (e.g., every 5th participant) -- compensation cannot be purely random. Ensure the compensation is not so large as to constitute undue inducement.",
+    "commonIssues": [
+      "Not specifying the exact dollar amount or value of non-monetary compensation",
+      "Failing to describe the proration schedule for participants who withdraw early",
+      "Using random raffle selection without describing the systematic method for choosing winners",
+      "Not addressing whether compensation could constitute undue inducement for the study population",
+      "Omitting the timing and method of compensation delivery",
+      "Failing to ensure compensation details in this section match the consent document exactly"
+    ],
+    "formatting": "Specify the type, amount, form, and timing of all compensation. If using prorated or milestone-based payments, include a clear schedule. Address early withdrawal compensation explicitly."
+  },
+  "3863068": {
+    "name": "Potential Risks and Mechanisms to Reduce Risk",
+    "prompt": "Identify all foreseeable risks to participants, including physical, psychological, social, economic, and legal risks, no matter how unlikely. For each risk, describe the likelihood and severity, and specify the concrete mechanisms or procedures that will be implemented to minimize that risk. Address risks from all study procedures (surveys, interviews, interventions, biological specimen collection, etc.). Include provisions for monitoring participant safety during the study and describe any stopping rules or referral procedures for participants who experience adverse events.",
+    "commonIssues": [
+      "Listing only physical risks while ignoring psychological, social, economic, or legal risks",
+      "Stating that risks are 'minimal' without describing the specific risks and their mitigation",
+      "Failing to match risk descriptions to the specific procedures described in the study protocol",
+      "Not including a referral plan or resources for participants who experience emotional distress",
+      "Omitting monitoring procedures or stopping rules for detecting and responding to adverse events",
+      "Providing generic risk reduction statements without tying them to specific study procedures"
+    ],
+    "formatting": "Organize by risk category (physical, psychological, social, economic, legal). For each risk, state the risk, its likelihood and severity, and the specific mitigation strategy. Use a systematic, comprehensive approach."
+  },
+  "3863069": {
+    "name": "Potential Benefits",
+    "prompt": "Describe the potential benefits of the research, distinguishing clearly between direct benefits to individual participants and broader benefits to society or the field of knowledge. Do not list compensation as a benefit. If there are no direct benefits to participants, state this explicitly and describe only the anticipated contributions to generalizable knowledge. Do not overstate benefits or create therapeutic misconception.",
+    "commonIssues": [
+      "Listing compensation or payment as a benefit of the research",
+      "Overstating direct benefits to individual participants, creating therapeutic misconception",
+      "Failing to distinguish between direct benefits to participants and benefits to society or science",
+      "Not explicitly stating when there are no direct benefits to participants",
+      "Providing vague societal benefits without connecting them to the study's specific contributions",
+      "Claiming definitive outcomes (e.g., 'participants will improve') rather than potential benefits"
+    ],
+    "formatting": "Separate direct participant benefits from broader scientific or societal benefits. State explicitly if there are no direct benefits. Use measured language ('may,' 'potential') rather than definitive claims."
+  },
+  "3863071": {
+    "name": "Data Management and Privacy/Confidentiality (Main Protocol)",
+    "prompt": "Provide a comprehensive description of data management and privacy/confidentiality protections. Address how participant privacy will be protected during recruitment, consent, and data collection (e.g., private settings, secure communication). Describe whether data will be identifiable, coded, or de-identified, and detail the coding system if used. Specify all physical and electronic security measures for data storage, including encryption standards, password policies, server locations, and locked storage. Identify all individuals and entities who will have access to identifiable information, and describe the plan and timeline for de-identifying or destroying data after the study.",
+    "commonIssues": [
+      "Addressing only confidentiality (data) while ignoring privacy (persons) protections during study activities",
+      "Not specifying whether data is collected as identifiable, coded with a key, or fully de-identified",
+      "Failing to describe who holds the code key and where it is stored separately from the data",
+      "Omitting specific technical safeguards (e.g., AES-256 encryption, institutional server vs. personal computer)",
+      "Not listing all parties with data access, including sponsors, regulatory agencies, or collaborators",
+      "Failing to address the minimum necessary standard for identifiable information access"
+    ],
+    "formatting": "Organize into subsections: privacy during study activities, data collection and coding, storage security, access controls, and data disposition timeline. Be specific about technical and administrative safeguards."
+  },
+  "3863075": {
+    "name": "Data Analysis (Main Protocol)",
+    "prompt": "Describe the complete data analysis plan, including the specific statistical tests or qualitative analysis methods that will be used to address each research question or hypothesis. Specify the analysis software, how data will be cleaned and prepared, and whether analyses will be conducted on identifiable or de-identified datasets. If applicable, describe interim analyses and how they will affect study continuation. Address how results will be reported to prevent the identification of individual participants.",
+    "commonIssues": [
+      "Not aligning the analysis methods with the stated research questions or hypotheses",
+      "Providing only vague descriptions such as 'descriptive and inferential statistics' without naming specific tests",
+      "Failing to state whether the analysis will use identifiable or de-identified data",
+      "Omitting the software or platform that will be used for analysis",
+      "Not describing data cleaning procedures or how missing data will be handled",
+      "Failing to address how results will be reported to protect participant confidentiality"
+    ],
+    "formatting": "Link each analysis method to its corresponding research question or hypothesis. Specify the software, whether data is identifiable or coded during analysis, and reporting safeguards."
+  },
+  "3863076": {
+    "name": "Data Safety Monitoring",
+    "prompt": "Describe the data safety monitoring plan for this study, including who will be responsible for monitoring participant safety and data integrity, how frequently monitoring will occur, and what criteria will trigger a review or study modification. For studies involving greater than minimal risk, describe whether a Data Safety Monitoring Board (DSMB) will be used and its composition. Specify the procedures for reporting adverse events, unanticipated problems, and protocol deviations to the IRB, and describe any stopping rules that would lead to early study termination.",
+    "commonIssues": [
+      "Not specifying who is responsible for ongoing safety monitoring and their qualifications",
+      "Failing to describe the frequency and methods of safety monitoring reviews",
+      "Omitting stopping rules or criteria for early study termination due to safety concerns",
+      "Not addressing the process for reporting adverse events and unanticipated problems to the IRB",
+      "Failing to justify why a DSMB is or is not needed based on the study risk level",
+      "Providing a generic monitoring plan without connecting it to the specific risks of the study"
+    ],
+    "formatting": "Describe the monitoring structure, frequency, responsible parties, adverse event reporting procedures, and stopping rules. For clinical trials or greater-than-minimal-risk studies, address DSMB composition and charter."
+  },
+  "3863079": {
+    "name": "Data/Specimens Storage (Main Protocol)",
+    "prompt": "Address each of the following: (1) Describe where the data or specimens will be stored (specific location, building, server) and for how long. (2) Explain how the data or specimens will be labeled, including whether identifiers, codes, or de-identified labels will be used. (3) Identify all individuals who will have access to the data or specimens. (4) State whether data or specimens will be shared with other investigators, and if so, describe the data use agreements, de-identification procedures, and safeguards that will govern sharing. Include both physical and electronic storage details.",
+    "commonIssues": [
+      "Not specifying exact storage locations (generic 'secure location' is insufficient)",
+      "Failing to state a specific data retention period or providing an indefinite timeline without justification",
+      "Not describing the labeling/coding system in sufficient detail",
+      "Omitting individuals or entities who may access data (e.g., sponsors, regulatory bodies, collaborators)",
+      "Not addressing the conditions, agreements, or safeguards for data sharing with other investigators",
+      "Failing to describe the method and timeline for ultimate data or specimen destruction"
+    ],
+    "formatting": "Use a numbered format matching the four required questions. Provide specific details including physical locations, retention periods, labeling methods, access lists, and sharing agreements."
+  }
+}

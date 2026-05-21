@@ -1,0 +1,14 @@
+{
+  "name": "research-compliance-top",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "lambdas/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "prettier": "^3",
+    "typescript": "~5.6.3"
+  }
+}

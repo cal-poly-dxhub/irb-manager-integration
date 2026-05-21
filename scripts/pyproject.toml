@@ -1,0 +1,16 @@
+[project]
+name = "research-compliance-scripts"
+version = "0.1.0"
+description = "CLI scripts for research compliance processing"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.26.0",
+    "requests>=2.31.0",
+    "form-parser",
+    "form-parser-api",
+    "pikepdf>=10.3.0",
+]
+
+[tool.uv.sources]
+form-parser = { workspace = true }
+form-parser-api = { workspace = true }
